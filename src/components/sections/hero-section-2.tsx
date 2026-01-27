@@ -25,7 +25,7 @@ const HERO_SLIDES = [
     },
     {
         id: 2,
-        image: '/images/real_images/383A8599-scaled.jpg',
+        image: '/images/real_images/nu3-banner-2024.jpg',
         subtitle: 'hero.slides.slide2.subtitle',
         title: 'hero.slides.slide2.title',
         description: 'hero.slides.slide2.description',
