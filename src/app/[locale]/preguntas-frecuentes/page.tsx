@@ -93,7 +93,7 @@ export default async function FaqPage({ params }: Props) {
                     subtitle={t('contact.subtitle')}
                     title={t('contact.title')}
                     description={t('contact.description')}
-                    image="/images/why-join.jpg"
+                    image="/images/real_images/nu3-banner-2024.jpg"
                     imageAlt={t('contact.imageAlt')}
                     faqs={[
                         { question: t('contact.q1'), answer: t('contact.a1') },

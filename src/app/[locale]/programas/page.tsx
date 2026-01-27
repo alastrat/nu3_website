@@ -121,7 +121,7 @@ export default async function ProgramsPage({ params }: Props) {
                     subtitle={t('whyJoin.subtitle')}
                     title={t('whyJoin.title')}
                     description={t('whyJoin.description')}
-                    image="/images/why-join.jpg"
+                    image="/images/real_images/nu3-banner-2024.jpg"
                     imageAlt={t('whyJoin.imageAlt')}
                     faqs={faqs}
                     className="bg-muted/30"
