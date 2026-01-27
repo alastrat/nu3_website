@@ -29,19 +29,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const programs = [
     {
         slug: 'prevencion-desnutricion',
-        image: '/images/service-1.jpg',
+        image: '/images/real_images/kinds_in_group.jpg',
     },
     {
         slug: 'primera-infancia',
-        image: '/images/service-2.jpg',
+        image: '/images/real_images/girls_in_table.jpg',
     },
     {
         slug: 'madres-gestantes',
-        image: '/images/service-3.jpg',
+        image: '/images/real_images/pregnant_women.jpg',
     },
     {
         slug: 'adultos-mayores',
-        image: '/images/service-4.jpg',
+        image: '/images/real_images/seniors_in_table.jpg',
     },
 ];
 
@@ -84,6 +84,8 @@ export default async function ProgramsPage({ params }: Props) {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/real_images/board.jpg"
+                    backgroundPosition="center 30%"
                 />
 
                 {/* Programs Grid */}
