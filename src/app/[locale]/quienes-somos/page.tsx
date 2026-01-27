@@ -69,6 +69,8 @@ export default function AboutPage() {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/real_images/383A8599-scaled.jpg"
+                    backgroundPosition="center 70%"
                 />
 
                 {/* About Section */}
@@ -159,7 +161,7 @@ export default function AboutPage() {
                                                 </div>
                                                 <div className="txt">
                                                     <span className="call-title">{t('callAnytime')}</span>
-                                                    <a href="tel:+5716350734">+57 1 635 0734</a>
+                                                    <a href="tel:+573183309385">+57 318 330 9385</a>
                                                 </div>
                                             </div>
                                         </div>
