@@ -1,0 +1,879 @@
+{
+    "breadcrumb": {
+        "home": "Inicio"
+    },
+    "pagination": {
+        "previous": "Anterior",
+        "next": "Siguiente"
+    },
+    "countdown": {
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Min",
+        "seconds": "Seg"
+    },
+    "sidebar": {
+        "search": "Buscar",
+        "searchPlaceholder": "Buscar...",
+        "categories": "Categorías",
+        "recentPosts": "Publicaciones recientes",
+        "tags": "Etiquetas"
+    },
+    "metadata": {
+        "title": "nu3 - Desarrollo integral para familias vulnerables en Colombia",
+        "description": "Organización social colombiana que desde 2005 trabaja por el desarrollo socioeconómico, emocional y nutricional de familias vulnerables. Presentes en Atlántico, Bolívar, Chocó, Guajira y Magdalena."
+    },
+    "nav": {
+        "home": "Inicio",
+        "aboutDropdown": "Nosotros",
+        "about": "Quiénes somos",
+        "team": "Nuestro equipo",
+        "whatWeDo": "Qué hacemos",
+        "programs": "Programas",
+        "projects": "Proyectos",
+        "events": "Eventos",
+        "getInvolved": "Participa",
+        "sponsor": "Apadrina",
+        "donate": "Dona",
+        "blog": "Noticias",
+        "contact": "Contacto"
+    },
+    "cta": {
+        "donate": "Haz tu donación hoy",
+        "sponsor": "Apadrina a una familia",
+        "explore": "Conoce nuestros programas",
+        "transform": "Quiero transformar una vida hoy",
+        "learnMore": "Conocer más",
+        "contactUs": "Contáctanos"
+    },
+    "hero": {
+        "slides": {
+            "slide1": {
+                "subtitle": "Desarrollo integral",
+                "title": "Trabajamos por las familias vulnerables de Colombia",
+                "description": "Desde 2005 promovemos el desarrollo socioeconómico, emocional y nutricional de las familias más necesitadas, contribuyendo a la erradicación del hambre y la disminución de la pobreza.",
+                "cta": "Dona ahora"
+            },
+            "slide2": {
+                "subtitle": "Modelo integral",
+                "title": "Más que nutrición, transformación de vidas",
+                "description": "Nuestro modelo trabaja tres ejes transversales: nutrición, educación y generación de ingresos para promover el desarrollo integral de nuestros beneficiarios y sus familias.",
+                "cta": "Conoce nuestros programas"
+            },
+            "slide3": {
+                "subtitle": "Únete al cambio",
+                "title": "Hay que devolverle a la vida lo que hemos recibido",
+                "description": "Con tu apoyo, hemos atendido a más de 62,000 niños y recuperado nutricionalmente a más de 15,400. Sé parte de esta transformación.",
+                "cta": "Apadrina ahora"
+            }
+        }
+    },
+    "about": {
+        "title": "Quiénes somos",
+        "breadcrumb": "Quiénes somos",
+        "subtitle": "Desarrollo integral para familias vulnerables",
+        "description": "Somos una Organización Social que trabaja por el desarrollo socioeconómico, emocional y nutricional de las familias vulnerables en Colombia. Desde 2005, hemos evolucionado de un programa de nutrición a un modelo integral que aborda las causas de la pobreza a través de tres ejes: nutrición, educación y generación de ingresos.",
+        "mission": "Nuestra Misión",
+        "missionText": "Promover el desarrollo emocional, nutricional y social de las familias vulnerables, para contribuir con la erradicación del hambre y la disminución de la pobreza en Colombia.",
+        "vision": "Nuestra Visión",
+        "visionText": "Ser referentes en el desarrollo de modelos integrales de atención a familias vulnerables, garantizando que cada beneficiario lleve una vida digna con mayores oportunidades.",
+        "years": "Años de experiencia",
+        "blockTitle": "Comienza a ayudar",
+        "blockListItem": "Hay muchas formas de contribuir al cambio",
+        "callAnytime": "Llámanos en cualquier momento",
+        "stats": {
+            "children": "Niños atendidos",
+            "volunteers": "Niños recuperados nutricionalmente",
+            "products": "Raciones de comida entregadas",
+            "donors": "Adultos mayores asistidos"
+        },
+        "tabs": {
+            "sectionSubtitle": "Nuestra historia",
+            "sectionTitle": "De Nutrir Barranquilla a nu3",
+            "mission": "Nuestra Misión",
+            "vision": "Nuestra Visión",
+            "history": "Nuestra Historia",
+            "missionTitle": "Desarrollo integral",
+            "missionDescription": "Promovemos el desarrollo emocional, nutricional y social de las familias vulnerables. Nuestro modelo integral trabaja tres ejes transversales: nutrición, educación y generación de ingresos, entendiendo que no basta con tratar el problema alimentario sino abordar los factores que inciden en la pobreza.",
+            "missionList1": "Seguridad alimentaria y nutricional",
+            "missionList2": "Educación y formación para el empleo",
+            "missionList3": "Generación de ingresos y emprendimiento",
+            "missionList4": "Acompañamiento psicosocial integral",
+            "visionTitle": "Transformación sostenible",
+            "visionDescription": "Somos la única entidad en Colombia que forma parte de SUN (Scaling Up Nutrition), institución internacional cuya meta es alcanzar un nivel cero de desnutrición a nivel mundial para 2030. Nuestros Centros Integrales sirven como motor de desarrollo de las comunidades.",
+            "visionList1": "Presencia en 5 departamentos de Colombia",
+            "visionList2": "Alianzas con gobierno nacional, ICBF y fundaciones",
+            "visionList3": "Casi 300 empleados directos, mayoría mujeres",
+            "visionList4": "Atención integral: microtráfico, violencia, cohesión comunitaria",
+            "historyTitle": "Desde 2005 transformando vidas",
+            "historyDescription": "Fundada en 2005 por Mónica Schraer y Francis Zylberblum, barranquilleras de raíces judías, nu3 comenzó como Nutrir Barranquilla con 35 niños en el Barrio Santa María. Al darse cuenta de que no bastaba con tratar la desnutrición, renovamos nuestro modelo para abordar las causas de la pobreza. De Nutrir pasamos a nu3, integrando nutrición con educación y generación de ingresos. Para 2016 ya impactábamos a 26,000 familias, y hoy estamos presentes en Atlántico, Bolívar, Chocó, Guajira y Magdalena."
+        },
+        "cta": {
+            "subtitle": "Comienza a donar para quienes más lo necesitan",
+            "title": "Los niños necesitan tu ayuda, dona hoy"
+        }
+    },
+    "units": {
+        "title": "Nuestras unidades productivas",
+        "subtitle": "Unidades Productivas",
+        "catering": {
+            "title": "Menu3 - Catering Social",
+            "description": "Catering a gran escala con impacto social"
+        },
+        "bakery": {
+            "title": "Panu3 - Panadería Social",
+            "description": "Panadería industrial de alta calidad"
+        },
+        "recycling": {
+            "title": "Outletnu3",
+            "description": "Modelo de economía circular"
+        },
+        "sewing": {
+            "title": "Textinu3 - Taller de Confección",
+            "description": "Confección y formación para mujeres"
+        }
+    },
+    "model360": {
+        "title": "Modelo Integral de Atención",
+        "subtitle": "Más allá de la nutrición",
+        "description": "Entendimos que no era suficiente tratar solo la desnutrición. Había que entender los factores que inciden en la pobreza. Por eso nuestro modelo trabaja tres ejes transversales para promover el desarrollo integral.",
+        "pillars": {
+            "nutrition": "Nutrición",
+            "education": "Educación",
+            "entrepreneurship": "Generación de Ingresos",
+            "employability": "Acompañamiento Psicosocial"
+        }
+    },
+    "programs": {
+        "title": "Programas de nutrición y acompañamiento",
+        "subtitle": "Soluciones integrales para cada etapa de la vida",
+        "malnutrition": {
+            "title": "Prevención de desnutrición",
+            "description": "Identificamos y atendemos casos de desnutrición infantil a través de tamizaje nutricional, alimentación balanceada y seguimiento continuo."
+        },
+        "childhood": {
+            "title": "Atención nutricional para primera infancia",
+            "description": "Garantizamos el desarrollo óptimo de niños menores de 5 años con alimentación adecuada y estimulación temprana."
+        },
+        "mothers": {
+            "title": "Atención integral a madres gestantes y lactantes",
+            "description": "Acompañamos a madres en su proceso de gestación y lactancia con nutrición, apoyo psicosocial y formación en derechos."
+        },
+        "elderly": {
+            "title": "Apoyo a adultos mayores",
+            "description": "Aseguramos un estado nutricional adecuado para adultos mayores, mejorando su calidad de vida y bienestar."
+        }
+    },
+    "gardens": {
+        "title": "Huertas productivas y seguridad alimentaria",
+        "subtitle": "Cultivando Almas - Sembrar esperanza, cosechar futuro",
+        "description": "Capacitamos a familias en el cultivo de frutas y verduras, promoviendo la seguridad alimentaria y generación de ingresos."
+    },
+    "units": {
+        "title": "Unidades productivas con propósito",
+        "subtitle": "Negocios sociales que transforman vidas",
+        "catering": {
+            "title": "Catering social",
+            "description": "Cocina a gran escala que genera empleo para madres beneficiarias y reinvierte en nuestros Centros Integrales."
+        },
+        "bakery": {
+            "title": "Panadería industrial",
+            "description": "Producción de pan y productos horneados con impacto social, generando oportunidades de empleo."
+        },
+        "sewing": {
+            "title": "Confección y capacitación",
+            "description": "Formación en confección para mujeres, fortaleciendo la empleabilidad y generación de ingresos."
+        },
+        "recycling": {
+            "title": "Recuperación de bienes",
+            "description": "Recibimos y vendemos donaciones de ropa y bienes, reinvirtiendo en programas sociales."
+        }
+    },
+    "sponsor": {
+        "title": "Apadrina una vida",
+        "subtitle": "Tu apoyo constante transforma realidades",
+        "description": "Con tu apadrinamiento mensual, garantizas nutrición, educación y acompañamiento continuo para quienes más lo necesitan.",
+        "types": {
+            "child": "Niño o niña",
+            "adolescent": "Adolescente",
+            "mother": "Madre gestante o lactante",
+            "elderly": "Adulto mayor"
+        }
+    },
+    "donations": {
+        "section": {
+            "subtitle": "Ayuda y dona",
+            "title": "Inspirando y ayudando para un mejor estilo de vida"
+        },
+        "activeDonors": "Donantes activos",
+        "items": {
+            "prevencion-desnutricion": {
+                "title": "Prevención de desnutrición en niños colombianos",
+                "description": "Trabajamos juntos para marcar una diferencia duradera, ayudando a personas con amabilidad y trabajo duro"
+            },
+            "primera-infancia": {
+                "title": "Atención nutricional para primera infancia",
+                "description": "Garantizamos el desarrollo óptimo de niños menores de 5 años con alimentación adecuada"
+            },
+            "madres-gestantes": {
+                "title": "Apoyo integral a madres gestantes y lactantes",
+                "description": "Acompañamos a madres en su proceso con nutrición y formación en derechos"
+            },
+            "adultos-mayores": {
+                "title": "Programa de nutrición para adultos mayores",
+                "description": "Aseguramos un estado nutricional adecuado mejorando calidad de vida"
+            },
+            "huertas-productivas": {
+                "title": "Huertas productivas - Seguridad alimentaria",
+                "description": "Capacitamos a familias en el cultivo promoviendo la seguridad alimentaria"
+            }
+        }
+    },
+    "donation": {
+        "title": "Dona y transforma vidas",
+        "subtitle": "Cada aporte cuenta",
+        "description": "Tu donación se convierte en alimentos nutritivos, programas de educación y acompañamiento para familias vulnerables.",
+        "oneTime": "Donación única",
+        "monthly": "Donación mensual",
+        "corporate": "Donación corporativa"
+    },
+    "volunteer": {
+        "title": "Conviértete en voluntario",
+        "description": "Tu tiempo y talento pueden transformar la vida de cientos de familias. Únete a nuestro equipo y sé parte del cambio que Colombia necesita.",
+        "list": [
+            "Dona tu tiempo",
+            "Comparte tus habilidades",
+            "Impacta positivamente"
+        ],
+        "cta": "Quiero ser voluntario",
+        "donate": {
+            "title": "Envía un regalo para los niños",
+            "description": "Cada donación se traduce en nutrición, educación y esperanza para los niños y familias que más lo necesitan.",
+            "customAmount": "Otro valor",
+            "cta": "Dona ahora"
+        }
+    },
+    "partners": {
+        "title": "Empresas y aliados",
+        "subtitle": "Juntos por un Colombia mejor nutrido",
+        "description": "Desarrollamos alianzas estratégicas con empresas comprometidas con la responsabilidad social y los Objetivos de Desarrollo Sostenible."
+    },
+    "impact": {
+        "title": "Nuestro impacto",
+        "subtitle": "Resultados que hablan por sí solos",
+        "families": "Familias beneficiadas",
+        "children": "Niños atendidos",
+        "meals": "Comidas entregadas",
+        "years": "Años de experiencia"
+    },
+    "events": {
+        "section": {
+            "subtitle": "Próximos eventos",
+            "title": "Calendario de eventos nu3",
+            "viewAll": "Ver todos los eventos"
+        },
+        "items": {
+            "jornada-nutricional-2024": {
+                "title": "Jornada de evaluación nutricional y seguimiento",
+                "description": "Evaluación nutricional gratuita para niños y familias vulnerables. Incluye consulta personalizada y plan alimentario."
+            },
+            "taller-huertas-productivas": {
+                "title": "Taller práctico de huertas productivas",
+                "description": "Aprende técnicas de cultivo orgánico y siembra de alimentos nutritivos para tu familia."
+            },
+            "capacitacion-madres-lactantes": {
+                "title": "Capacitación para madres gestantes y lactantes",
+                "description": "Sesión informativa sobre nutrición durante embarazo y lactancia, cuidados del bebé y derechos."
+            },
+            "feria-alimentos-saludables": {
+                "title": "Feria de alimentos saludables y recetas nutritivas",
+                "description": "Muestra de platos nutritivos, recetas económicas y consejos para una alimentación balanceada."
+            }
+        }
+    },
+    "team": {
+        "section": {
+            "subtitle": "Nuestro equipo",
+            "title": "Profesionales dedicados a transformar vidas",
+            "joinUs": "Únete a nosotros"
+        },
+        "members": {
+            "monica-schraer": {
+                "name": "Mónica Schraer",
+                "role": "Presidenta Junta Directiva"
+            },
+            "francis-zylberblum": {
+                "name": "Francis Zylberblum",
+                "role": "Vicepresidenta Junta Directiva"
+            },
+            "paola-davila": {
+                "name": "Paola Dávila Pestana Porto",
+                "role": "Directora Ejecutiva"
+            },
+            "jeison-rodriguez": {
+                "name": "Jeison Rodríguez",
+                "role": "Director de Gestión Humana"
+            },
+            "sandra-buelvas": {
+                "name": "Sandra Buelvas",
+                "role": "Directora de Proyectos"
+            },
+            "daniel-villadiego": {
+                "name": "Daniel Villadiego",
+                "role": "Jefe de Comunicaciones"
+            },
+            "dubis-barrios": {
+                "name": "Dubis Barrios",
+                "role": "Líder Centros Integrales"
+            },
+            "marcela-ortega": {
+                "name": "Marcela Ortega",
+                "role": "Gerente menu3"
+            }
+        }
+    },
+    "testimonials": {
+        "section": {
+            "subtitle": "Ayuda y dona",
+            "title": "Inspirando y ayudando para un mejor estilo de vida"
+        },
+        "items": {
+            "testimonial1": {
+                "text": "Gracias a nu3, mi hijo recuperó su peso y ahora está sano y feliz. El acompañamiento fue fundamental para nuestra familia.",
+                "name": "Andrea Pérez",
+                "role": "Madre beneficiaria"
+            },
+            "testimonial2": {
+                "text": "El programa de huertas productivas cambió nuestra vida. Ahora cultivamos nuestros propios alimentos y generamos ingresos.",
+                "name": "Pedro Morales",
+                "role": "Beneficiario programa huertas"
+            },
+            "testimonial3": {
+                "text": "Como empresa, encontramos en nu3 un aliado transparente y comprometido. Ver el impacto directo de nuestras donaciones es inspirador.",
+                "name": "Laura Jiménez",
+                "role": "Directora RSE Empresa Aliada"
+            },
+            "testimonial4": {
+                "text": "El apoyo durante mi embarazo fue invaluable. Recibí nutrición, formación y mucho cariño del equipo de nu3.",
+                "name": "Carolina Ruiz",
+                "role": "Madre gestante"
+            },
+            "testimonial5": {
+                "text": "Ser voluntario en nu3 me permitió aportar desde mis habilidades y ser parte de una transformación real en mi comunidad.",
+                "name": "David Torres",
+                "role": "Voluntario"
+            }
+        }
+    },
+    "blog": {
+        "title": "Noticias",
+        "subtitle": "Mantente informado sobre nuestro trabajo",
+        "readMore": "Leer más",
+        "categories": {
+            "nutrition": "Nutrición infantil",
+            "breastfeeding": "Lactancia y maternidad",
+            "gardens": "Seguridad alimentaria",
+            "impact": "Historias de impacto",
+            "partnerships": "Alianzas y reconocimientos"
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "breadcrumb": "Contacto",
+        "info": {
+            "phone": {
+                "title": "Número de teléfono"
+            },
+            "email": {
+                "title": "Correo electrónico"
+            },
+            "address": {
+                "title": "Dirección",
+                "value": "Bogotá, Colombia"
+            }
+        },
+        "form": {
+            "sectionSubtitle": "Contáctanos",
+            "sectionTitle": "No dudes en escribirnos en cualquier momento",
+            "name": "Tu nombre",
+            "email": "Correo electrónico",
+            "phone": "Teléfono (opcional)",
+            "subject": "Asunto",
+            "message": "Escribe tu mensaje",
+            "submit": "Enviar mensaje"
+        }
+    },
+    "footer": {
+        "description": "Fundación colombiana con más de 20 años transformando vidas a través de nutrición y acompañamiento integral.",
+        "quickLinks": "Enlaces rápidos",
+        "programs": "Nuestros programas",
+        "contact": "Contacto",
+        "followUs": "Síguenos",
+        "rights": "Todos los derechos reservados"
+    },
+    "faqPage": {
+        "meta": {
+            "title": "Preguntas Frecuentes - Fundación nu3",
+            "description": "Encuentra respuestas a las preguntas más comunes sobre nuestros programas, donaciones y voluntariado."
+        },
+        "title": "Preguntas Frecuentes",
+        "breadcrumb": "FAQ",
+        "subtitle": "FAQ",
+        "heading": "Respuestas a tus preguntas",
+        "description": "Aquí encontrarás información sobre nuestros programas, cómo donar y cómo participar.",
+        "categories": {
+            "general": {
+                "title": "Sobre nu3",
+                "q1": "¿Qué es la Fundación nu3?",
+                "a1": "nu3 es una fundación colombiana con más de 20 años de experiencia transformando vidas a través de nutrición, educación y acompañamiento integral para familias vulnerables.",
+                "q2": "¿Dónde operan sus programas?",
+                "a2": "Nuestros programas operan principalmente en Bogotá y Cundinamarca, con presencia en comunidades vulnerables de la región.",
+                "q3": "¿Cómo se financia la fundación?",
+                "a3": "Nos financiamos a través de donaciones individuales, apadrinamientos, alianzas corporativas y el funcionamiento de nuestras unidades productivas sociales.",
+                "q4": "¿Cómo puedo conocer más sobre su trabajo?",
+                "a4": "Puedes seguirnos en redes sociales, suscribirte a nuestro boletín o contactarnos directamente para una visita a nuestros centros."
+            },
+            "donations": {
+                "title": "Donaciones",
+                "q1": "¿Cómo puedo hacer una donación?",
+                "a1": "Puedes donar a través de nuestra página web, transferencia bancaria o en persona en nuestros centros. Aceptamos donaciones únicas o recurrentes.",
+                "q2": "¿Las donaciones son deducibles de impuestos?",
+                "a2": "Sí, nu3 está registrada como entidad sin ánimo de lucro y las donaciones pueden ser deducibles de impuestos según la legislación colombiana.",
+                "q3": "¿Puedo donar en especie?",
+                "a3": "Sí, recibimos donaciones de alimentos no perecederos, ropa en buen estado y otros bienes a través de nuestras unidades productivas.",
+                "q4": "¿Cómo sé que mi donación se usa correctamente?",
+                "a4": "Publicamos informes de transparencia anuales y enviamos actualizaciones periódicas a nuestros donantes sobre el impacto de sus aportes."
+            },
+            "programs": {
+                "title": "Programas",
+                "q1": "¿Quiénes pueden ser beneficiarios?",
+                "a1": "Nuestros programas están dirigidos a familias en condición de vulnerabilidad, especialmente niños, madres gestantes/lactantes y adultos mayores.",
+                "q2": "¿Cómo identifican a los beneficiarios?",
+                "a2": "Trabajamos con líderes comunitarios y realizamos un proceso de diagnóstico social y nutricional para identificar a quienes más necesitan apoyo.",
+                "q3": "¿Qué incluye el acompañamiento integral?",
+                "a3": "Incluye evaluación nutricional, entrega de alimentos, educación en hábitos saludables, apoyo psicosocial y seguimiento continuo.",
+                "q4": "¿Por cuánto tiempo se brinda el apoyo?",
+                "a4": "El tiempo varía según las necesidades de cada familia, pero buscamos un acompañamiento sostenido hasta lograr la autonomía nutricional."
+            },
+            "volunteer": {
+                "title": "Voluntariado",
+                "q1": "¿Cómo puedo ser voluntario?",
+                "a1": "Puedes inscribirte a través de nuestra página de contacto. Buscamos personas comprometidas con al menos 4 horas semanales de disponibilidad.",
+                "q2": "¿Qué tipo de voluntarios necesitan?",
+                "a2": "Buscamos profesionales de salud, educadores, comunicadores, administradores y cualquier persona con ganas de aportar su tiempo y talento.",
+                "q3": "¿Hay capacitación para voluntarios?",
+                "a3": "Sí, todos los voluntarios reciben una inducción sobre nuestra misión, valores y protocolos de trabajo con comunidades vulnerables.",
+                "q4": "¿Puedo hacer voluntariado virtual?",
+                "a4": "Sí, tenemos oportunidades de voluntariado remoto en áreas como comunicaciones, diseño, gestión de redes sociales y más."
+            }
+        },
+        "contact": {
+            "subtitle": "¿Más preguntas?",
+            "title": "Estamos aquí para ayudarte",
+            "description": "Si no encontraste la respuesta que buscabas, no dudes en contactarnos.",
+            "imageAlt": "Equipo de atención",
+            "q1": "¿Cómo puedo contactarlos?",
+            "a1": "Puedes escribirnos a info@nu3.co, llamarnos al +57 1 800 0000 o visitarnos en nuestro centro principal en Bogotá.",
+            "q2": "¿Cuál es el horario de atención?",
+            "a2": "Nuestro horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM. También respondemos mensajes en redes sociales."
+        }
+    },
+    "sponsorPage": {
+        "meta": {
+            "title": "Apadrina - Fundación nu3",
+            "description": "Apadrina a un niño, madre gestante o adulto mayor y transforma su vida con tu apoyo mensual."
+        },
+        "title": "Apadrina una vida",
+        "breadcrumb": "Apadrina",
+        "pricing": {
+            "title": "Elige tu plan de apadrinamiento",
+            "description": "Selecciona el nivel de apoyo que deseas brindar. Cada aporte mensual transforma vidas.",
+            "period": "mes",
+            "cta": "Apadrinar ahora",
+            "plans": {
+                "basic": {
+                    "title": "Básico",
+                    "description": "Apoyo nutricional esencial",
+                    "feature1": "Suplemento nutricional mensual",
+                    "feature2": "Seguimiento nutricional trimestral",
+                    "feature3": "Informe de impacto anual",
+                    "feature4": "Certificado de donación"
+                },
+                "standard": {
+                    "title": "Estándar",
+                    "description": "Nutrición y educación",
+                    "feature1": "Todo lo del plan Básico",
+                    "feature2": "Kit alimentario mensual",
+                    "feature3": "Talleres educativos para la familia",
+                    "feature4": "Informes trimestrales personalizados"
+                },
+                "premium": {
+                    "title": "Premium",
+                    "description": "Acompañamiento integral",
+                    "feature1": "Todo lo del plan Estándar",
+                    "feature2": "Acompañamiento psicosocial",
+                    "feature3": "Visitas de seguimiento mensuales",
+                    "feature4": "Comunicación directa con el beneficiario"
+                }
+            }
+        },
+        "benefits": {
+            "title": "Beneficios de apadrinar",
+            "description": "Tu apadrinamiento genera un impacto directo y medible en la vida de quienes más lo necesitan.",
+            "items": {
+                "nutrition": {
+                    "title": "Nutrición garantizada",
+                    "description": "Aseguras alimentos nutritivos para tu beneficiario cada mes."
+                },
+                "support": {
+                    "title": "Acompañamiento continuo",
+                    "description": "Brindas apoyo integral más allá de la alimentación."
+                },
+                "updates": {
+                    "title": "Informes periódicos",
+                    "description": "Recibes actualizaciones sobre el progreso de tu beneficiario."
+                },
+                "transparency": {
+                    "title": "Transparencia total",
+                    "description": "Sabes exactamente cómo se usa cada peso de tu aporte."
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "¿Cómo funciona?",
+            "step1": {
+                "title": "Elige tu plan",
+                "description": "Selecciona el nivel de apadrinamiento que mejor se adapte a ti."
+            },
+            "step2": {
+                "title": "Conoce a tu beneficiario",
+                "description": "Te asignamos un beneficiario y te enviamos su perfil e historia."
+            },
+            "step3": {
+                "title": "Transforma vidas",
+                "description": "Tu apoyo mensual genera un impacto real y medible."
+            }
+        },
+        "cta": {
+            "title": "¿Listo para transformar una vida?",
+            "description": "Con tu apadrinamiento mensual, garantizas nutrición, educación y esperanza para quienes más lo necesitan.",
+            "button": "Comenzar a apadrinar"
+        }
+    },
+    "projectsPage": {
+        "meta": {
+            "title": "Proyectos - Fundación nu3",
+            "description": "Conoce los proyectos que hemos desarrollado para transformar vidas en Colombia."
+        },
+        "title": "Nuestros Proyectos",
+        "breadcrumb": "Proyectos",
+        "subtitle": "Nuestro trabajo",
+        "heading": "Proyectos que transforman vidas",
+        "description": "Cada proyecto representa nuestro compromiso con las comunidades más vulnerables de Colombia."
+    },
+    "projects": {
+        "categories": {
+            "infrastructure": "Infraestructura",
+            "gardens": "Huertas",
+            "education": "Educación",
+            "partnerships": "Alianzas",
+            "nutrition": "Nutrición",
+            "units": "Unidades productivas"
+        },
+        "items": {
+            "centro-integral-bogota": {
+                "title": "Centro Integral de Nutrición en Bogotá",
+                "description": "Construcción y equipamiento de un centro de atención nutricional integral para familias vulnerables en el sur de Bogotá."
+            },
+            "programa-huertas-soacha": {
+                "title": "Programa de Huertas Productivas en Soacha",
+                "description": "Implementación de huertas urbanas en 50 familias de Soacha, promoviendo la seguridad alimentaria y generación de ingresos."
+            },
+            "capacitacion-madres": {
+                "title": "Capacitación para Madres Gestantes y Lactantes",
+                "description": "Programa integral de formación en nutrición, cuidado prenatal y lactancia materna para 800 madres."
+            },
+            "alianza-empresarial-2024": {
+                "title": "Alianza Empresarial 2024",
+                "description": "Convenio con empresas aliadas para ampliar la cobertura de nuestros programas a nivel nacional."
+            },
+            "recuperacion-nutricional": {
+                "title": "Programa de Recuperación Nutricional",
+                "description": "Intervención especializada para niños con desnutrición aguda en comunidades rurales de Cundinamarca."
+            },
+            "unidad-productiva-panaderia": {
+                "title": "Unidad Productiva de Panadería",
+                "description": "Establecimiento de panadería social que genera empleo para madres beneficiarias y reinvierte en programas sociales."
+            }
+        }
+    },
+    "projectDetails": {
+        "breadcrumb": {
+            "projects": "Proyectos"
+        },
+        "info": {
+            "year": "Año",
+            "location": "Ubicación",
+            "beneficiaries": "Beneficiarios"
+        },
+        "objectives": {
+            "title": "Objetivos del proyecto"
+        },
+        "content": {
+            "paragraph1": "Este proyecto representa uno de nuestros esfuerzos más significativos por transformar las condiciones de vida de las familias más vulnerables. A través de un enfoque integral, combinamos nutrición, educación y acompañamiento social.",
+            "paragraph2": "El objetivo principal es generar un impacto sostenible que trascienda la intervención directa, empoderando a las comunidades para que puedan mantener y mejorar su bienestar de manera autónoma."
+        },
+        "achievements": {
+            "title": "Logros alcanzados",
+            "item1": "Mejora significativa en indicadores nutricionales",
+            "item2": "Fortalecimiento de capacidades comunitarias",
+            "item3": "Generación de empleo local",
+            "item4": "Creación de redes de apoyo familiar"
+        },
+        "sidebar": {
+            "supportTitle": "Apoya este proyecto",
+            "supportDescription": "Tu donación nos permite continuar transformando vidas a través de proyectos como este.",
+            "contactTitle": "¿Interesado en aliarte?",
+            "contactDescription": "Contáctanos para conocer cómo tu empresa puede participar en nuestros proyectos."
+        },
+        "relatedProjects": "Proyectos relacionados"
+    },
+    "blogPage": {
+        "meta": {
+            "title": "Blog - Fundación nu3",
+            "description": "Noticias, artículos y recursos sobre nutrición, bienestar y nuestro impacto en Colombia."
+        },
+        "title": "Noticias y Blog",
+        "breadcrumb": "Blog",
+        "sidebar": {
+            "categories": "Categorías",
+            "recentPosts": "Publicaciones recientes",
+            "tags": "Etiquetas"
+        },
+        "tags": {
+            "nutrition": "Nutrición",
+            "children": "Niños",
+            "health": "Salud",
+            "family": "Familia",
+            "wellness": "Bienestar",
+            "recipes": "Recetas"
+        },
+        "posts": {
+            "importancia-nutricion-infantil": {
+                "title": "La importancia de la nutrición en los primeros años de vida",
+                "excerpt": "Descubre por qué los primeros 1000 días son cruciales para el desarrollo cognitivo y físico de los niños, y cómo una alimentación adecuada marca la diferencia."
+            },
+            "lactancia-materna-beneficios": {
+                "title": "Lactancia materna: beneficios para mamá y bebé",
+                "excerpt": "La leche materna es el mejor alimento para el recién nacido. Conoce todos los beneficios que aporta tanto al bebé como a la madre lactante."
+            },
+            "huertas-urbanas-seguridad-alimentaria": {
+                "title": "Huertas urbanas: una solución para la seguridad alimentaria",
+                "excerpt": "Las huertas urbanas se han convertido en una alternativa efectiva para garantizar el acceso a alimentos frescos y nutritivos en comunidades vulnerables."
+            },
+            "historia-transformacion-familia-martinez": {
+                "title": "Historia de transformación: La familia Martínez",
+                "excerpt": "Conoce cómo el programa de nu3 ayudó a la familia Martínez a superar la desnutrición infantil y transformar su calidad de vida."
+            },
+            "alianza-empresa-xyz": {
+                "title": "Nueva alianza con Empresa XYZ para ampliar nuestro impacto",
+                "excerpt": "Nos complace anunciar nuestra nueva alianza estratégica que nos permitirá beneficiar a más de 500 familias adicionales este año."
+            },
+            "recetas-nutritivas-economicas": {
+                "title": "10 recetas nutritivas y económicas para toda la familia",
+                "excerpt": "Preparar comidas saludables no tiene que ser costoso. Te compartimos recetas fáciles, nutritivas y económicas para alimentar a tu familia."
+            }
+        }
+    },
+    "blogDetails": {
+        "tags": "Etiquetas",
+        "share": "Compartir",
+        "authorRole": "Nutricionista",
+        "authorBio": "Profesional con más de 10 años de experiencia en nutrición comunitaria y programas de seguridad alimentaria.",
+        "content": {
+            "paragraph1": "La nutrición adecuada durante los primeros años de vida es fundamental para el desarrollo físico, cognitivo y emocional de los niños. Durante este período crítico, el cerebro se desarrolla a un ritmo acelerado, y una alimentación balanceada proporciona los nutrientes esenciales para este proceso.",
+            "heading1": "¿Por qué es tan importante?",
+            "paragraph2": "Los estudios científicos han demostrado que los niños que reciben una nutrición adecuada en sus primeros años tienen mejor rendimiento escolar, mayor capacidad de concentración y menor riesgo de desarrollar enfermedades crónicas en la edad adulta.",
+            "quote": "Una inversión en nutrición infantil es una inversión en el futuro de toda una generación.",
+            "paragraph3": "En nu3, trabajamos con familias vulnerables para garantizar que los niños reciban los nutrientes que necesitan durante esta etapa crucial de su desarrollo.",
+            "heading2": "Nuestro compromiso",
+            "paragraph4": "A través de nuestros programas integrales, no solo proporcionamos alimentos nutritivos, sino que también educamos a las familias sobre hábitos alimenticios saludables que pueden mantener a largo plazo."
+        }
+    },
+    "teamPage": {
+        "meta": {
+            "title": "Nuestro Equipo - Fundación nu3",
+            "description": "Conoce al equipo de profesionales dedicados a transformar vidas en Colombia."
+        },
+        "title": "Nuestro Equipo",
+        "breadcrumb": "Equipo",
+        "joinUs": {
+            "title": "¿Te gustaría unirte a nuestro equipo?",
+            "description": "Estamos buscando personas apasionadas por la nutrición y el bienestar de las familias colombianas."
+        }
+    },
+    "teamDetails": {
+        "breadcrumb": {
+            "team": "Equipo"
+        },
+        "contact": {
+            "title": "Información de contacto"
+        },
+        "bio": {
+            "paragraph1": "Profesional dedicado con amplia experiencia en el sector social y de nutrición. Su compromiso con la misión de nu3 ha sido fundamental para el crecimiento y éxito de nuestros programas.",
+            "paragraph2": "Con formación académica de alto nivel y experiencia práctica en comunidades vulnerables, aporta una visión integral que combina el conocimiento técnico con la sensibilidad social necesaria para este trabajo.",
+            "paragraph3": "Su liderazgo ha sido clave en la implementación de iniciativas innovadoras que han beneficiado a miles de familias en Colombia."
+        },
+        "skills": {
+            "title": "Áreas de experiencia",
+            "skill1": "Gestión de programas sociales",
+            "skill2": "Nutrición comunitaria",
+            "skill3": "Liderazgo de equipos",
+            "skill4": "Desarrollo de alianzas"
+        },
+        "backToTeam": "Ver todo el equipo",
+        "otherMembers": "Otros miembros del equipo"
+    },
+    "eventsPage": {
+        "meta": {
+            "title": "Eventos - Fundación nu3",
+            "description": "Descubre nuestros próximos eventos de nutrición, talleres y jornadas de bienestar."
+        },
+        "title": "Próximos Eventos",
+        "breadcrumb": "Eventos"
+    },
+    "eventDetails": {
+        "breadcrumb": {
+            "events": "Eventos"
+        },
+        "countdown": {
+            "title": "El evento comienza en"
+        },
+        "capacity": "cupos",
+        "content": {
+            "paragraph1": "Este evento es una oportunidad única para conectar con nuestra comunidad, aprender sobre nutrición y bienestar, y contribuir a la transformación de vidas en Colombia."
+        },
+        "whatToExpect": {
+            "title": "¿Qué esperar?",
+            "item1": "Información práctica y aplicable sobre nutrición y bienestar",
+            "item2": "Oportunidad de conocer a nuestro equipo de profesionales",
+            "item3": "Material educativo para llevar a casa",
+            "item4": "Networking con otros participantes y aliados"
+        },
+        "requirements": {
+            "title": "Requisitos para participar",
+            "description": "El evento es gratuito y abierto al público. Se recomienda inscribirse con anticipación para garantizar tu cupo. Los menores de edad deben estar acompañados por un adulto."
+        },
+        "registerButton": "Inscribirme ahora",
+        "shareButton": "Compartir evento",
+        "quickInfo": {
+            "title": "Información del evento",
+            "date": "Fecha",
+            "time": "Horario",
+            "location": "Ubicación"
+        },
+        "sidebar": {
+            "otherEvents": "Otros eventos",
+            "contactTitle": "¿Preguntas?",
+            "contactDescription": "Contáctanos si tienes dudas sobre este evento."
+        }
+    },
+    "donationsPage": {
+        "meta": {
+            "title": "Dona - Fundación nu3",
+            "description": "Apoya nuestras campañas de nutrición y transforma vidas en Colombia."
+        },
+        "title": "Nuestras Campañas",
+        "breadcrumb": "Dona",
+        "tags": {
+            "nutrition": "Nutrición",
+            "childhood": "Primera infancia",
+            "mothers": "Madres",
+            "elderly": "Adultos mayores",
+            "gardens": "Huertas"
+        }
+    },
+    "donationDetails": {
+        "breadcrumb": {
+            "donations": "Dona"
+        },
+        "of": "de",
+        "donors": "donantes",
+        "content": {
+            "paragraph1": "Tu donación nos permite continuar con nuestra misión de transformar vidas a través de la nutrición y el acompañamiento integral. Cada aporte, sin importar su tamaño, marca una diferencia significativa en las familias que atendemos.",
+            "paragraph2": "Los fondos recaudados se destinan directamente a la compra de alimentos nutritivos, suplementos vitamínicos, materiales educativos y el sostenimiento de nuestros programas de acompañamiento familiar."
+        },
+        "stats": {
+            "families": "Familias beneficiadas",
+            "children": "Niños atendidos",
+            "meals": "Comidas entregadas"
+        },
+        "gallery": {
+            "title": "Nuestro impacto en imágenes"
+        },
+        "form": {
+            "title": "Haz tu donación",
+            "customAmount": "Ingresa otro valor",
+            "donateButton": "Donar ahora",
+            "secure": "Transacción 100% segura"
+        },
+        "sidebar": {
+            "otherCampaigns": "Otras campañas",
+            "shareTitle": "Comparte esta causa",
+            "shareDescription": "Ayúdanos a difundir esta campaña en tus redes sociales."
+        }
+    },
+    "programDetails": {
+        "breadcrumb": {
+            "programs": "Programas"
+        },
+        "features": {
+            "beneficiaries": "Familias beneficiadas",
+            "care": "Atención personalizada",
+            "goals": "Metas medibles",
+            "duration": "Acompañamiento continuo"
+        },
+        "benefits": {
+            "title": "Beneficios del programa",
+            "item1": "Evaluación nutricional completa y seguimiento personalizado",
+            "item2": "Entrega de alimentos balanceados y suplementos nutricionales",
+            "item3": "Capacitación en hábitos alimenticios saludables",
+            "item4": "Acompañamiento psicosocial para toda la familia"
+        },
+        "content": {
+            "paragraph1": "Nuestro enfoque integral combina la entrega de nutrientes esenciales con educación y acompañamiento continuo, asegurando resultados sostenibles para las familias que atendemos.",
+            "paragraph2": "Trabajamos en colaboración con las comunidades locales, líderes comunitarios y entidades aliadas para maximizar el impacto de cada intervención y garantizar que los beneficiarios reciban atención de calidad."
+        },
+        "sidebar": {
+            "otherPrograms": "Otros programas",
+            "donateTitle": "¿Quieres apoyar?",
+            "donateDescription": "Tu donación nos permite continuar transformando vidas a través de nutrición y acompañamiento.",
+            "contactTitle": "¿Tienes preguntas?",
+            "contactDescription": "Contáctanos para más información sobre este programa."
+        }
+    },
+    "programsPage": {
+        "meta": {
+            "title": "Programas - Fundación nu3",
+            "description": "Conoce nuestros programas de nutrición y acompañamiento para niños, madres gestantes y adultos mayores en Colombia."
+        },
+        "title": "Nuestros Programas",
+        "breadcrumb": "Programas",
+        "whyJoin": {
+            "subtitle": "Por qué unirte",
+            "title": "Únete a nuestra misión de transformar vidas",
+            "description": "Cada aporte y cada acción cuenta. Descubre cómo puedes ser parte del cambio.",
+            "imageAlt": "Voluntarios ayudando a familias"
+        },
+        "faq": {
+            "q1": "¿Cómo puedo ser voluntario?",
+            "a1": "Puedes inscribirte como voluntario a través de nuestra página de contacto. Buscamos personas comprometidas con la nutrición y el bienestar de las familias colombianas.",
+            "q2": "¿Dónde operan los programas?",
+            "a2": "Nuestros programas operan principalmente en Bogotá y sus alrededores, con presencia en comunidades vulnerables de Cundinamarca.",
+            "q3": "¿Cómo se seleccionan los beneficiarios?",
+            "a3": "Realizamos un proceso de identificación comunitaria junto con líderes locales, priorizando familias en condición de vulnerabilidad nutricional.",
+            "q4": "¿Puedo donar en especie?",
+            "a4": "Sí, recibimos donaciones de alimentos no perecederos, ropa y otros bienes a través de nuestras unidades productivas como Outletnu3."
+        }
+    }
+}
