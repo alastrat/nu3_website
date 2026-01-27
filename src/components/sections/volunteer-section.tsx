@@ -55,7 +55,7 @@ export function VolunteerSection() {
                 <div className="relative bg-[#1E252F] px-8 py-20 lg:px-20 lg:py-28 text-white overflow-hidden">
                     {/* Background Image with Overlay */}
                     <Image 
-                        src="/images/donate-form-2-bg.jpg" 
+                        src="/images/real_images/kids_in_table.jpg" 
                         alt="" 
                         fill 
                         className="object-cover opacity-10"

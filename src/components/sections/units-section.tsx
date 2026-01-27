@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-react';
 const UNITS_DATA = [
     {
         id: 'menu3',
-        image: '/images/project-1.jpg',
+        image: '/images/real_images/Primera-Infancia.jpg',
         title: 'units.catering.title',
         description: 'units.catering.description',
         link: '/unidades-productivas#menu3',
@@ -16,7 +16,7 @@ const UNITS_DATA = [
     },
     {
         id: 'panu3',
-        image: '/images/project-2.jpg',
+        image: '/images/units/bakery.jpg',
         title: 'units.bakery.title',
         description: 'units.bakery.description',
         link: '/unidades-productivas#panu3',
@@ -24,7 +24,7 @@ const UNITS_DATA = [
     },
     {
         id: 'outletnu3',
-        image: '/images/project-3.jpg',
+        image: '/images/units/recycling.jpg',
         title: 'units.recycling.title',
         description: 'units.recycling.description',
         link: '/unidades-productivas#outletnu3',
@@ -32,7 +32,7 @@ const UNITS_DATA = [
     },
     {
         id: 'tunu3',
-        image: '/images/project-4.jpg',
+        image: '/images/units/sewing.jpg',
         title: 'units.sewing.title',
         description: 'units.sewing.description',
         link: '/unidades-productivas#tunu3',
@@ -63,6 +63,7 @@ export function UnitsSection() {
                                     alt={t(UNITS_DATA[0].title)} 
                                     fill
                                     className="object-cover"
+                                    style={{ objectPosition: 'center 30%' }}
                                 />
                             </div>
                             <div className="ul-project-txt">
