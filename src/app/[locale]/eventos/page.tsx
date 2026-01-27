@@ -75,6 +75,8 @@ export default async function EventsPage({ params }: Props) {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/real_images/evento-auditorio.jpg"
+                    backgroundPosition="center 80%"
                 />
 
                 {/* Events Grid */}
