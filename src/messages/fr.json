@@ -134,9 +134,9 @@
         }
     },
     "model360": {
-        "title": "Notre Modèle d'Intervention 360°",
-        "subtitle": "Une approche intégrale qui transforme des vies",
-        "description": "Nous travaillons avec les enfants, les femmes enceintes et allaitantes, et les personnes âgées grâce à un modèle éprouvé, mesurable et reproductible.",
+        "title": "Notre Modèle d'Intervention 360",
+        "subtitle": "Transformer les communautés de manière intégrale",
+        "description": "Le modèle d'intervention 360 de nu3 transforme les communautés en travaillant avec chaque membre de la famille : enfants, femmes enceintes et personnes âgées. Depuis nos Centres Intégraux, nous activons des parcours en nutrition, éducation et génération de revenus. C'est un modèle éprouvé, mesurable, reproductible et prêt à être franchisé nationalement et internationalement.",
         "pillars": {
             "nutrition": "Nutrition",
             "education": "Éducation",
@@ -406,6 +406,10 @@
             "message": "Écrivez votre message",
             "submit": "Envoyer"
         }
+    },
+    "partners": {
+        "allies": "Nos alliés",
+        "recognitions": "Reconnaissances"
     },
     "footer": {
         "description": "Fondation colombienne avec plus de 20 ans d'expérience transformant des vies grâce à la nutrition et à l'accompagnement intégral.",

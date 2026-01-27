@@ -9,7 +9,8 @@ import {
   TestimonialsCarousel,
   VolunteerSection,
   AboutSection,
-  UnitsSection
+  UnitsSection,
+  PartnersSection
 } from '@/components/sections';
 
 type Props = {
@@ -25,14 +26,15 @@ export default async function HomePage({ params }: Props) {
       <Header />
       <main>
         <HeroSection2 />        
-        <Model360Section />
-        <VolunteerSection />
-        <DonationsCarousel locale={locale} />
         <AboutSection />
+        <ImpactSection />
+        <PartnersSection />
+        <Model360Section />
+        <DonationsCarousel locale={locale} />
         <UnitsSection />
         <EventsSection />
         <TestimonialsCarousel />
-        <ImpactSection />
+        <VolunteerSection />
       </main>
       <Footer />
     </>

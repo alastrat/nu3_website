@@ -134,9 +134,9 @@
         }
     },
     "model360": {
-        "title": "Modelo Integral de Atención",
-        "subtitle": "Más allá de la nutrición",
-        "description": "Entendimos que no era suficiente tratar solo la desnutrición. Había que entender los factores que inciden en la pobreza. Por eso nuestro modelo trabaja tres ejes transversales para promover el desarrollo integral.",
+        "title": "Nuestro Modelo de Intervención 360",
+        "subtitle": "Transformando comunidades integralmente",
+        "description": "El modelo de intervención 360 de nu3 transforma comunidades trabajando con cada miembro de la familia: infancia, gestantes y adultos mayores. Desde nuestros Centros Integrales, activamos rutas en nutrición, educación y generación de ingresos. Es un modelo probado, medible, replicable y listo para ser franquiciado nacional e internacionalmente.",
         "pillars": {
             "nutrition": "Nutrición",
             "education": "Educación",
@@ -406,6 +406,10 @@
             "message": "Escribe tu mensaje",
             "submit": "Enviar mensaje"
         }
+    },
+    "partners": {
+        "allies": "Nuestros aliados",
+        "recognitions": "Reconocimientos"
     },
     "footer": {
         "description": "Fundación colombiana con más de 20 años transformando vidas a través de nutrición y acompañamiento integral.",

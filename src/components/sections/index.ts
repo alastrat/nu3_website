@@ -6,6 +6,7 @@ export { HeroSection2 } from './hero-section-2';
 export { ImpactSection } from './impact-section';
 export { InnerSidebar } from './inner-sidebar';
 export { Model360Section } from './model360-section';
+export { PartnersSection } from './partners-section';
 export { ProgramsSection } from './programs-section';
 export { TeamSection } from './team-section';
 export { TestimonialsCarousel } from './testimonials-carousel';

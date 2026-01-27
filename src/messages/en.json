@@ -134,9 +134,9 @@
         }
     },
     "model360": {
-        "title": "Our 360° Intervention Model",
-        "subtitle": "A comprehensive approach that transforms lives",
-        "description": "We work with children, expectant and breastfeeding mothers, and elderly adults through a proven, measurable, and replicable model.",
+        "title": "Our 360 Intervention Model",
+        "subtitle": "Transforming communities comprehensively",
+        "description": "The nu3 360 intervention model transforms communities by working with every family member: children, expectant mothers, and elderly adults. From our Integral Centers, we activate pathways in nutrition, education, and income generation. It is a proven, measurable, replicable model ready to be franchised nationally and internationally.",
         "pillars": {
             "nutrition": "Nutrition",
             "education": "Education",
@@ -406,6 +406,10 @@
             "message": "Type your message",
             "submit": "Get in touch"
         }
+    },
+    "partners": {
+        "allies": "Our allies",
+        "recognitions": "Recognitions"
     },
     "footer": {
         "description": "Colombian foundation with over 20 years transforming lives through nutrition and comprehensive support.",
