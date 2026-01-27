@@ -76,7 +76,7 @@ export function PartnersSection() {
 
             <style jsx global>{`
                 .partners-section {
-                    padding: clamp(40px, 5vw, 80px) 0;
+                    padding: clamp(20px, 5vw, 20px) 0;
                     background-color: #f8f9fa;
                 }
 

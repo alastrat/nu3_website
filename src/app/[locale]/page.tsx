@@ -26,9 +26,9 @@ export default async function HomePage({ params }: Props) {
       <Header />
       <main>
         <HeroSection2 />        
+        <PartnersSection />
         <AboutSection />
         <ImpactSection />
-        <PartnersSection />
         <Model360Section />
         <DonationsCarousel locale={locale} />
         <UnitsSection />
