@@ -17,31 +17,31 @@ type Props = {
 // Donation campaigns and their data
 const donationCampaigns: Record<string, { image: string; raised: number; goal: number; donors: number }> = {
     'prevencion-desnutricion': {
-        image: '/images/donation-details-img.jpg',
+        image: '/images/real_images/Prevencion-de-la-desnutricion-y-recuperacion-nutricional.jpg',
         raised: 15000000,
         goal: 25000000,
         donors: 234,
     },
     'primera-infancia': {
-        image: '/images/donation-details-img.jpg',
+        image: '/images/real_images/Primera-Infancia.jpg',
         raised: 8500000,
         goal: 15000000,
         donors: 156,
     },
     'madres-gestantes': {
-        image: '/images/donation-details-img.jpg',
+        image: '/images/real_images/madresgestantes-1.jpg',
         raised: 12000000,
         goal: 20000000,
         donors: 189,
     },
     'adultos-mayores': {
-        image: '/images/donation-details-img.jpg',
+        image: '/images/real_images/ADULTOMAYOR.jpg',
         raised: 6000000,
         goal: 12000000,
         donors: 98,
     },
     'huertas-productivas': {
-        image: '/images/donation-details-img.jpg',
+        image: '/images/real_images/HUERTA_BANNER.jpg',
         raised: 9500000,
         goal: 18000000,
         donors: 145,
@@ -104,7 +104,7 @@ export default async function DonationDetailsPage({ params }: Props) {
         .map(([key, value]) => ({
             slug: key,
             title: t(`items.${key}.title`),
-            image: '/images/donation-1.jpg',
+            image: '/images/real_images/Prevencion-de-la-desnutricion-y-recuperacion-nutricional.jpg',
         }));
 
     const donationAmounts = [50000, 100000, 200000, 500000];

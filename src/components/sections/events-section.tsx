@@ -9,30 +9,30 @@ const DEMO_EVENTS = [
     {
         id: '1',
         slug: 'jornada-nutricional-2024',
-        image: '/images/event-img.jpg',
+        image: '/images/real_images/evento-auditorio.jpg',
         date: { day: '15', month: 'Feb' },
-        venue: 'Centro Integral nu3, Bogotá, Colombia',
+        venue: 'Centro Integral nu3, Barranquilla, Colombia',
     },
     {
         id: '2',
         slug: 'taller-huertas-productivas',
-        image: '/images/blog-b-1.jpg',
+        image: '/images/real_images/HUERTA_BANNER.jpg',
         date: { day: '22', month: 'Feb' },
-        venue: 'Sede Soacha, Cundinamarca, Colombia',
+        venue: 'Sede Atlántico, Colombia',
     },
     {
         id: '3',
         slug: 'capacitacion-madres-lactantes',
-        image: '/images/blog-2.jpg',
+        image: '/images/real_images/madresgestantes-1.jpg',
         date: { day: '28', month: 'Feb' },
-        venue: 'Centro Integral nu3, Bogotá, Colombia',
+        venue: 'Centro Integral nu3, Barranquilla, Colombia',
     },
     {
         id: '4',
         slug: 'feria-alimentos-saludables',
-        image: '/images/blog-b-3.jpg',
+        image: '/images/real_images/Primera-Infancia.jpg',
         date: { day: '05', month: 'Mar' },
-        venue: 'Plaza Central, Bogotá, Colombia',
+        venue: 'Plaza Central, Barranquilla, Colombia',
     },
 ];
 

@@ -29,31 +29,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const donations = [
     {
         slug: 'prevencion-desnutricion',
-        image: '/images/donation-1.jpg',
+        image: '/images/real_images/Prevencion-de-la-desnutricion-y-recuperacion-nutricional.jpg',
         raised: 15000000,
         goal: 25000000,
     },
     {
         slug: 'primera-infancia',
-        image: '/images/donation-2.jpg',
+        image: '/images/real_images/Primera-Infancia.jpg',
         raised: 8500000,
         goal: 15000000,
     },
     {
         slug: 'madres-gestantes',
-        image: '/images/donation-3.jpg',
+        image: '/images/real_images/madresgestantes-1.jpg',
         raised: 12000000,
         goal: 20000000,
     },
     {
         slug: 'adultos-mayores',
-        image: '/images/donation-4.jpg',
+        image: '/images/real_images/ADULTOMAYOR.jpg',
         raised: 6000000,
         goal: 12000000,
     },
     {
         slug: 'huertas-productivas',
-        image: '/images/donation-1.jpg',
+        image: '/images/real_images/HUERTA_BANNER.jpg',
         raised: 9500000,
         goal: 18000000,
     },

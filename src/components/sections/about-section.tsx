@@ -20,7 +20,7 @@ export function AboutSection() {
                             <div className="ul-about-imgs ul-about-2-img relative">
                                 <div className="img-wrapper relative aspect-4/5 overflow-hidden rounded-[999px] rounded-bl-none">
                                     <Image
-                                        src="/images/about-2-img.jpg"
+                                        src="/images/real_images/Portada-Editorialesnu3-1.png"
                                         alt="About nu3"
                                         fill
                                         className="object-cover"

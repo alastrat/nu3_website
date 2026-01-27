@@ -334,34 +334,38 @@
     },
     "testimonials": {
         "section": {
-            "subtitle": "Aidez et faites un don",
-            "title": "Inspirer et aider pour un meilleur mode de vie"
+            "subtitle": "Histoires inspirantes",
+            "title": "Des voix qui transforment des vies"
+        },
+        "overview": {
+            "title": "Impact réel",
+            "description": "Chaque témoignage représente une vie transformée. Découvrez les histoires de ceux qui ont fait partie de notre fondation."
         },
         "items": {
             "testimonial1": {
-                "text": "Grâce à nu3, mon fils a repris du poids et est maintenant en bonne santé et heureux. Le soutien a été fondamental pour notre famille.",
-                "name": "Andrea Pérez",
-                "role": "Mère bénéficiaire"
+                "text": "Cette année, pour mon anniversaire, j'ai échangé les cadeaux contre une célébration bonu3. Au lieu de recevoir des choses, mes amis et ma famille ont fait un don à nu3, et ensemble nous avons célébré en apportant de l'espoir à ceux qui en ont le plus besoin. C'était le plus beau cadeau que je pouvais recevoir.",
+                "name": "María Luna Jaramillo",
+                "role": "Alliée nu3"
             },
             "testimonial2": {
-                "text": "Le programme de jardins productifs a changé notre vie. Nous cultivons maintenant nos propres aliments et générons des revenus.",
-                "name": "Pedro Morales",
-                "role": "Bénéficiaire du programme jardins"
+                "text": "Je suis très reconnaissant envers nu3 car j'ai reçu beaucoup de soutien. Je suis très heureux de savoir que j'ai le soutien de personnes qui me donnent des connaissances et me permettent d'avoir un meilleur avenir. Merci à nu3 d'avoir aidé ma famille dans son bien-être.",
+                "name": "Jeune bénéficiaire",
+                "role": "Participant au programme PESNU3"
             },
             "testimonial3": {
-                "text": "En tant qu'entreprise, nous avons trouvé en nu3 un allié transparent et engagé. Voir l'impact direct de nos dons est inspirant.",
-                "name": "Laura Jiménez",
-                "role": "Directrice RSE Entreprise Alliée"
+                "text": "nu3 est entré dans ma vie quand j'en avais le plus besoin. Grâce à leurs programmes, mon fils a pu récupérer sa nutrition et aujourd'hui il est en bonne santé et heureux. L'équipe nous a accompagnés avec beaucoup d'amour et de professionnalisme.",
+                "name": "Mère bénéficiaire",
+                "role": "Programme de nutrition infantile"
             },
             "testimonial4": {
-                "text": "Le soutien pendant ma grossesse a été inestimable. J'ai reçu de la nutrition, de la formation et beaucoup d'amour de l'équipe nu3.",
-                "name": "Carolina Ruiz",
-                "role": "Femme enceinte"
+                "text": "Être parrain de nu3 m'a permis de voir de première main comment ma contribution transforme des vies. Chaque visite aux centres me remplit d'espoir et confirme que nous faisons une différence.",
+                "name": "Parrain nu3",
+                "role": "Allié stratégique"
             },
             "testimonial5": {
-                "text": "Être bénévole chez nu3 m'a permis de contribuer avec mes compétences et de faire partie d'une véritable transformation dans ma communauté.",
-                "name": "David Torres",
-                "role": "Bénévole"
+                "text": "Grâce au programme de formation de nu3, j'ai maintenant les outils pour mieux prendre soin de ma famille. J'ai appris la nutrition, l'allaitement et le développement de mes enfants.",
+                "name": "Mère participante",
+                "role": "Programme de formation familiale"
             }
         }
     },
@@ -389,7 +393,7 @@
             },
             "address": {
                 "title": "Adresse du bureau",
-                "value": "Bogotá, Colombie"
+                "value": "Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico"
             }
         },
         "form": {
@@ -473,7 +477,7 @@
             "description": "Si vous n'avez pas trouvé la réponse que vous cherchiez, n'hésitez pas à nous contacter.",
             "imageAlt": "Équipe de support",
             "q1": "Comment puis-je vous contacter?",
-            "a1": "Vous pouvez nous écrire à info@nu3.co, nous appeler au +57 1 800 0000 ou nous rendre visite à notre centre principal à Bogotá.",
+            "a1": "Vous pouvez nous écrire à comunicaciones@nu3.org.co, nous appeler au +57 318 330 9385 ou nous rendre visite à Cra. 9E #137-21, Suroccidente, Barranquilla.",
             "q2": "Quels sont vos horaires d'ouverture?",
             "a2": "Nos horaires sont du lundi au vendredi de 8h00 à 17h00. Nous répondons également aux messages sur les réseaux sociaux."
         }

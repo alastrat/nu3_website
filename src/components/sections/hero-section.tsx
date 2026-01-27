@@ -16,7 +16,7 @@ import 'swiper/css/thumbs';
 const HERO_SLIDES = [
     {
         id: 1,
-        image: '/images/banner-2-slide-1.jpg',
+        image: '/images/real_images/1.png',
         subtitle: 'hero.slides.slide1.subtitle',
         title: 'hero.slides.slide1.title',
         description: 'hero.slides.slide1.description',
@@ -25,7 +25,7 @@ const HERO_SLIDES = [
     },
     {
         id: 2,
-        image: '/images/banner-2-slide-2.jpg',
+        image: '/images/real_images/383A8599-scaled.jpg',
         subtitle: 'hero.slides.slide2.subtitle',
         title: 'hero.slides.slide2.title',
         description: 'hero.slides.slide2.description',
@@ -34,7 +34,7 @@ const HERO_SLIDES = [
     },
     {
         id: 3,
-        image: '/images/banner-2-slide-3.jpg',
+        image: '/images/real_images/BANNER-2.jpg',
         subtitle: 'hero.slides.slide3.subtitle',
         title: 'hero.slides.slide3.title',
         description: 'hero.slides.slide3.description',

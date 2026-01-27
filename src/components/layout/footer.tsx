@@ -103,18 +103,18 @@ export function Footer() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3 text-sm text-background/80">
                                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                                <span>Bogotá, Colombia</span>
+                                <span>Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico</span>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Phone className="h-4 w-4 flex-shrink-0" />
-                                <a href="tel:+5718000000" className="hover:text-primary">
-                                    +57 1 800 0000
+                                <a href="tel:+573183309385" className="hover:text-primary">
+                                    +57 318 330 9385
                                 </a>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <a href="mailto:info@nu3.co" className="hover:text-primary">
-                                    info@nu3.co
+                                <a href="mailto:comunicaciones@nu3.org.co" className="hover:text-primary">
+                                    comunicaciones@nu3.org.co
                                 </a>
                             </li>
                         </ul>

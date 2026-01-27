@@ -33,7 +33,7 @@ export default function AboutPage() {
 
     const tabContent: Record<TabKey, { image: string; title: string; description: string; list?: string[] }> = {
         mission: {
-            image: '/images/mission-img.jpg',
+            image: '/images/real_images/Prevencion-de-la-desnutricion-y-recuperacion-nutricional.jpg',
             title: t('tabs.missionTitle'),
             description: t('tabs.missionDescription'),
             list: [
@@ -44,7 +44,7 @@ export default function AboutPage() {
             ],
         },
         vision: {
-            image: '/images/why-join.jpg',
+            image: '/images/real_images/383A8599-scaled.jpg',
             title: t('tabs.visionTitle'),
             description: t('tabs.visionDescription'),
             list: [
@@ -55,7 +55,7 @@ export default function AboutPage() {
             ],
         },
         history: {
-            image: '/images/contact-img.jpg',
+            image: '/images/real_images/2.png',
             title: t('tabs.historyTitle'),
             description: t('tabs.historyDescription'),
         },
@@ -81,11 +81,11 @@ export default function AboutPage() {
                                     <div className="ul-about-imgs relative">
                                         <div className="img-wrapper relative">
                                             <Image
-                                                src="/images/about-img.png"
+                                                src="/images/real_images/Portada-Editorialesnu3-1.png"
                                                 alt="About nu3"
                                                 width={600}
                                                 height={700}
-                                                className="rounded-3xl"
+                                                className="rounded-3xl object-cover"
                                             />
                                         </div>
                                         <div className="ul-about-imgs-vectors">
@@ -137,7 +137,7 @@ export default function AboutPage() {
                                             </div>
                                             <div className="block-right">
                                                 <Image
-                                                    src="/images/about-block-img.jpg"
+                                                    src="/images/real_images/IMG_1002-1024x683.jpg"
                                                     alt="About Block"
                                                     width={180}
                                                     height={130}

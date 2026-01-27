@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { Header, Footer } from '@/components/layout';
 import { Breadcrumb } from '@/components/ui';
 import { FadeIn } from '@/components/animations';
@@ -14,22 +13,23 @@ export default function ContactPage() {
         {
             icon: Phone,
             title: t('info.phone.title'),
-            value: '+57 1 635 0734',
-            href: 'tel:+5716350734',
+            value: '+57 318 330 9385',
+            href: 'tel:+573183309385',
             isLink: true,
         },
         {
             icon: Mail,
             title: t('info.email.title'),
-            value: 'info@nu3.co',
-            href: 'mailto:info@nu3.co',
+            value: 'comunicaciones@nu3.org.co',
+            href: 'mailto:comunicaciones@nu3.org.co',
             isLink: true,
         },
         {
             icon: MapPin,
             title: t('info.address.title'),
-            value: t('info.address.value'),
-            isLink: false,
+            value: 'Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico',
+            href: 'https://maps.app.goo.gl/nu3Barranquilla',
+            isLink: true,
         },
     ];
 
@@ -41,6 +41,8 @@ export default function ContactPage() {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/real_images/383A8599-scaled.jpg"
+                    backgroundPosition="center 70%"
                 />
 
                 {/* Contact Infos Section */}
@@ -71,10 +73,11 @@ export default function ContactPage() {
                 {/* Map Section */}
                 <section className="ul-contact-map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5775!2d-74.0721!3d4.6486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5a5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1sen!2s!4v1234567890"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2!2d-74.86194!3d10.9612879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0a0a20bd49%3A0xd57989e5db80c060!2snu3!5e0!3m2!1sen!2sco!4v1706380000000!5m2!1sen!2sco"
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
+                        title="nu3 Location - Barranquilla, Colombia"
                     />
                 </section>
 
@@ -149,22 +152,6 @@ export default function ContactPage() {
                     </FadeIn>
                 </section>
 
-                {/* Contact Image Section */}
-                <section className="ul-contact-img-section">
-                    <div className="ul-container">
-                        <FadeIn>
-                            <div className="ul-contact-img-wrapper">
-                                <Image
-                                    src="/images/contact-img.jpg"
-                                    alt="Contact"
-                                    width={1200}
-                                    height={500}
-                                    className="rounded-3xl object-cover w-full"
-                                />
-                            </div>
-                        </FadeIn>
-                    </div>
-                </section>
             </main>
             <Footer />
 
@@ -361,24 +348,6 @@ export default function ContactPage() {
                     min-height: 150px;
                 }
 
-                /* Contact Image Section */
-                .ul-contact-img-section {
-                    padding-bottom: clamp(60px, 6.31vw, 120px);
-                }
-
-                .ul-contact-img-wrapper {
-                    overflow: hidden;
-                    border-radius: 24px;
-                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-                }
-
-                .ul-contact-img-wrapper img {
-                    transition: transform 0.5s ease;
-                }
-
-                .ul-contact-img-wrapper:hover img {
-                    transform: scale(1.02);
-                }
 
                 @media (max-width: 768px) {
                     .ul-contact-info {

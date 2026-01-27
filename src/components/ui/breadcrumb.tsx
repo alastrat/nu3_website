@@ -14,13 +14,15 @@ interface BreadcrumbProps {
     title: string;
     items: BreadcrumbItem[];
     backgroundImage?: string;
+    backgroundPosition?: string;
     className?: string;
 }
 
 export function Breadcrumb({
     title,
     items,
-    backgroundImage = '/images/breadcrumb-bg.jpg',
+    backgroundImage = '/images/breadcrumb-main.jpg',
+    backgroundPosition = 'center',
     className,
 }: BreadcrumbProps) {
     const t = useTranslations('breadcrumb');
@@ -28,11 +30,12 @@ export function Breadcrumb({
     return (
         <section
             className={cn(
-                'relative py-20 md:py-28 lg:py-32 bg-cover bg-center bg-no-repeat',
+                'relative py-20 md:py-28 lg:py-32 bg-cover bg-no-repeat',
                 className
             )}
             style={{
                 backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+                backgroundPosition,
             }}
         >
             <div className="container mx-auto px-4">

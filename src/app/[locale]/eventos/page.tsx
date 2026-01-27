@@ -29,27 +29,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const events = [
     {
         slug: 'jornada-nutricional-2024',
-        image: '/images/event-img.jpg',
+        image: '/images/real_images/evento-auditorio.jpg',
         date: new Date('2025-03-15'),
-        location: 'Bogotá, Colombia',
+        location: 'Barranquilla, Colombia',
     },
     {
         slug: 'taller-huertas-productivas',
-        image: '/images/event-img.jpg',
+        image: '/images/real_images/HUERTA_BANNER.jpg',
         date: new Date('2025-03-22'),
-        location: 'Soacha, Cundinamarca',
+        location: 'Atlántico, Colombia',
     },
     {
         slug: 'capacitacion-madres-lactantes',
-        image: '/images/event-img.jpg',
+        image: '/images/real_images/madresgestantes-1.jpg',
         date: new Date('2025-04-05'),
         location: 'Centro Integral nu3',
     },
     {
         slug: 'feria-alimentos-saludables',
-        image: '/images/event-img.jpg',
+        image: '/images/real_images/Primera-Infancia.jpg',
         date: new Date('2025-04-12'),
-        location: 'Parque de la 93, Bogotá',
+        location: 'Barranquilla, Colombia',
     },
 ];
 

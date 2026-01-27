@@ -20,10 +20,10 @@ export function VolunteerSection() {
                 {/* Volunteer Column */}
                 <div className="relative bg-primary px-8 py-20 lg:px-20 lg:py-28 text-white overflow-hidden">
                      {/* Background Image with Overlay */}
-                     <Image 
-                        src="/images/volunteer-bg-1.jpg" 
-                        alt="" 
-                        fill 
+                     <Image
+                        src="/images/real_images/voluntariado.jpg"
+                        alt=""
+                        fill
                         className="object-cover opacity-20 mix-blend-overlay"
                     />
                     <FadeIn direction="left" className="relative z-10">

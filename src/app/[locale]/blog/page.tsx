@@ -30,37 +30,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const blogPosts = [
     {
         slug: 'importancia-nutricion-infantil',
-        image: '/images/blog-1.jpg',
+        image: '/images/blog-post-1.jpg',
         date: new Date('2024-12-15'),
         categoryKey: 'nutrition',
     },
     {
         slug: 'lactancia-materna-beneficios',
-        image: '/images/blog-2.jpg',
+        image: '/images/blog-post-2.jpg',
         date: new Date('2024-12-10'),
         categoryKey: 'breastfeeding',
     },
     {
         slug: 'huertas-urbanas-seguridad-alimentaria',
-        image: '/images/blog-3.jpg',
+        image: '/images/blog-post-3.jpg',
         date: new Date('2024-12-05'),
         categoryKey: 'gardens',
     },
     {
         slug: 'historia-transformacion-familia-martinez',
-        image: '/images/blog-1.jpg',
+        image: '/images/blog-post-1.jpg',
         date: new Date('2024-11-28'),
         categoryKey: 'impact',
     },
     {
         slug: 'alianza-empresa-xyz',
-        image: '/images/blog-2.jpg',
+        image: '/images/blog-post-2.jpg',
         date: new Date('2024-11-20'),
         categoryKey: 'partnerships',
     },
     {
         slug: 'recetas-nutritivas-economicas',
-        image: '/images/blog-3.jpg',
+        image: '/images/blog-post-3.jpg',
         date: new Date('2024-11-15'),
         categoryKey: 'nutrition',
     },

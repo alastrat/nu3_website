@@ -7,7 +7,7 @@ const DEMO_TEAM = [
     {
         id: '1',
         slug: 'monica-schraer',
-        image: '/images/member-1.jpg',
+        image: '/images/real_images/team/monica-schraer.jpg',
         socials: {
             linkedin: '#',
         },
@@ -15,7 +15,7 @@ const DEMO_TEAM = [
     {
         id: '2',
         slug: 'francis-zylberblum',
-        image: '/images/member-2.jpg',
+        image: '/images/real_images/team/francis-zylberblum.jpg',
         socials: {
             linkedin: '#',
         },
@@ -23,7 +23,7 @@ const DEMO_TEAM = [
     {
         id: '3',
         slug: 'paola-davila',
-        image: '/images/member-3.jpg',
+        image: '/images/real_images/team/paola-davila.jpg',
         socials: {
             linkedin: '#',
         },
@@ -31,7 +31,39 @@ const DEMO_TEAM = [
     {
         id: '4',
         slug: 'jeison-rodriguez',
-        image: '/images/member-4.jpg',
+        image: '/images/real_images/team/jeison-rodriguez.jpg',
+        socials: {
+            linkedin: '#',
+        },
+    },
+    {
+        id: '5',
+        slug: 'sandra-buelvas',
+        image: '/images/real_images/team/sandra-buelvas.jpg',
+        socials: {
+            linkedin: '#',
+        },
+    },
+    {
+        id: '6',
+        slug: 'daniel-villadiego',
+        image: '/images/real_images/team/daniel-villadiego.jpg',
+        socials: {
+            linkedin: '#',
+        },
+    },
+    {
+        id: '7',
+        slug: 'dubis-barrios',
+        image: '/images/real_images/team/dubis-barrios.jpg',
+        socials: {
+            linkedin: '#',
+        },
+    },
+    {
+        id: '8',
+        slug: 'marcela-ortega',
+        image: '/images/real_images/team/marcela-ortega.jpg',
         socials: {
             linkedin: '#',
         },

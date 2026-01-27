@@ -300,11 +300,11 @@
         "members": {
             "monica-schraer": {
                 "name": "Mónica Schraer",
-                "role": "Presidenta Junta Directiva"
+                "role": "Cofundadora y Presidenta"
             },
             "francis-zylberblum": {
                 "name": "Francis Zylberblum",
-                "role": "Vicepresidenta Junta Directiva"
+                "role": "Cofundadora y Vicepresidenta"
             },
             "paola-davila": {
                 "name": "Paola Dávila Pestana Porto",
@@ -334,34 +334,38 @@
     },
     "testimonials": {
         "section": {
-            "subtitle": "Ayuda y dona",
-            "title": "Inspirando y ayudando para un mejor estilo de vida"
+            "subtitle": "Historias que inspiran",
+            "title": "Voces que transforman vidas"
+        },
+        "overview": {
+            "title": "Impacto real",
+            "description": "Cada testimonio representa una vida transformada. Conoce las historias de quienes han sido parte de nuestra fundación."
         },
         "items": {
             "testimonial1": {
-                "text": "Gracias a nu3, mi hijo recuperó su peso y ahora está sano y feliz. El acompañamiento fue fundamental para nuestra familia.",
-                "name": "Andrea Pérez",
-                "role": "Madre beneficiaria"
+                "text": "Este año, en mi cumpleaños, cambié los regalos por un bonu3 celebración. En vez de darme cosas, mis amigos y familia donaron a nu3, y juntos celebramos llevando esperanza a quienes más lo necesitan. Fue el regalo más bonito que pude recibir.",
+                "name": "María Luna Jaramillo",
+                "role": "Aliada nu3"
             },
             "testimonial2": {
-                "text": "El programa de huertas productivas cambió nuestra vida. Ahora cultivamos nuestros propios alimentos y generamos ingresos.",
-                "name": "Pedro Morales",
-                "role": "Beneficiario programa huertas"
+                "text": "Me siento muy agradecido con nu3 porque he recibido mucho apoyo. Me siento muy feliz de saber que cuento con el apoyo de personas que me brindan muchos conocimientos y me permiten tener un mejor futuro. Gracias a nu3 porque ha ayudado a mi familia con su bienestar.",
+                "name": "Joven beneficiario",
+                "role": "Participante programa PESNU3"
             },
             "testimonial3": {
-                "text": "Como empresa, encontramos en nu3 un aliado transparente y comprometido. Ver el impacto directo de nuestras donaciones es inspirador.",
-                "name": "Laura Jiménez",
-                "role": "Directora RSE Empresa Aliada"
+                "text": "nu3 llegó a mi vida cuando más lo necesitaba. Gracias a sus programas, mi hijo pudo recuperar su nutrición y hoy está sano y feliz. El equipo nos acompañó con mucho amor y profesionalismo.",
+                "name": "Madre beneficiaria",
+                "role": "Programa de nutrición infantil"
             },
             "testimonial4": {
-                "text": "El apoyo durante mi embarazo fue invaluable. Recibí nutrición, formación y mucho cariño del equipo de nu3.",
-                "name": "Carolina Ruiz",
-                "role": "Madre gestante"
+                "text": "Ser padrino de nu3 me ha permitido ver de primera mano cómo mi aporte transforma vidas. Cada visita a los centros me llena de esperanza y me confirma que estamos haciendo la diferencia.",
+                "name": "Padrino nu3",
+                "role": "Aliado estratégico"
             },
             "testimonial5": {
-                "text": "Ser voluntario en nu3 me permitió aportar desde mis habilidades y ser parte de una transformación real en mi comunidad.",
-                "name": "David Torres",
-                "role": "Voluntario"
+                "text": "Gracias al programa de formación de nu3, ahora tengo las herramientas para cuidar mejor de mi familia. Aprendí sobre nutrición, lactancia y el desarrollo de mis hijos.",
+                "name": "Madre participante",
+                "role": "Programa de formación familiar"
             }
         }
     },
@@ -389,7 +393,7 @@
             },
             "address": {
                 "title": "Dirección",
-                "value": "Bogotá, Colombia"
+                "value": "Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico"
             }
         },
         "form": {
@@ -473,7 +477,7 @@
             "description": "Si no encontraste la respuesta que buscabas, no dudes en contactarnos.",
             "imageAlt": "Equipo de atención",
             "q1": "¿Cómo puedo contactarlos?",
-            "a1": "Puedes escribirnos a info@nu3.co, llamarnos al +57 1 800 0000 o visitarnos en nuestro centro principal en Bogotá.",
+            "a1": "Puedes escribirnos a comunicaciones@nu3.org.co, llamarnos al +57 318 330 9385 o visitarnos en Cra. 9E #137-21, Suroccidente, Barranquilla.",
             "q2": "¿Cuál es el horario de atención?",
             "a2": "Nuestro horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM. También respondemos mensajes en redes sociales."
         }

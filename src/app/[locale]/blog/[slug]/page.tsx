@@ -17,37 +17,37 @@ type Props = {
 // Blog posts data
 const blogPostsData: Record<string, { image: string; date: Date; categoryKey: string; author: string }> = {
     'importancia-nutricion-infantil': {
-        image: '/images/blog-b-1.jpg',
+        image: '/images/blog-post-1.jpg',
         date: new Date('2024-12-15'),
         categoryKey: 'nutrition',
         author: 'Ana Martínez',
     },
     'lactancia-materna-beneficios': {
-        image: '/images/blog-b-2.jpg',
+        image: '/images/blog-post-2.jpg',
         date: new Date('2024-12-10'),
         categoryKey: 'breastfeeding',
         author: 'María González',
     },
     'huertas-urbanas-seguridad-alimentaria': {
-        image: '/images/blog-b-3.jpg',
+        image: '/images/blog-post-3.jpg',
         date: new Date('2024-12-05'),
         categoryKey: 'gardens',
         author: 'Pedro Gómez',
     },
     'historia-transformacion-familia-martinez': {
-        image: '/images/blog-b-1.jpg',
+        image: '/images/blog-post-1.jpg',
         date: new Date('2024-11-28'),
         categoryKey: 'impact',
         author: 'Laura Sánchez',
     },
     'alianza-empresa-xyz': {
-        image: '/images/blog-b-2.jpg',
+        image: '/images/blog-post-2.jpg',
         date: new Date('2024-11-20'),
         categoryKey: 'partnerships',
         author: 'Carlos Rodríguez',
     },
     'recetas-nutritivas-economicas': {
-        image: '/images/blog-b-3.jpg',
+        image: '/images/blog-post-3.jpg',
         date: new Date('2024-11-15'),
         categoryKey: 'nutrition',
         author: 'Ana Martínez',
@@ -117,7 +117,7 @@ export default async function BlogPostPage({ params }: Props) {
         .map(([key, value]) => ({
             title: t(`posts.${key}.title`),
             slug: key,
-            image: '/images/blog-1.jpg',
+            image: '/images/blog-post-1.jpg',
             date: formatDate(value.date),
         }));
 
