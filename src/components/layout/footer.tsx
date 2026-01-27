@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Image from 'next/image';
 import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 
@@ -37,11 +38,14 @@ export function Footer() {
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {/* Brand column */}
                     <div className="space-y-4">
-                        <Link href="/" className="flex items-center gap-2">
-                            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary">
-                                <span className="text-lg font-bold text-primary-foreground">nu3</span>
-                            </div>
-                            <span className="text-xl font-bold">Fundación nu3</span>
+                        <Link href="/" className="inline-block">
+                            <Image
+                                src="/images/nu3-logo-white.png"
+                                alt="Fundación nu3"
+                                width={180}
+                                height={54}
+                                className="h-auto w-auto"
+                            />
                         </Link>
                         <p className="text-sm text-background/80">
                             {t('description')}
