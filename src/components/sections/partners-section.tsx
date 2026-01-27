@@ -1,27 +1,34 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 
-// Partner/ally names from nu3.co - replace with actual logos when available
+// Partner logos from nu3.co
 const PARTNERS = [
-    { id: 1, name: 'Fundación Éxito' },
-    { id: 2, name: 'Alcaldía de Barranquilla' },
-    { id: 3, name: 'Gobernación del Atlántico' },
-    { id: 4, name: 'ICBF' },
-    { id: 5, name: 'MinSalud' },
-    { id: 6, name: 'ONU' },
-    { id: 7, name: 'USAID' },
-    { id: 8, name: 'Fundación Santo Domingo' },
-];
-
-const RECOGNITIONS = [
-    { id: 1, name: 'Certificación ICONTEC' },
-    { id: 2, name: 'Premio Portafolio' },
-    { id: 3, name: 'Reconocimiento Social' },
+    { id: 1, logo: '/images/partners/1.jpg', name: 'Aliado 1' },
+    { id: 2, logo: '/images/partners/2.jpg', name: 'Aliado 2' },
+    { id: 3, logo: '/images/partners/3.jpg', name: 'Aliado 3' },
+    { id: 4, logo: '/images/partners/4.jpg', name: 'Aliado 4' },
+    { id: 5, logo: '/images/partners/5.jpg', name: 'Aliado 5' },
+    { id: 6, logo: '/images/partners/6.jpg', name: 'Aliado 6' },
+    { id: 7, logo: '/images/partners/7.jpg', name: 'Aliado 7' },
+    { id: 8, logo: '/images/partners/8.jpg', name: 'Aliado 8' },
+    { id: 9, logo: '/images/partners/9.jpg', name: 'Aliado 9' },
+    { id: 10, logo: '/images/partners/10.jpg', name: 'Aliado 10' },
+    { id: 11, logo: '/images/partners/11.jpg', name: 'Aliado 11' },
+    { id: 12, logo: '/images/partners/12.jpg', name: 'Aliado 12' },
+    { id: 13, logo: '/images/partners/13.jpg', name: 'Aliado 13' },
+    { id: 14, logo: '/images/partners/14.jpg', name: 'Aliado 14' },
+    { id: 15, logo: '/images/partners/15.jpg', name: 'Aliado 15' },
+    { id: 16, logo: '/images/partners/16.jpg', name: 'Aliado 16' },
+    { id: 17, logo: '/images/partners/17.jpg', name: 'Aliado 17' },
+    { id: 18, logo: '/images/partners/18.jpg', name: 'Aliado 18' },
+    { id: 19, logo: '/images/partners/19.jpg', name: 'Aliado 19' },
+    { id: 20, logo: '/images/partners/20.jpg', name: 'Aliado 20' },
 ];
 
 export function PartnersSection() {
@@ -35,41 +42,35 @@ export function PartnersSection() {
                     <h3 className="partners-title">{t('allies')}</h3>
                     <Swiper
                         modules={[Autoplay]}
-                        slidesPerView={2}
-                        spaceBetween={30}
+                        slidesPerView={3}
+                        spaceBetween={40}
                         loop={true}
                         autoplay={{
-                            delay: 2500,
+                            delay: 2000,
                             disableOnInteraction: false,
                         }}
                         breakpoints={{
-                            480: { slidesPerView: 3 },
-                            768: { slidesPerView: 4 },
-                            1024: { slidesPerView: 5 },
-                            1280: { slidesPerView: 6 },
+                            480: { slidesPerView: 4 },
+                            768: { slidesPerView: 5 },
+                            1024: { slidesPerView: 6 },
+                            1280: { slidesPerView: 7 },
                         }}
                         className="partners-swiper"
                     >
                         {PARTNERS.map((partner) => (
                             <SwiperSlide key={partner.id}>
                                 <div className="partner-logo">
-                                    <span className="logo-placeholder">{partner.name}</span>
+                                    <Image
+                                        src={partner.logo}
+                                        alt={partner.name}
+                                        width={120}
+                                        height={120}
+                                        className="logo-img"
+                                    />
                                 </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                </div>
-
-                {/* Recognitions */}
-                <div className="partners-block recognitions">
-                    <h3 className="partners-title">{t('recognitions')}</h3>
-                    <div className="recognitions-grid">
-                        {RECOGNITIONS.map((recognition) => (
-                            <div key={recognition.id} className="partner-logo">
-                                <span className="logo-placeholder">{recognition.name}</span>
-                            </div>
-                        ))}
-                    </div>
                 </div>
             </div>
 
@@ -113,8 +114,8 @@ export function PartnersSection() {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding: 15px 20px;
-                    height: 80px;
+                    padding: 10px;
+                    height: 90px;
                     background: white;
                     border-radius: 8px;
                     transition: all 0.3s ease;
@@ -124,42 +125,20 @@ export function PartnersSection() {
                     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
                 }
 
-                .logo-placeholder {
-                    font-size: 13px;
-                    font-weight: 600;
-                    color: #9ca3af;
-                    text-align: center;
-                    font-family: var(--font-quicksand);
+                .logo-img {
+                    max-width: 100%;
+                    max-height: 70px;
+                    width: auto !important;
+                    height: auto !important;
+                    object-fit: contain;
+                    filter: grayscale(100%);
+                    opacity: 0.7;
                     transition: all 0.3s ease;
-                    text-transform: uppercase;
-                    letter-spacing: 0.02em;
                 }
 
-                .partner-logo:hover .logo-placeholder {
-                    color: #4b5563;
-                }
-
-                .recognitions-grid {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 20px;
-                    flex-wrap: wrap;
-                }
-
-                .recognitions .partner-logo {
-                    height: 70px;
-                    min-width: 160px;
-                }
-
-                @media (max-width: 768px) {
-                    .recognitions-grid {
-                        gap: 15px;
-                    }
-                    
-                    .recognitions .partner-logo {
-                        min-width: 140px;
-                    }
+                .partner-logo:hover .logo-img {
+                    filter: grayscale(0%);
+                    opacity: 1;
                 }
             `}</style>
         </section>
