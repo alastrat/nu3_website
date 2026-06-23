@@ -37,48 +37,32 @@ type Props = {
     params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { locale } = await params;
-
-    const titles: Record<string, string> = {
-        es: "nu3 - Nutrición y acompañamiento para familias en Colombia",
-        en: "nu3 - Nutrition and support for families in Colombia",
-        fr: "nu3 - Nutrition et accompagnement pour les familles en Colombie",
-    };
-
-    const descriptions: Record<string, string> = {
-        es: "Fundación colombiana con más de 20 años transformando vidas a través de nutrición, educación y acompañamiento integral para familias vulnerables.",
-        en: "Colombian foundation with over 20 years transforming lives through nutrition, education, and comprehensive support for vulnerable families.",
-        fr: "Fondation colombienne avec plus de 20 ans d'expérience transformant des vies grâce à la nutrition, l'éducation et l'accompagnement intégral.",
-    };
+export async function generateMetadata(): Promise<Metadata> {
+    const title = "RenovaPlus S.A.S. - Renovación y remodelación boutique en Barranquilla";
+    const description = "Constructora boutique en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto.";
 
     return {
         title: {
-            default: titles[locale] || titles.es,
-            template: `%s | nu3`,
+            default: title,
+            template: `%s | RenovaPlus`,
         },
-        description: descriptions[locale] || descriptions.es,
-        metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://nu3.co"),
+        description,
+        metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://renovaplus.com.co"),
         alternates: {
             canonical: "/",
-            languages: {
-                es: "/",
-                en: "/en",
-                fr: "/fr",
-            },
         },
         openGraph: {
             type: "website",
-            locale: locale === "es" ? "es_CO" : locale === "fr" ? "fr_FR" : "en_US",
+            locale: "es_CO",
             url: "/",
-            siteName: "Fundación nu3",
-            title: titles[locale] || titles.es,
-            description: descriptions[locale] || descriptions.es,
+            siteName: "RenovaPlus S.A.S.",
+            title,
+            description,
         },
         twitter: {
             card: "summary_large_image",
-            title: titles[locale] || titles.es,
-            description: descriptions[locale] || descriptions.es,
+            title,
+            description,
         },
         robots: {
             index: true,
@@ -97,8 +81,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-// Theme configuration - "default" (orange/green) or "legacy" (red/green from nu3.co)
-const theme = process.env.NEXT_PUBLIC_THEME || "default";
+// RenovaPlus brand theme is always the navy/orange "default" palette (no env-var override)
+const theme = "default";
 
 export default async function LocaleLayout({ children, params }: Props) {
     const { locale } = await params;

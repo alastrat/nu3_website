@@ -3,16 +3,11 @@
 import { useTranslations } from 'next-intl';
 import { Check } from 'lucide-react';
 import { FadeIn } from '@/components/animations';
-import { useState } from 'react';
 import Image from 'next/image';
 import { CtaButton } from '@/components/ui';
 
 export function VolunteerSection() {
     const t = useTranslations('volunteer');
-    const [selectedAmount, setSelectedAmount] = useState('10');
-    const [customAmount, setCustomAmount] = useState('');
-
-    const amounts = ['10', '20', '30', '40', '50'];
 
     return (
         <section className="relative overflow-hidden">
@@ -21,7 +16,7 @@ export function VolunteerSection() {
                 <div className="relative bg-primary px-8 py-20 lg:px-20 lg:py-28 text-white overflow-hidden">
                      {/* Background Image with Overlay */}
                      <Image
-                        src="/images/real_images/voluntariado.jpg"
+                        src="/images/renovaplus/workers-site.jpg"
                         alt=""
                         fill
                         className="object-cover opacity-20 mix-blend-overlay"
@@ -55,7 +50,7 @@ export function VolunteerSection() {
                 <div className="relative bg-[#1E252F] px-8 py-20 lg:px-20 lg:py-28 text-white overflow-hidden">
                     {/* Background Image with Overlay */}
                     <Image 
-                        src="/images/real_images/kids_in_table.jpg" 
+                        src="/images/renovaplus/plans-review.jpg"
                         alt="" 
                         fill 
                         className="object-cover opacity-10"
@@ -65,51 +60,13 @@ export function VolunteerSection() {
                             <h2 className="font-display text-4xl font-bold mb-6 lg:text-5xl">
                                 {t('donate.title')}
                             </h2>
-                            <p className="text-lg opacity-70 mb-8 leading-relaxed">
+                            <p className="text-lg opacity-70 mb-10 leading-relaxed">
                                 {t('donate.description')}
                             </p>
-                            
-                            <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                                <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
-                                    {amounts.map((amount) => (
-                                        <button
-                                            key={amount}
-                                            type="button"
-                                            onClick={() => {
-                                                setSelectedAmount(amount);
-                                                setCustomAmount('');
-                                            }}
-                                            className={`rounded-full border-2 py-3 text-lg font-bold transition-all ${
-                                                selectedAmount === amount && !customAmount
-                                                    ? 'bg-primary border-primary'
-                                                    : 'border-white/20 hover:border-white'
-                                            }`}
-                                        >
-                                            ${amount}
-                                        </button>
-                                    ))}
-                                </div>
-                                
-                                <div className="relative">
-                                    <input
-                                        type="number"
-                                        placeholder={t('donate.customAmount')}
-                                        value={customAmount}
-                                        onChange={(e) => {
-                                            setCustomAmount(e.target.value);
-                                            setSelectedAmount('');
-                                        }}
-                                        className="w-full rounded-lg border-2 border-white/20 bg-transparent px-6 py-4 text-lg outline-none transition-all focus:border-white"
-                                    />
-                                    {customAmount && (
-                                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-lg font-bold">$</span>
-                                    )}
-                                </div>
 
-                                <CtaButton type="submit" variant="white">
-                                    {t('donate.cta')}
-                                </CtaButton>
-                            </form>
+                            <CtaButton href="/contacto" variant="white">
+                                {t('donate.cta')}
+                            </CtaButton>
                         </div>
                     </FadeIn>
                 </div>

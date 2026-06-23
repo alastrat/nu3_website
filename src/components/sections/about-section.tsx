@@ -20,15 +20,15 @@ export function AboutSection() {
                             <div className="ul-about-imgs ul-about-2-img relative">
                                 <div className="img-wrapper relative aspect-4/5 overflow-hidden rounded-[999px] rounded-bl-none">
                                     <Image
-                                        src="/images/real_images/Portada-Editorialesnu3-1.png"
-                                        alt="About nu3"
+                                        src="/images/renovaplus/interior-warm.jpg"
+                                        alt="Espacio renovado por RenovaPlus"
                                         fill
                                         className="object-cover"
                                     />
                                 </div>
 
                                 <div className="ul-about-2-stat">
-                                    <span className="number">20+</span>
+                                    <span className="number">2024</span>
                                     <span className="txt">{t('years')}</span>
                                 </div>
                             </div>

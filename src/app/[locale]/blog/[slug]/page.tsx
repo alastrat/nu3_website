@@ -17,37 +17,37 @@ type Props = {
 // Blog posts data
 const blogPostsData: Record<string, { image: string; date: Date; categoryKey: string; author: string }> = {
     'importancia-nutricion-infantil': {
-        image: '/images/blog-post-1.jpg',
+        image: '/images/renovaplus/remodelacion.jpg',
         date: new Date('2024-12-15'),
         categoryKey: 'nutrition',
         author: 'Ana Martínez',
     },
     'lactancia-materna-beneficios': {
-        image: '/images/blog-post-2.jpg',
+        image: '/images/renovaplus/acabados.jpg',
         date: new Date('2024-12-10'),
         categoryKey: 'breastfeeding',
         author: 'María González',
     },
     'huertas-urbanas-seguridad-alimentaria': {
-        image: '/images/blog-post-3.jpg',
+        image: '/images/renovaplus/urbanismo.jpg',
         date: new Date('2024-12-05'),
         categoryKey: 'gardens',
         author: 'Pedro Gómez',
     },
     'historia-transformacion-familia-martinez': {
-        image: '/images/blog-post-1.jpg',
+        image: '/images/renovaplus/hero-3.jpg',
         date: new Date('2024-11-28'),
         categoryKey: 'impact',
         author: 'Laura Sánchez',
     },
     'alianza-empresa-xyz': {
-        image: '/images/blog-post-2.jpg',
+        image: '/images/renovaplus/plans-review.jpg',
         date: new Date('2024-11-20'),
         categoryKey: 'partnerships',
         author: 'Carlos Rodríguez',
     },
     'recetas-nutritivas-economicas': {
-        image: '/images/blog-post-3.jpg',
+        image: '/images/renovaplus/interior-bright.jpg',
         date: new Date('2024-11-15'),
         categoryKey: 'nutrition',
         author: 'Ana Martínez',
@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const t = await getTranslations({ locale, namespace: 'blogPage' });
 
     return {
-        title: `${t(`posts.${slug}.title`)} - nu3`,
+        title: `${t(`posts.${slug}.title`)} - RenovaPlus`,
         description: t(`posts.${slug}.excerpt`),
     };
 }
@@ -117,7 +117,7 @@ export default async function BlogPostPage({ params }: Props) {
         .map(([key, value]) => ({
             title: t(`posts.${key}.title`),
             slug: key,
-            image: '/images/blog-post-1.jpg',
+            image: '/images/renovaplus/remodelacion.jpg',
             date: formatDate(value.date),
         }));
 
@@ -258,7 +258,7 @@ export default async function BlogPostPage({ params }: Props) {
                                     <div className="flex gap-4 p-6 bg-muted/50 rounded-xl">
                                         <div className="relative w-20 h-20 rounded-full overflow-hidden flex-shrink-0">
                                             <Image
-                                                src="/images/commenter-1.jpg"
+                                                src="/images/renovaplus/interventorias.jpg"
                                                 alt={post.author}
                                                 fill
                                                 className="object-cover"

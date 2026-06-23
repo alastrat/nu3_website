@@ -21,7 +21,7 @@ const HERO_SLIDES = [
         title: 'hero.slides.slide1.title',
         description: 'hero.slides.slide1.description',
         cta: 'hero.slides.slide1.cta',
-        ctaLink: '/dona',
+        ctaLink: '/contacto',
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ const HERO_SLIDES = [
         title: 'hero.slides.slide3.title',
         description: 'hero.slides.slide3.description',
         cta: 'hero.slides.slide3.cta',
-        ctaLink: '/apadrina',
+        ctaLink: '/contacto',
     },
 ];
 

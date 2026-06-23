@@ -2,39 +2,39 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { Baby, Heart, Users, Leaf, ArrowRight } from 'lucide-react';
+import { PaintRoller, Wrench, Hammer, ClipboardCheck, ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { FadeIn, StaggerContainer, StaggerItem } from '@/components/animations';
 
 const programs = [
     {
-        key: 'malnutrition',
-        icon: Heart,
-        href: '/programas/prevencion-desnutricion',
-        color: 'text-red-500',
-        bgColor: 'bg-red-500/10',
+        key: 'finishes',
+        icon: PaintRoller,
+        href: '/contacto',
+        color: 'text-primary',
+        bgColor: 'bg-primary/10',
     },
     {
-        key: 'childhood',
-        icon: Baby,
-        href: '/programas/primera-infancia',
-        color: 'text-blue-500',
-        bgColor: 'bg-blue-500/10',
+        key: 'urbanism',
+        icon: Wrench,
+        href: '/contacto',
+        color: 'text-secondary',
+        bgColor: 'bg-secondary/10',
     },
     {
-        key: 'mothers',
-        icon: Users,
-        href: '/programas/madres-gestantes',
-        color: 'text-pink-500',
-        bgColor: 'bg-pink-500/10',
+        key: 'remodeling',
+        icon: Hammer,
+        href: '/contacto',
+        color: 'text-primary',
+        bgColor: 'bg-primary/10',
     },
     {
-        key: 'elderly',
-        icon: Users,
-        href: '/programas/adultos-mayores',
-        color: 'text-amber-500',
-        bgColor: 'bg-amber-500/10',
+        key: 'consulting',
+        icon: ClipboardCheck,
+        href: '/contacto',
+        color: 'text-secondary',
+        bgColor: 'bg-secondary/10',
     },
 ] as const;
 

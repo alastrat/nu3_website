@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface DonationCardProps {
     image: string;
@@ -26,6 +27,7 @@ export function DonationCard({
     slug,
     locale,
 }: DonationCardProps) {
+    const t = useTranslations('cta');
     const progressRef = useRef<HTMLDivElement>(null);
     const [inView, setInView] = useState(false);
     const percentage = Math.round((raised / goal) * 100);
@@ -67,7 +69,7 @@ export function DonationCard({
 
                 {/* Title */}
                 <Link
-                    href={`/dona/${slug}` as any}
+                    href={'/contacto' as any}
                     className="block mb-3 text-xl font-bold text-gray-900 hover:text-primary transition-colors line-clamp-2"
                 >
                     {title}
@@ -78,10 +80,10 @@ export function DonationCard({
 
                 {/* CTA Button */}
                 <Link
-                    href={`/dona/${slug}` as any}
+                    href={'/contacto' as any}
                     className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group"
                 >
-                    Donar ahora
+                    {t('learnMore')}
                     <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </Link>
             </div>

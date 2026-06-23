@@ -16,16 +16,16 @@ import 'swiper/css/thumbs';
 const HERO_SLIDES = [
     {
         id: 1,
-        image: '/images/real_images/1.png',
+        image: '/images/renovaplus/hero-1.jpg',
         subtitle: 'hero.slides.slide1.subtitle',
         title: 'hero.slides.slide1.title',
         description: 'hero.slides.slide1.description',
         cta: 'hero.slides.slide1.cta',
-        ctaLink: '/dona',
+        ctaLink: '/contacto',
     },
     {
         id: 2,
-        image: '/images/real_images/nu3-banner-2024.jpg',
+        image: '/images/renovaplus/hero-2.jpg',
         subtitle: 'hero.slides.slide2.subtitle',
         title: 'hero.slides.slide2.title',
         description: 'hero.slides.slide2.description',
@@ -34,12 +34,12 @@ const HERO_SLIDES = [
     },
     {
         id: 3,
-        image: '/images/real_images/BANNER-2.jpg',
+        image: '/images/renovaplus/hero-3.jpg',
         subtitle: 'hero.slides.slide3.subtitle',
         title: 'hero.slides.slide3.title',
         description: 'hero.slides.slide3.description',
         cta: 'hero.slides.slide3.cta',
-        ctaLink: '/apadrina',
+        ctaLink: '/contacto',
     },
 ];
 

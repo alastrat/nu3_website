@@ -2,15 +2,12 @@ import { setRequestLocale } from 'next-intl/server';
 import { Header, Footer } from '@/components/layout';
 import {
   HeroSection2,
+  ServicesSlider,
   Model360Section,
   ImpactSection,
   DonationsCarousel,
-  EventsSection,
-  TestimonialsCarousel,
   VolunteerSection,
-  AboutSection,
-  UnitsSection,
-  PartnersSection
+  AboutSection
 } from '@/components/sections';
 
 type Props = {
@@ -25,15 +22,12 @@ export default async function HomePage({ params }: Props) {
     <>
       <Header />
       <main>
-        <HeroSection2 />        
-        <PartnersSection />
+        <HeroSection2 />
         <AboutSection />
+        <ServicesSlider />
         <ImpactSection />
         <Model360Section />
         <DonationsCarousel locale={locale} />
-        <UnitsSection />
-        <EventsSection />
-        <TestimonialsCarousel />
         <VolunteerSection />
       </main>
       <Footer />

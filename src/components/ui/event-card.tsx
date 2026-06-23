@@ -40,7 +40,7 @@ export function EventCard({
 
             <div className="p-6">
                 <Link
-                    href={`/eventos/${slug}` as any}
+                    href={`/contacto` as any}
                     className="block mb-3 text-xl font-bold text-gray-900 hover:text-primary transition-colors line-clamp-2"
                 >
                     {title}
@@ -54,7 +54,7 @@ export function EventCard({
                 </div>
 
                 <Link
-                    href={`/eventos/${slug}` as any}
+                    href={`/contacto` as any}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 transition-colors"
                 >
                     <Calendar className="w-4 h-4" />

@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-react';
 const UNITS_DATA = [
     {
         id: 'menu3',
-        image: '/images/real_images/Primera-Infancia.jpg',
+        image: '/images/renovaplus/acabados.jpg',
         title: 'units.catering.title',
         description: 'units.catering.description',
         link: '/unidades-productivas#menu3',
@@ -16,7 +16,7 @@ const UNITS_DATA = [
     },
     {
         id: 'panu3',
-        image: '/images/units/bakery.jpg',
+        image: '/images/renovaplus/urbanismo.jpg',
         title: 'units.bakery.title',
         description: 'units.bakery.description',
         link: '/unidades-productivas#panu3',
@@ -24,7 +24,7 @@ const UNITS_DATA = [
     },
     {
         id: 'outletnu3',
-        image: '/images/units/recycling.jpg',
+        image: '/images/renovaplus/plans-review.jpg',
         title: 'units.recycling.title',
         description: 'units.recycling.description',
         link: '/unidades-productivas#outletnu3',
@@ -32,7 +32,7 @@ const UNITS_DATA = [
     },
     {
         id: 'tunu3',
-        image: '/images/units/sewing.jpg',
+        image: '/images/renovaplus/living-2.jpg',
         title: 'units.sewing.title',
         description: 'units.sewing.description',
         link: '/unidades-productivas#tunu3',

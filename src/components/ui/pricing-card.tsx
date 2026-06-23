@@ -26,7 +26,7 @@ export function PricingCard({
     features,
     popular = false,
     ctaText,
-    ctaHref = '/dona',
+    ctaHref = '/contacto',
     className,
 }: PricingCardProps) {
     const t = useTranslations('cta');

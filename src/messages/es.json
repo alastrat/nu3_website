@@ -16,12 +16,12 @@
         "search": "Buscar",
         "searchPlaceholder": "Buscar...",
         "categories": "Categorías",
-        "recentPosts": "Publicaciones recientes",
+        "recentPosts": "Proyectos recientes",
         "tags": "Etiquetas"
     },
     "metadata": {
-        "title": "nu3 - Desarrollo integral para familias vulnerables en Colombia",
-        "description": "Organización social colombiana que desde 2005 trabaja por el desarrollo socioeconómico, emocional y nutricional de familias vulnerables. Presentes en Atlántico, Bolívar, Chocó, Guajira y Magdalena."
+        "title": "RenovaPlus S.A.S. - Renovación y remodelación boutique en Barranquilla",
+        "description": "Constructora boutique en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto."
     },
     "nav": {
         "home": "Inicio",
@@ -29,290 +29,273 @@
         "about": "Quiénes somos",
         "team": "Nuestro equipo",
         "whatWeDo": "Qué hacemos",
-        "programs": "Programas",
+        "programs": "Servicios",
         "projects": "Proyectos",
-        "events": "Eventos",
-        "getInvolved": "Participa",
-        "sponsor": "Apadrina",
-        "donate": "Dona",
-        "blog": "Noticias",
+        "events": "Novedades",
+        "getInvolved": "Trabaja con nosotros",
+        "sponsor": "Modalidades de servicio",
+        "donate": "Cotiza tu proyecto",
+        "blog": "Novedades",
         "contact": "Contacto"
     },
     "cta": {
-        "donate": "Haz tu donación hoy",
-        "sponsor": "Apadrina a una familia",
-        "explore": "Conoce nuestros programas",
-        "transform": "Quiero transformar una vida hoy",
+        "donate": "Cotiza tu proyecto hoy",
+        "sponsor": "Conoce nuestras modalidades de servicio",
+        "explore": "Conoce nuestros servicios",
+        "transform": "Quiero renovar mi espacio hoy",
         "learnMore": "Conocer más",
         "contactUs": "Contáctanos"
     },
     "hero": {
         "slides": {
             "slide1": {
-                "subtitle": "Desarrollo integral",
-                "title": "Trabajamos por las familias vulnerables de Colombia",
-                "description": "Desde 2005 promovemos el desarrollo socioeconómico, emocional y nutricional de las familias más necesitadas, contribuyendo a la erradicación del hambre y la disminución de la pobreza.",
-                "cta": "Dona ahora"
+                "subtitle": "Construcción boutique",
+                "title": "Construimos confianza, renovamos espacios",
+                "description": "Desde 2024 transformamos espacios residenciales y comerciales en Barranquilla con un servicio personalizado, materiales de primera calidad y atención obsesiva al detalle. Construimos soluciones que generan valor real y duradero.",
+                "cta": "Cotiza tu proyecto"
             },
             "slide2": {
-                "subtitle": "Modelo integral",
-                "title": "Más que nutrición, transformación de vidas",
-                "description": "Nuestro modelo trabaja tres ejes transversales: nutrición, educación y generación de ingresos para promover el desarrollo integral de nuestros beneficiarios y sus familias.",
-                "cta": "Conoce nuestros programas"
+                "subtitle": "Servicio integral",
+                "title": "Más que obras, relaciones bien construidas",
+                "description": "Acompañamos cada proyecto de principio a fin: acabados, urbanismo y mantenimiento, remodelación de espacios e interventorías. Planificación responsable y transparencia en cada etapa.",
+                "cta": "Conoce nuestros servicios"
             },
             "slide3": {
-                "subtitle": "Únete al cambio",
-                "title": "Hay que devolverle a la vida lo que hemos recibido",
-                "description": "Con tu apoyo, hemos atendido a más de 62,000 niños y recuperado nutricionalmente a más de 15,400. Sé parte de esta transformación.",
-                "cta": "Apadrina ahora"
+                "subtitle": "Trabajemos juntos",
+                "title": "Hacemos las cosas bien, con seriedad y compromiso",
+                "description": "Combinamos experiencia técnica, equipo profesional certificado y planificación responsable para entregar proyectos con calidad y cumplimiento garantizado. Cuéntenos su idea y la hacemos realidad.",
+                "cta": "Solicita tu cotización"
             }
         }
     },
     "about": {
         "title": "Quiénes somos",
         "breadcrumb": "Quiénes somos",
-        "subtitle": "Desarrollo integral para familias vulnerables",
-        "description": "Somos una Organización Social que trabaja por el desarrollo socioeconómico, emocional y nutricional de las familias vulnerables en Colombia. Desde 2005, hemos evolucionado de un programa de nutrición a un modelo integral que aborda las causas de la pobreza a través de tres ejes: nutrición, educación y generación de ingresos.",
+        "subtitle": "Construcción boutique para espacios que perduran",
+        "description": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Como empresa boutique de renovación y remodelación, ofrecemos atención personalizada, materiales de primera calidad y un acompañamiento cercano en cada proyecto residencial y comercial.",
         "mission": "Nuestra Misión",
-        "missionText": "Promover el desarrollo emocional, nutricional y social de las familias vulnerables, para contribuir con la erradicación del hambre y la disminución de la pobreza en Colombia.",
+        "missionText": "Transformar espacios residenciales y comerciales con soluciones de renovación y remodelación a la medida, combinando experiencia técnica, materiales de primera calidad y atención personalizada para generar valor real y duradero a nuestros clientes.",
+        "visionText": "Ser reconocidos en la región como una empresa boutique de construcción referente por su calidad, cumplimiento y cercanía, construyendo relaciones de confianza basadas en la seriedad, la transparencia y el trabajo bien hecho.",
         "vision": "Nuestra Visión",
-        "visionText": "Ser referentes en el desarrollo de modelos integrales de atención a familias vulnerables, garantizando que cada beneficiario lleve una vida digna con mayores oportunidades.",
-        "years": "Años de experiencia",
-        "blockTitle": "Comienza a ayudar",
-        "blockListItem": "Hay muchas formas de contribuir al cambio",
+        "years": "Año de fundación",
+        "blockTitle": "Comienza tu proyecto",
+        "blockListItem": "Hay muchas formas de transformar tu espacio",
         "callAnytime": "Llámanos en cualquier momento",
         "stats": {
-            "children": "Niños atendidos",
-            "volunteers": "Niños recuperados nutricionalmente",
-            "products": "Raciones de comida entregadas",
-            "donors": "Adultos mayores asistidos"
+            "children": "Proyectos entregados",
+            "volunteers": "m² intervenidos",
+            "products": "Clientes satisfechos",
+            "donors": "Aliados y proveedores"
         },
         "tabs": {
             "sectionSubtitle": "Nuestra historia",
-            "sectionTitle": "De Nutrir Barranquilla a nu3",
+            "sectionTitle": "Una empresa boutique nacida en Barranquilla",
             "mission": "Nuestra Misión",
             "vision": "Nuestra Visión",
             "history": "Nuestra Historia",
-            "missionTitle": "Desarrollo integral",
-            "missionDescription": "Promovemos el desarrollo emocional, nutricional y social de las familias vulnerables. Nuestro modelo integral trabaja tres ejes transversales: nutrición, educación y generación de ingresos, entendiendo que no basta con tratar el problema alimentario sino abordar los factores que inciden en la pobreza.",
-            "missionList1": "Seguridad alimentaria y nutricional",
-            "missionList2": "Educación y formación para el empleo",
-            "missionList3": "Generación de ingresos y emprendimiento",
-            "missionList4": "Acompañamiento psicosocial integral",
-            "visionTitle": "Transformación sostenible",
-            "visionDescription": "Somos la única entidad en Colombia que forma parte de SUN (Scaling Up Nutrition), institución internacional cuya meta es alcanzar un nivel cero de desnutrición a nivel mundial para 2030. Nuestros Centros Integrales sirven como motor de desarrollo de las comunidades.",
-            "visionList1": "Presencia en 5 departamentos de Colombia",
-            "visionList2": "Alianzas con gobierno nacional, ICBF y fundaciones",
-            "visionList3": "Casi 300 empleados directos, mayoría mujeres",
-            "visionList4": "Atención integral: microtráfico, violencia, cohesión comunitaria",
-            "historyTitle": "Desde 2005 transformando vidas",
-            "historyDescription": "Fundada en 2005 por Mónica Schraer y Francis Zylberblum, barranquilleras de raíces judías, nu3 comenzó como Nutrir Barranquilla con 35 niños en el Barrio Santa María. Al darse cuenta de que no bastaba con tratar la desnutrición, renovamos nuestro modelo para abordar las causas de la pobreza. De Nutrir pasamos a nu3, integrando nutrición con educación y generación de ingresos. Para 2016 ya impactábamos a 26,000 familias, y hoy estamos presentes en Atlántico, Bolívar, Chocó, Guajira y Magdalena."
+            "missionTitle": "Construcción a la medida",
+            "missionDescription": "Transformamos espacios con soluciones de renovación y remodelación pensadas para cada cliente. Nuestro enfoque boutique trabaja sobre cuatro pilares: acabados externos e internos, urbanismo y mantenimiento, remodelación de espacios e interventorías y asesorías, entendiendo que un buen proyecto se construye con planificación responsable y atención al detalle.",
+            "missionList1": "Acabados externos e internos",
+            "missionList2": "Urbanismo y mantenimiento",
+            "missionList3": "Remodelación de espacios",
+            "missionList4": "Interventorías y asesorías",
+            "visionTitle": "Crecimiento sostenible",
+            "visionDescription": "Nacimos del compromiso por hacer las cosas bien, combinando experiencia técnica, planificación responsable y una visión clara de crecimiento sostenible. Construimos más que obras: construimos relaciones basadas en la seriedad, la transparencia y el trabajo bien hecho.",
+            "visionList1": "Sede en Barranquilla, Atlántico, Colombia",
+            "visionList2": "Equipo profesional certificado",
+            "visionList3": "Materiales de primera calidad",
+            "visionList4": "Calidad y cumplimiento garantizado",
+            "historyTitle": "Desde 2024 transformando espacios",
+            "historyDescription": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Nacimos del compromiso por hacer las cosas bien, combinando experiencia técnica, planificación responsable y una visión clara de crecimiento sostenible. Como empresa boutique, ofrecemos un servicio cercano y personalizado en cada renovación y remodelación. Construimos más que obras: construimos relaciones basadas en la seriedad, la transparencia y el trabajo bien hecho."
         },
         "cta": {
-            "subtitle": "Comienza a donar para quienes más lo necesitan",
-            "title": "Los niños necesitan tu ayuda, dona hoy"
+            "subtitle": "Comienza a transformar tu espacio hoy",
+            "title": "Cuéntanos tu proyecto, cotiza con nosotros"
         }
     },
     "units": {
-        "title": "Nuestras unidades productivas",
-        "subtitle": "Unidades Productivas",
+        "title": "Servicios con propósito",
+        "subtitle": "Soluciones de construcción que transforman espacios",
         "catering": {
-            "title": "Menu3 - Catering Social",
-            "description": "Catering a gran escala con impacto social"
+            "title": "Acabados externos e internos",
+            "description": "Ejecutamos acabados de primera calidad en fachadas e interiores, cuidando cada detalle para dar vida y valor duradero a su espacio."
         },
         "bakery": {
-            "title": "Panu3 - Panadería Social",
-            "description": "Panadería industrial de alta calidad"
-        },
-        "recycling": {
-            "title": "Outletnu3",
-            "description": "Modelo de economía circular"
+            "title": "Urbanismo y mantenimiento",
+            "description": "Desarrollamos obras de urbanismo y planes de mantenimiento responsable que conservan y prolongan la vida útil de cada proyecto."
         },
         "sewing": {
-            "title": "Textinu3 - Taller de Confección",
-            "description": "Confección y formación para mujeres"
+            "title": "Remodelación de espacios",
+            "description": "Renovamos y remodelamos espacios residenciales y comerciales con atención personalizada, técnica y diseño a la medida."
+        },
+        "recycling": {
+            "title": "Interventorías y asesorías",
+            "description": "Acompañamos sus obras con interventorías y asesorías profesionales, garantizando calidad, cumplimiento y transparencia."
         }
     },
     "model360": {
-        "title": "Nuestro Modelo de Intervención 360",
-        "subtitle": "Transformando comunidades integralmente",
-        "description": "El modelo de intervención 360 de nu3 transforma comunidades trabajando con cada miembro de la familia: infancia, gestantes y adultos mayores. Desde nuestros Centros Integrales, activamos rutas en nutrición, educación y generación de ingresos. Es un modelo probado, medible, replicable y listo para ser franquiciado nacional e internacionalmente.",
+        "title": "Nuestro Modelo de Trabajo 360",
+        "subtitle": "Acompañamos cada proyecto de principio a fin",
+        "description": "El modelo de trabajo 360 de RenovaPlus acompaña su proyecto en cada etapa: diagnóstico, planificación, ejecución y entrega. Combinamos experiencia técnica, materiales de primera calidad y atención personalizada para transformar espacios con seriedad y transparencia. Es un modelo claro, ordenado y orientado a resultados duraderos.",
         "pillars": {
-            "nutrition": "Nutrición",
-            "education": "Educación",
-            "entrepreneurship": "Generación de Ingresos",
-            "employability": "Acompañamiento Psicosocial"
+            "nutrition": "Planificación responsable",
+            "education": "Calidad garantizada",
+            "entrepreneurship": "Atención personalizada",
+            "employability": "Acompañamiento integral"
         }
     },
     "programs": {
-        "title": "Programas de nutrición y acompañamiento",
-        "subtitle": "Soluciones integrales para cada etapa de la vida",
-        "malnutrition": {
-            "title": "Prevención de desnutrición",
-            "description": "Identificamos y atendemos casos de desnutrición infantil a través de tamizaje nutricional, alimentación balanceada y seguimiento continuo."
+        "title": "Nuestros Servicios",
+        "subtitle": "Soluciones integrales en construcción y remodelación para proyectos residenciales y comerciales",
+        "finishes": {
+            "eyebrow": "Detalle y calidad",
+            "title": "Acabados Externos e Internos",
+            "description": "Transformamos espacios con acabados de alta calidad. Pintura, enchapes, cielos rasos y detalles que marcan la diferencia."
         },
-        "childhood": {
-            "title": "Atención nutricional para primera infancia",
-            "description": "Garantizamos el desarrollo óptimo de niños menores de 5 años con alimentación adecuada y estimulación temprana."
+        "urbanism": {
+            "eyebrow": "Durabilidad",
+            "title": "Urbanismo y Mantenimiento",
+            "description": "Desarrollo de espacios urbanos y servicios de mantenimiento preventivo y correctivo para conservar tus proyectos."
         },
-        "mothers": {
-            "title": "Atención integral a madres gestantes y lactantes",
-            "description": "Acompañamos a madres en su proceso de gestación y lactancia con nutrición, apoyo psicosocial y formación en derechos."
+        "remodeling": {
+            "eyebrow": "Transformación",
+            "title": "Remodelación de Espacios",
+            "description": "Renovamos y optimizamos espacios residenciales y comerciales con diseños funcionales y modernos."
         },
-        "elderly": {
-            "title": "Apoyo a adultos mayores",
-            "description": "Aseguramos un estado nutricional adecuado para adultos mayores, mejorando su calidad de vida y bienestar."
+        "consulting": {
+            "eyebrow": "Respaldo técnico",
+            "title": "Interventorías y Asesorías",
+            "description": "Supervisión técnica profesional y asesoría especializada para garantizar la calidad y cumplimiento de tu proyecto."
         }
     },
     "gardens": {
-        "title": "Huertas productivas y seguridad alimentaria",
-        "subtitle": "Cultivando Almas - Sembrar esperanza, cosechar futuro",
-        "description": "Capacitamos a familias en el cultivo de frutas y verduras, promoviendo la seguridad alimentaria y generación de ingresos."
-    },
-    "units": {
-        "title": "Unidades productivas con propósito",
-        "subtitle": "Negocios sociales que transforman vidas",
-        "catering": {
-            "title": "Catering social",
-            "description": "Cocina a gran escala que genera empleo para madres beneficiarias y reinvierte en nuestros Centros Integrales."
-        },
-        "bakery": {
-            "title": "Panadería industrial",
-            "description": "Producción de pan y productos horneados con impacto social, generando oportunidades de empleo."
-        },
-        "sewing": {
-            "title": "Confección y capacitación",
-            "description": "Formación en confección para mujeres, fortaleciendo la empleabilidad y generación de ingresos."
-        },
-        "recycling": {
-            "title": "Recuperación de bienes",
-            "description": "Recibimos y vendemos donaciones de ropa y bienes, reinvirtiendo en programas sociales."
-        }
+        "title": "Renovación de espacios con valor duradero",
+        "subtitle": "Construimos confianza, renovamos espacios",
+        "description": "Renovamos y remodelamos espacios residenciales y comerciales, combinando experiencia técnica, materiales de primera calidad y un trabajo bien hecho que genera valor real y duradero."
     },
     "sponsor": {
-        "title": "Apadrina una vida",
-        "subtitle": "Tu apoyo constante transforma realidades",
-        "description": "Con tu apadrinamiento mensual, garantizas nutrición, educación y acompañamiento continuo para quienes más lo necesitan.",
+        "title": "Elige tu plan de remodelación",
+        "subtitle": "Acompañamiento profesional en cada etapa de tu obra",
+        "description": "Con nuestras modalidades de servicio, recibes planificación responsable, materiales de primera calidad y atención personalizada de principio a fin.",
         "types": {
-            "child": "Niño o niña",
-            "adolescent": "Adolescente",
-            "mother": "Madre gestante o lactante",
-            "elderly": "Adulto mayor"
+            "child": "Espacio residencial",
+            "adolescent": "Espacio comercial",
+            "mother": "Acabados y remodelación",
+            "elderly": "Mantenimiento y urbanismo"
         }
     },
     "donations": {
         "section": {
-            "subtitle": "Ayuda y dona",
-            "title": "Inspirando y ayudando para un mejor estilo de vida"
+            "subtitle": "Proyectos destacados",
+            "title": "Construimos confianza y renovamos espacios con detalle"
         },
-        "activeDonors": "Donantes activos",
+        "activeDonors": "Proyectos en curso",
         "items": {
             "prevencion-desnutricion": {
-                "title": "Prevención de desnutrición en niños colombianos",
-                "description": "Trabajamos juntos para marcar una diferencia duradera, ayudando a personas con amabilidad y trabajo duro"
+                "title": "Remodelación integral de vivienda residencial",
+                "description": "Trabajamos cada detalle para transformar su espacio con materiales de primera calidad y acabados a la medida"
             },
             "primera-infancia": {
-                "title": "Atención nutricional para primera infancia",
-                "description": "Garantizamos el desarrollo óptimo de niños menores de 5 años con alimentación adecuada"
+                "title": "Acabados internos y externos de alto estándar",
+                "description": "Aseguramos resultados impecables en cada superficie con planificación responsable y mano de obra certificada"
             },
             "madres-gestantes": {
-                "title": "Apoyo integral a madres gestantes y lactantes",
-                "description": "Acompañamos a madres en su proceso con nutrición y formación en derechos"
+                "title": "Remodelación de espacios comerciales",
+                "description": "Acompañamos su proyecto de principio a fin con atención personalizada y cumplimiento garantizado"
             },
             "adultos-mayores": {
-                "title": "Programa de nutrición para adultos mayores",
-                "description": "Aseguramos un estado nutricional adecuado mejorando calidad de vida"
+                "title": "Urbanismo y mantenimiento de propiedades",
+                "description": "Conservamos y valorizamos sus espacios con un servicio cuidadoso y transparente"
             },
             "huertas-productivas": {
-                "title": "Huertas productivas - Seguridad alimentaria",
-                "description": "Capacitamos a familias en el cultivo promoviendo la seguridad alimentaria"
+                "title": "Interventorías y asesorías técnicas",
+                "description": "Brindamos acompañamiento experto para que cada obra cumpla los más altos estándares de calidad"
             }
         }
     },
     "donation": {
-        "title": "Dona y transforma vidas",
-        "subtitle": "Cada aporte cuenta",
-        "description": "Tu donación se convierte en alimentos nutritivos, programas de educación y acompañamiento para familias vulnerables.",
-        "oneTime": "Donación única",
-        "monthly": "Donación mensual",
-        "corporate": "Donación corporativa"
+        "title": "Cotice su proyecto de renovación",
+        "subtitle": "Cada espacio merece atención personalizada",
+        "description": "Su solicitud se convierte en un plan a la medida, con materiales de primera calidad y acompañamiento profesional en cada etapa.",
+        "oneTime": "Cotización por proyecto",
+        "monthly": "Plan de remodelación",
+        "corporate": "Servicio corporativo"
     },
     "volunteer": {
-        "title": "Conviértete en voluntario",
-        "description": "Tu tiempo y talento pueden transformar la vida de cientos de familias. Únete a nuestro equipo y sé parte del cambio que Colombia necesita.",
+        "title": "Trabaja con nosotros",
+        "description": "Tu experiencia y tu compromiso pueden ayudarnos a transformar más espacios. Únete a nuestro equipo y construyamos juntos proyectos de calidad en Barranquilla y la región.",
         "list": [
-            "Dona tu tiempo",
-            "Comparte tus habilidades",
-            "Impacta positivamente"
+            "Aporta tu experiencia",
+            "Comparte tus habilidades técnicas",
+            "Crece profesionalmente con nosotros"
         ],
-        "cta": "Quiero ser voluntario",
+        "cta": "Quiero unirme al equipo",
         "donate": {
-            "title": "Envía un regalo para los niños",
-            "description": "Cada donación se traduce en nutrición, educación y esperanza para los niños y familias que más lo necesitan.",
-            "customAmount": "Otro valor",
-            "cta": "Dona ahora"
+            "title": "Solicita la cotización de tu proyecto",
+            "description": "Cuéntanos qué espacio quieres renovar y te preparamos una propuesta clara, con materiales de primera calidad y cumplimiento garantizado.",
+            "customAmount": "Otro alcance",
+            "cta": "Cotiza tu proyecto"
         }
     },
     "partners": {
-        "title": "Empresas y aliados",
-        "subtitle": "Juntos por un Colombia mejor nutrido",
-        "description": "Desarrollamos alianzas estratégicas con empresas comprometidas con la responsabilidad social y los Objetivos de Desarrollo Sostenible."
+        "allies": "Nuestros aliados",
+        "recognitions": "Proyectos destacados"
     },
     "impact": {
         "title": "Nuestro impacto",
-        "subtitle": "Resultados que hablan por sí solos",
-        "families": "Familias beneficiadas",
-        "children": "Niños atendidos",
-        "meals": "Comidas entregadas",
+        "subtitle": "Resultados que respaldan nuestro trabajo",
+        "families": "Proyectos entregados",
+        "children": "Clientes satisfechos",
+        "meals": "m² intervenidos",
         "years": "Años de experiencia"
     },
     "events": {
         "section": {
-            "subtitle": "Próximos eventos",
-            "title": "Calendario de eventos nu3",
-            "viewAll": "Ver todos los eventos"
+            "subtitle": "Proyectos recientes",
+            "title": "Novedades de RenovaPlus",
+            "viewAll": "Ver todos los proyectos"
         },
         "items": {
             "jornada-nutricional-2024": {
-                "title": "Jornada de evaluación nutricional y seguimiento",
-                "description": "Evaluación nutricional gratuita para niños y familias vulnerables. Incluye consulta personalizada y plan alimentario."
+                "title": "Remodelación integral de apartamento residencial",
+                "description": "Renovación completa de espacios interiores con acabados de primera calidad y atención personalizada en cada detalle."
             },
             "taller-huertas-productivas": {
-                "title": "Taller práctico de huertas productivas",
-                "description": "Aprende técnicas de cultivo orgánico y siembra de alimentos nutritivos para tu familia."
+                "title": "Acabados externos e internos de local comercial",
+                "description": "Intervención de fachada y espacios interiores con materiales premium y un acabado impecable para tu negocio."
             },
             "capacitacion-madres-lactantes": {
-                "title": "Capacitación para madres gestantes y lactantes",
-                "description": "Sesión informativa sobre nutrición durante embarazo y lactancia, cuidados del bebé y derechos."
+                "title": "Interventoría y asesoría técnica de obra",
+                "description": "Acompañamiento profesional y supervisión técnica para garantizar calidad, cumplimiento y transparencia en cada etapa."
             },
             "feria-alimentos-saludables": {
-                "title": "Feria de alimentos saludables y recetas nutritivas",
-                "description": "Muestra de platos nutritivos, recetas económicas y consejos para una alimentación balanceada."
+                "title": "Urbanismo y mantenimiento de áreas comunes",
+                "description": "Renovación y mantenimiento responsable de zonas comunes con planificación detallada y resultados duraderos."
             }
         }
     },
     "team": {
         "section": {
             "subtitle": "Nuestro equipo",
-            "title": "Profesionales dedicados a transformar vidas",
-            "joinUs": "Únete a nosotros"
+            "title": "Profesionales dedicados a transformar espacios",
+            "joinUs": "Trabaja con nosotros"
         },
         "members": {
             "monica-schraer": {
                 "name": "Mónica Schraer",
-                "role": "Cofundadora y Presidenta"
+                "role": "Cofundadora y Gerente General"
             },
             "francis-zylberblum": {
                 "name": "Francis Zylberblum",
-                "role": "Cofundadora y Vicepresidenta"
+                "role": "Cofundadora y Subgerente"
             },
             "paola-davila": {
                 "name": "Paola Dávila Pestana Porto",
-                "role": "Directora Ejecutiva"
+                "role": "Directora de Operaciones"
             },
             "jeison-rodriguez": {
                 "name": "Jeison Rodríguez",
-                "role": "Director de Gestión Humana"
+                "role": "Director de Talento Humano"
             },
             "sandra-buelvas": {
                 "name": "Sandra Buelvas",
@@ -324,61 +307,61 @@
             },
             "dubis-barrios": {
                 "name": "Dubis Barrios",
-                "role": "Líder Centros Integrales"
+                "role": "Líder de Obra"
             },
             "marcela-ortega": {
                 "name": "Marcela Ortega",
-                "role": "Gerente menu3"
+                "role": "Coordinadora de Acabados"
             }
         }
     },
     "testimonials": {
         "section": {
-            "subtitle": "Historias que inspiran",
-            "title": "Voces que transforman vidas"
+            "subtitle": "Lo que dicen nuestros clientes",
+            "title": "Confianza construida proyecto a proyecto"
         },
         "overview": {
-            "title": "Impacto real",
-            "description": "Cada testimonio representa una vida transformada. Conoce las historias de quienes han sido parte de nuestra fundación."
+            "title": "Resultados reales",
+            "description": "Cada testimonio refleja un espacio transformado. Conozca la experiencia de quienes nos han confiado su renovación o remodelación."
         },
         "items": {
             "testimonial1": {
-                "text": "Este año, en mi cumpleaños, cambié los regalos por un bonu3 celebración. En vez de darme cosas, mis amigos y familia donaron a nu3, y juntos celebramos llevando esperanza a quienes más lo necesitan. Fue el regalo más bonito que pude recibir.",
-                "name": "María Luna Jaramillo",
-                "role": "Aliada nu3"
+                "text": "Renovamos por completo la cocina y los baños de nuestro apartamento con RenovaPlus. El acompañamiento fue cercano de principio a fin, cumplieron los tiempos acordados y los acabados quedaron impecables. Se nota el cuidado en cada detalle.",
+                "name": "María Fernanda Castro",
+                "role": "Cliente residencial"
             },
             "testimonial2": {
-                "text": "Me siento muy agradecido con nu3 porque he recibido mucho apoyo. Me siento muy feliz de saber que cuento con el apoyo de personas que me brindan muchos conocimientos y me permiten tener un mejor futuro. Gracias a nu3 porque ha ayudado a mi familia con su bienestar.",
-                "name": "Joven beneficiario",
-                "role": "Participante programa PESNU3"
+                "text": "Contratamos la remodelación de nuestro local comercial y quedamos muy satisfechos. El equipo planificó cada etapa con seriedad, nos mantuvo informados y entregó la obra con materiales de primera calidad. Volveríamos a trabajar con ellos sin dudarlo.",
+                "name": "Andrés Mejía",
+                "role": "Propietario de local comercial"
             },
             "testimonial3": {
-                "text": "nu3 llegó a mi vida cuando más lo necesitaba. Gracias a sus programas, mi hijo pudo recuperar su nutrición y hoy está sano y feliz. El equipo nos acompañó con mucho amor y profesionalismo.",
-                "name": "Madre beneficiaria",
-                "role": "Programa de nutrición infantil"
+                "text": "RenovaPlus transformó nuestra oficina en un espacio moderno y funcional. Valoro mucho la transparencia en el presupuesto y la atención personalizada que recibimos durante todo el proyecto. Trabajo bien hecho y dentro de lo presupuestado.",
+                "name": "Laura Pérez",
+                "role": "Administradora de empresa"
             },
             "testimonial4": {
-                "text": "Ser padrino de nu3 me ha permitido ver de primera mano cómo mi aporte transforma vidas. Cada visita a los centros me llena de esperanza y me confirma que estamos haciendo la diferencia.",
-                "name": "Padrino nu3",
-                "role": "Aliado estratégico"
+                "text": "Necesitábamos renovar los acabados internos y externos de la casa y el resultado superó nuestras expectativas. Equipo profesional, puntual y muy organizado. La calidad del trabajo habla por sí sola.",
+                "name": "Carlos Gómez",
+                "role": "Cliente residencial"
             },
             "testimonial5": {
-                "text": "Gracias al programa de formación de nu3, ahora tengo las herramientas para cuidar mejor de mi familia. Aprendí sobre nutrición, lactancia y el desarrollo de mis hijos.",
-                "name": "Madre participante",
-                "role": "Programa de formación familiar"
+                "text": "Gracias a la asesoría e interventoría de RenovaPlus pudimos llevar nuestra remodelación con total tranquilidad. Su planificación responsable y el cumplimiento garantizado nos dieron la confianza que buscábamos.",
+                "name": "Diana Rivera",
+                "role": "Cliente comercial"
             }
         }
     },
     "blog": {
-        "title": "Noticias",
-        "subtitle": "Mantente informado sobre nuestro trabajo",
+        "title": "Novedades",
+        "subtitle": "Mantente al día sobre nuestros proyectos",
         "readMore": "Leer más",
         "categories": {
-            "nutrition": "Nutrición infantil",
-            "breastfeeding": "Lactancia y maternidad",
-            "gardens": "Seguridad alimentaria",
-            "impact": "Historias de impacto",
-            "partnerships": "Alianzas y reconocimientos"
+            "nutrition": "Remodelación de espacios",
+            "breastfeeding": "Acabados y diseño interior",
+            "gardens": "Urbanismo y mantenimiento",
+            "impact": "Proyectos entregados",
+            "partnerships": "Interventorías y asesorías"
         }
     },
     "contact": {
@@ -386,93 +369,89 @@
         "breadcrumb": "Contacto",
         "info": {
             "phone": {
-                "title": "Número de teléfono"
+                "title": "Número de celular"
             },
             "email": {
                 "title": "Correo electrónico"
             },
             "address": {
-                "title": "Dirección",
-                "value": "Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico"
+                "title": "Ubicación",
+                "value": "Barranquilla, Atlántico, Colombia"
             }
         },
         "form": {
-            "sectionSubtitle": "Contáctanos",
-            "sectionTitle": "No dudes en escribirnos en cualquier momento",
-            "name": "Tu nombre",
+            "sectionSubtitle": "Contáctenos",
+            "sectionTitle": "Cuéntenos sobre su proyecto y le acompañamos en cada paso",
+            "name": "Su nombre",
             "email": "Correo electrónico",
-            "phone": "Teléfono (opcional)",
+            "phone": "Celular (opcional)",
             "subject": "Asunto",
-            "message": "Escribe tu mensaje",
-            "submit": "Enviar mensaje"
+            "message": "Describa su proyecto",
+            "submit": "Solicitar cotización"
         }
     },
-    "partners": {
-        "allies": "Nuestros aliados",
-        "recognitions": "Reconocimientos"
-    },
     "footer": {
-        "description": "Fundación colombiana con más de 20 años transformando vidas a través de nutrición y acompañamiento integral.",
+        "description": "Empresa boutique de construcción en Barranquilla, dedicada a la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
         "quickLinks": "Enlaces rápidos",
-        "programs": "Nuestros programas",
+        "programs": "Nuestros servicios",
         "contact": "Contacto",
-        "followUs": "Síguenos",
+        "followUs": "Síganos",
         "rights": "Todos los derechos reservados"
     },
     "faqPage": {
         "meta": {
-            "title": "Preguntas Frecuentes - Fundación nu3",
-            "description": "Encuentra respuestas a las preguntas más comunes sobre nuestros programas, donaciones y voluntariado."
+            "title": "Preguntas Frecuentes - RenovaPlus S.A.S.",
+            "description": "Encuentra respuestas a las preguntas más comunes sobre nuestros servicios de renovación y remodelación, cotizaciones y oportunidades de trabajo."
         },
         "title": "Preguntas Frecuentes",
         "breadcrumb": "FAQ",
         "subtitle": "FAQ",
         "heading": "Respuestas a tus preguntas",
-        "description": "Aquí encontrarás información sobre nuestros programas, cómo donar y cómo participar.",
+        "description": "Aquí encontrarás información sobre nuestros servicios, cómo solicitar una cotización y cómo trabajar con nosotros.",
         "categories": {
             "general": {
-                "title": "Sobre nu3",
-                "q1": "¿Qué es la Fundación nu3?",
-                "a1": "nu3 es una fundación colombiana con más de 20 años de experiencia transformando vidas a través de nutrición, educación y acompañamiento integral para familias vulnerables.",
-                "q2": "¿Dónde operan sus programas?",
-                "a2": "Nuestros programas operan principalmente en Bogotá y Cundinamarca, con presencia en comunidades vulnerables de la región.",
-                "q3": "¿Cómo se financia la fundación?",
-                "a3": "Nos financiamos a través de donaciones individuales, apadrinamientos, alianzas corporativas y el funcionamiento de nuestras unidades productivas sociales.",
+                "title": "Sobre RenovaPlus",
+                "q1": "¿Qué es RenovaPlus S.A.S.?",
+                "a1": "RenovaPlus es una empresa boutique de construcción constituida en Barranquilla en 2024, especializada en la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
+                "q2": "¿Dónde prestan sus servicios?",
+                "a2": "Operamos principalmente en Barranquilla y el departamento del Atlántico, acompañando proyectos residenciales y comerciales en la región.",
+                "q3": "¿Qué los hace una empresa boutique?",
+                "a3": "Trabajamos con un enfoque cercano y personalizado, materiales de primera calidad y atención al detalle en cada proyecto, cuidando la calidad y el cumplimiento de principio a fin.",
                 "q4": "¿Cómo puedo conocer más sobre su trabajo?",
-                "a4": "Puedes seguirnos en redes sociales, suscribirte a nuestro boletín o contactarnos directamente para una visita a nuestros centros."
+                "a4": "Puedes seguirnos en redes sociales, escribirnos directamente o solicitar una visita técnica para conversar sobre tu proyecto."
             },
             "donations": {
-                "title": "Donaciones",
-                "q1": "¿Cómo puedo hacer una donación?",
-                "a1": "Puedes donar a través de nuestra página web, transferencia bancaria o en persona en nuestros centros. Aceptamos donaciones únicas o recurrentes.",
-                "q2": "¿Las donaciones son deducibles de impuestos?",
-                "a2": "Sí, nu3 está registrada como entidad sin ánimo de lucro y las donaciones pueden ser deducibles de impuestos según la legislación colombiana.",
-                "q3": "¿Puedo donar en especie?",
-                "a3": "Sí, recibimos donaciones de alimentos no perecederos, ropa en buen estado y otros bienes a través de nuestras unidades productivas.",
-                "q4": "¿Cómo sé que mi donación se usa correctamente?",
-                "a4": "Publicamos informes de transparencia anuales y enviamos actualizaciones periódicas a nuestros donantes sobre el impacto de sus aportes."
+                "title": "Cotizaciones",
+                "q1": "¿Cómo puedo solicitar una cotización?",
+                "a1": "Puedes solicitar tu cotización a través de nuestra página web, por teléfono o en una visita técnica a tu espacio. Evaluamos cada proyecto de forma personalizada.",
+                "q2": "¿La cotización tiene algún costo?",
+                "a2": "La cotización inicial es sin compromiso. Realizamos un diagnóstico claro del proyecto y te presentamos una propuesta transparente y detallada.",
+                "q3": "¿Qué incluye la propuesta de cotización?",
+                "a3": "Incluye el alcance del proyecto, los materiales propuestos, el cronograma estimado y un presupuesto detallado con total transparencia.",
+                "q4": "¿Cómo garantizan el cumplimiento del presupuesto?",
+                "a4": "Trabajamos con planificación responsable y te mantenemos informado en cada etapa, asegurando transparencia y cumplimiento en cada proyecto."
             },
             "programs": {
-                "title": "Programas",
-                "q1": "¿Quiénes pueden ser beneficiarios?",
-                "a1": "Nuestros programas están dirigidos a familias en condición de vulnerabilidad, especialmente niños, madres gestantes/lactantes y adultos mayores.",
-                "q2": "¿Cómo identifican a los beneficiarios?",
-                "a2": "Trabajamos con líderes comunitarios y realizamos un proceso de diagnóstico social y nutricional para identificar a quienes más necesitan apoyo.",
-                "q3": "¿Qué incluye el acompañamiento integral?",
-                "a3": "Incluye evaluación nutricional, entrega de alimentos, educación en hábitos saludables, apoyo psicosocial y seguimiento continuo.",
-                "q4": "¿Por cuánto tiempo se brinda el apoyo?",
-                "a4": "El tiempo varía según las necesidades de cada familia, pero buscamos un acompañamiento sostenido hasta lograr la autonomía nutricional."
+                "title": "Servicios",
+                "q1": "¿Qué tipo de proyectos realizan?",
+                "a1": "Realizamos acabados externos e internos, urbanismo y mantenimiento, remodelación de espacios e interventorías y asesorías para proyectos residenciales y comerciales.",
+                "q2": "¿Cómo planifican cada proyecto?",
+                "a2": "Combinamos experiencia técnica y planificación responsable, definiendo alcance, cronograma y materiales junto al cliente antes de iniciar la obra.",
+                "q3": "¿Qué incluye el acompañamiento durante la obra?",
+                "a3": "Incluye supervisión técnica profesional, materiales de primera calidad, equipo certificado y seguimiento continuo hasta la entrega final.",
+                "q4": "¿Cuánto tiempo toma un proyecto?",
+                "a4": "El tiempo varía según el alcance de cada proyecto, pero definimos un cronograma claro desde el inicio y trabajamos para cumplir con los plazos acordados."
             },
             "volunteer": {
-                "title": "Voluntariado",
-                "q1": "¿Cómo puedo ser voluntario?",
-                "a1": "Puedes inscribirte a través de nuestra página de contacto. Buscamos personas comprometidas con al menos 4 horas semanales de disponibilidad.",
-                "q2": "¿Qué tipo de voluntarios necesitan?",
-                "a2": "Buscamos profesionales de salud, educadores, comunicadores, administradores y cualquier persona con ganas de aportar su tiempo y talento.",
-                "q3": "¿Hay capacitación para voluntarios?",
-                "a3": "Sí, todos los voluntarios reciben una inducción sobre nuestra misión, valores y protocolos de trabajo con comunidades vulnerables.",
-                "q4": "¿Puedo hacer voluntariado virtual?",
-                "a4": "Sí, tenemos oportunidades de voluntariado remoto en áreas como comunicaciones, diseño, gestión de redes sociales y más."
+                "title": "Trabaja con nosotros",
+                "q1": "¿Cómo puedo trabajar con RenovaPlus?",
+                "a1": "Puedes postularte a través de nuestra página de contacto. Buscamos profesionales y técnicos comprometidos con la calidad y el trabajo bien hecho.",
+                "q2": "¿Qué perfiles buscan?",
+                "a2": "Buscamos maestros de obra, técnicos en acabados, ingenieros, arquitectos, personal administrativo y profesionales comprometidos con la excelencia.",
+                "q3": "¿Ofrecen capacitación al equipo?",
+                "a3": "Sí, todo el equipo recibe inducción sobre nuestros estándares de calidad, valores y protocolos de trabajo en obra.",
+                "q4": "¿Tienen oportunidades para contratistas?",
+                "a4": "Sí, trabajamos con contratistas y aliados especializados en áreas como acabados, instalaciones y mantenimiento. Escríbenos para conocer cómo colaborar."
             }
         },
         "contact": {
@@ -481,69 +460,69 @@
             "description": "Si no encontraste la respuesta que buscabas, no dudes en contactarnos.",
             "imageAlt": "Equipo de atención",
             "q1": "¿Cómo puedo contactarlos?",
-            "a1": "Puedes escribirnos a comunicaciones@nu3.org.co, llamarnos al +57 318 330 9385 o visitarnos en Cra. 9E #137-21, Suroccidente, Barranquilla.",
+            "a1": "Puedes escribirnos a renova.sas@gmail.com, llamarnos al 315 296 3382 o visitarnos en Barranquilla, Atlántico, Colombia.",
             "q2": "¿Cuál es el horario de atención?",
             "a2": "Nuestro horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM. También respondemos mensajes en redes sociales."
         }
     },
     "sponsorPage": {
         "meta": {
-            "title": "Apadrina - Fundación nu3",
-            "description": "Apadrina a un niño, madre gestante o adulto mayor y transforma su vida con tu apoyo mensual."
+            "title": "Planes de remodelación - RenovaPlus S.A.S.",
+            "description": "Conoce nuestras modalidades de servicio en renovación y remodelación y elige el plan que mejor se adapta a tu proyecto."
         },
-        "title": "Apadrina una vida",
-        "breadcrumb": "Apadrina",
+        "title": "Planes de remodelación",
+        "breadcrumb": "Planes",
         "pricing": {
-            "title": "Elige tu plan de apadrinamiento",
-            "description": "Selecciona el nivel de apoyo que deseas brindar. Cada aporte mensual transforma vidas.",
-            "period": "mes",
-            "cta": "Apadrinar ahora",
+            "title": "Elige tu modalidad de servicio",
+            "description": "Selecciona el nivel de acompañamiento que necesita tu proyecto. Cada plan combina calidad, transparencia y cumplimiento garantizado.",
+            "period": "proyecto",
+            "cta": "Solicitar este plan",
             "plans": {
                 "basic": {
-                    "title": "Básico",
-                    "description": "Apoyo nutricional esencial",
-                    "feature1": "Suplemento nutricional mensual",
-                    "feature2": "Seguimiento nutricional trimestral",
-                    "feature3": "Informe de impacto anual",
-                    "feature4": "Certificado de donación"
+                    "title": "Esencial",
+                    "description": "Acabados internos y externos",
+                    "feature1": "Diagnóstico técnico del espacio",
+                    "feature2": "Acabados con materiales de primera calidad",
+                    "feature3": "Cronograma de obra definido",
+                    "feature4": "Garantía sobre el trabajo entregado"
                 },
                 "standard": {
-                    "title": "Estándar",
-                    "description": "Nutrición y educación",
-                    "feature1": "Todo lo del plan Básico",
-                    "feature2": "Kit alimentario mensual",
-                    "feature3": "Talleres educativos para la familia",
-                    "feature4": "Informes trimestrales personalizados"
+                    "title": "Integral",
+                    "description": "Remodelación de espacios",
+                    "feature1": "Todo lo del plan Esencial",
+                    "feature2": "Diseño y replanteamiento del espacio",
+                    "feature3": "Coordinación de equipo profesional certificado",
+                    "feature4": "Seguimiento de avance por etapas"
                 },
                 "premium": {
-                    "title": "Premium",
-                    "description": "Acompañamiento integral",
-                    "feature1": "Todo lo del plan Estándar",
-                    "feature2": "Acompañamiento psicosocial",
-                    "feature3": "Visitas de seguimiento mensuales",
-                    "feature4": "Comunicación directa con el beneficiario"
+                    "title": "Boutique",
+                    "description": "Acompañamiento llave en mano",
+                    "feature1": "Todo lo del plan Integral",
+                    "feature2": "Interventorías y asesorías técnicas",
+                    "feature3": "Selección personalizada de acabados",
+                    "feature4": "Comunicación directa con un asesor dedicado"
                 }
             }
         },
         "benefits": {
-            "title": "Beneficios de apadrinar",
-            "description": "Tu apadrinamiento genera un impacto directo y medible en la vida de quienes más lo necesitan.",
+            "title": "Beneficios de trabajar con RenovaPlus",
+            "description": "Cada proyecto que asumimos genera un resultado tangible y duradero para tu espacio.",
             "items": {
                 "nutrition": {
-                    "title": "Nutrición garantizada",
-                    "description": "Aseguras alimentos nutritivos para tu beneficiario cada mes."
+                    "title": "Calidad garantizada",
+                    "description": "Aseguramos acabados de primera y cumplimiento en cada entrega."
                 },
                 "support": {
                     "title": "Acompañamiento continuo",
-                    "description": "Brindas apoyo integral más allá de la alimentación."
+                    "description": "Te acompañamos en cada etapa, más allá de la ejecución de la obra."
                 },
                 "updates": {
-                    "title": "Informes periódicos",
-                    "description": "Recibes actualizaciones sobre el progreso de tu beneficiario."
+                    "title": "Informes de avance",
+                    "description": "Recibes actualizaciones claras sobre el progreso de tu proyecto."
                 },
                 "transparency": {
                     "title": "Transparencia total",
-                    "description": "Sabes exactamente cómo se usa cada peso de tu aporte."
+                    "description": "Sabes exactamente cómo se invierte cada peso de tu proyecto."
                 }
             }
         },
@@ -551,67 +530,67 @@
             "title": "¿Cómo funciona?",
             "step1": {
                 "title": "Elige tu plan",
-                "description": "Selecciona el nivel de apadrinamiento que mejor se adapte a ti."
+                "description": "Selecciona la modalidad de servicio que mejor se adapta a tu proyecto."
             },
             "step2": {
-                "title": "Conoce a tu beneficiario",
-                "description": "Te asignamos un beneficiario y te enviamos su perfil e historia."
+                "title": "Planificamos tu obra",
+                "description": "Visitamos el espacio, definimos el alcance y te entregamos una propuesta clara."
             },
             "step3": {
-                "title": "Transforma vidas",
-                "description": "Tu apoyo mensual genera un impacto real y medible."
+                "title": "Transformamos tu espacio",
+                "description": "Ejecutamos la renovación con resultados reales y duraderos."
             }
         },
         "cta": {
-            "title": "¿Listo para transformar una vida?",
-            "description": "Con tu apadrinamiento mensual, garantizas nutrición, educación y esperanza para quienes más lo necesitan.",
-            "button": "Comenzar a apadrinar"
+            "title": "¿Listo para transformar tu espacio?",
+            "description": "Con nuestras modalidades de servicio, garantizamos calidad, planificación responsable y transparencia en cada etapa de tu proyecto.",
+            "button": "Cotiza tu proyecto"
         }
     },
     "projectsPage": {
         "meta": {
-            "title": "Proyectos - Fundación nu3",
-            "description": "Conoce los proyectos que hemos desarrollado para transformar vidas en Colombia."
+            "title": "Proyectos - RenovaPlus S.A.S.",
+            "description": "Conozca los proyectos de renovación y remodelación que hemos desarrollado en Barranquilla y la región."
         },
         "title": "Nuestros Proyectos",
         "breadcrumb": "Proyectos",
         "subtitle": "Nuestro trabajo",
-        "heading": "Proyectos que transforman vidas",
-        "description": "Cada proyecto representa nuestro compromiso con las comunidades más vulnerables de Colombia."
+        "heading": "Proyectos que transforman espacios",
+        "description": "Cada proyecto refleja nuestro compromiso con la calidad, el cumplimiento y la atención personalizada en cada detalle."
     },
     "projects": {
         "categories": {
-            "infrastructure": "Infraestructura",
-            "gardens": "Huertas",
-            "education": "Educación",
-            "partnerships": "Alianzas",
-            "nutrition": "Nutrición",
-            "units": "Unidades productivas"
+            "infrastructure": "Acabados",
+            "gardens": "Urbanismo y mantenimiento",
+            "education": "Asesorías",
+            "partnerships": "Interventorías",
+            "nutrition": "Remodelación",
+            "units": "Espacios comerciales"
         },
         "items": {
             "centro-integral-bogota": {
-                "title": "Centro Integral de Nutrición en Bogotá",
-                "description": "Construcción y equipamiento de un centro de atención nutricional integral para familias vulnerables en el sur de Bogotá."
+                "title": "Remodelación Integral de Apartamento en Barranquilla",
+                "description": "Renovación completa de un apartamento residencial con acabados a la medida, optimización de espacios y materiales de primera calidad."
             },
             "programa-huertas-soacha": {
-                "title": "Programa de Huertas Productivas en Soacha",
-                "description": "Implementación de huertas urbanas en 50 familias de Soacha, promoviendo la seguridad alimentaria y generación de ingresos."
+                "title": "Mantenimiento y Urbanismo de Conjunto Residencial",
+                "description": "Intervención de áreas comunes y mantenimiento integral en un conjunto residencial, mejorando la funcionalidad y el valor de la propiedad."
             },
             "capacitacion-madres": {
-                "title": "Capacitación para Madres Gestantes y Lactantes",
-                "description": "Programa integral de formación en nutrición, cuidado prenatal y lactancia materna para 800 madres."
+                "title": "Acabados Internos para Local Comercial",
+                "description": "Ejecución de acabados internos y externos para un local comercial, con planificación responsable y atención al detalle en cada superficie."
             },
             "alianza-empresarial-2024": {
-                "title": "Alianza Empresarial 2024",
-                "description": "Convenio con empresas aliadas para ampliar la cobertura de nuestros programas a nivel nacional."
+                "title": "Interventoría de Obra 2024",
+                "description": "Acompañamiento técnico e interventoría para garantizar calidad, cumplimiento y transparencia durante todas las etapas de la obra."
             },
             "recuperacion-nutricional": {
-                "title": "Programa de Recuperación Nutricional",
-                "description": "Intervención especializada para niños con desnutrición aguda en comunidades rurales de Cundinamarca."
+                "title": "Remodelación de Cocina y Baños",
+                "description": "Renovación especializada de cocina y baños residenciales, combinando diseño funcional, durabilidad y acabados de alta gama."
             },
             "unidad-productiva-panaderia": {
-                "title": "Unidad Productiva de Panadería",
-                "description": "Establecimiento de panadería social que genera empleo para madres beneficiarias y reinvierte en programas sociales."
+                "title": "Adecuación de Oficinas Corporativas",
+                "description": "Adecuación y remodelación de espacios de oficina, creando ambientes profesionales, cómodos y a la medida del cliente."
             }
         }
     },
@@ -622,36 +601,36 @@
         "info": {
             "year": "Año",
             "location": "Ubicación",
-            "beneficiaries": "Beneficiarios"
+            "beneficiaries": "Cliente"
         },
         "objectives": {
             "title": "Objetivos del proyecto"
         },
         "content": {
-            "paragraph1": "Este proyecto representa uno de nuestros esfuerzos más significativos por transformar las condiciones de vida de las familias más vulnerables. A través de un enfoque integral, combinamos nutrición, educación y acompañamiento social.",
-            "paragraph2": "El objetivo principal es generar un impacto sostenible que trascienda la intervención directa, empoderando a las comunidades para que puedan mantener y mejorar su bienestar de manera autónoma."
+            "paragraph1": "Este proyecto representa nuestro compromiso por transformar espacios con un trabajo bien hecho. A través de un enfoque integral, combinamos experiencia técnica, materiales de primera calidad y una planificación responsable en cada etapa.",
+            "paragraph2": "Nuestro objetivo principal es entregar resultados duraderos que generen valor real, acompañando al cliente de principio a fin con transparencia, seriedad y atención personalizada."
         },
         "achievements": {
-            "title": "Logros alcanzados",
-            "item1": "Mejora significativa en indicadores nutricionales",
-            "item2": "Fortalecimiento de capacidades comunitarias",
-            "item3": "Generación de empleo local",
-            "item4": "Creación de redes de apoyo familiar"
+            "title": "Resultados alcanzados",
+            "item1": "Acabados impecables y materiales de primera calidad",
+            "item2": "Cumplimiento de tiempos y presupuesto acordados",
+            "item3": "Optimización funcional de los espacios",
+            "item4": "Relación de confianza con el cliente"
         },
         "sidebar": {
-            "supportTitle": "Apoya este proyecto",
-            "supportDescription": "Tu donación nos permite continuar transformando vidas a través de proyectos como este.",
-            "contactTitle": "¿Interesado en aliarte?",
-            "contactDescription": "Contáctanos para conocer cómo tu empresa puede participar en nuestros proyectos."
+            "supportTitle": "Cotice un proyecto similar",
+            "supportDescription": "Solicite su cotización y descubra cómo podemos transformar su espacio con un servicio a la medida.",
+            "contactTitle": "¿Interesado en trabajar con nosotros?",
+            "contactDescription": "Contáctenos para conocer cómo podemos acompañar su próximo proyecto de renovación o remodelación."
         },
         "relatedProjects": "Proyectos relacionados"
     },
     "blogPage": {
         "meta": {
-            "title": "Blog - Fundación nu3",
-            "description": "Noticias, artículos y recursos sobre nutrición, bienestar y nuestro impacto en Colombia."
+            "title": "Blog - RenovaPlus S.A.S.",
+            "description": "Novedades, artículos y recursos sobre renovación, remodelación y nuestros proyectos en Barranquilla, Colombia."
         },
-        "title": "Noticias y Blog",
+        "title": "Novedades y Blog",
         "breadcrumb": "Blog",
         "sidebar": {
             "categories": "Categorías",
@@ -659,65 +638,65 @@
             "tags": "Etiquetas"
         },
         "tags": {
-            "nutrition": "Nutrición",
-            "children": "Niños",
-            "health": "Salud",
-            "family": "Familia",
-            "wellness": "Bienestar",
-            "recipes": "Recetas"
+            "nutrition": "Remodelación",
+            "children": "Acabados",
+            "health": "Calidad",
+            "family": "Espacios",
+            "wellness": "Diseño",
+            "recipes": "Materiales"
         },
         "posts": {
             "importancia-nutricion-infantil": {
-                "title": "La importancia de la nutrición en los primeros años de vida",
-                "excerpt": "Descubre por qué los primeros 1000 días son cruciales para el desarrollo cognitivo y físico de los niños, y cómo una alimentación adecuada marca la diferencia."
+                "title": "La importancia de una buena planificación en cada proyecto de remodelación",
+                "excerpt": "Descubre por qué las primeras etapas de planeación son determinantes para el resultado de una remodelación, y cómo una visión clara marca la diferencia en cada espacio."
             },
             "lactancia-materna-beneficios": {
-                "title": "Lactancia materna: beneficios para mamá y bebé",
-                "excerpt": "La leche materna es el mejor alimento para el recién nacido. Conoce todos los beneficios que aporta tanto al bebé como a la madre lactante."
+                "title": "Acabados de primera calidad: el detalle que transforma un espacio",
+                "excerpt": "Los acabados internos y externos definen el carácter de cada ambiente. Conoce cómo elegir materiales y terminaciones que aporten durabilidad y elegancia a su proyecto."
             },
             "huertas-urbanas-seguridad-alimentaria": {
-                "title": "Huertas urbanas: una solución para la seguridad alimentaria",
-                "excerpt": "Las huertas urbanas se han convertido en una alternativa efectiva para garantizar el acceso a alimentos frescos y nutritivos en comunidades vulnerables."
+                "title": "Urbanismo y mantenimiento: cómo conservar el valor de los espacios",
+                "excerpt": "El urbanismo y el mantenimiento responsable se han convertido en una clave para preservar la funcionalidad y el valor de los espacios residenciales y comerciales en el tiempo."
             },
             "historia-transformacion-familia-martinez": {
-                "title": "Historia de transformación: La familia Martínez",
-                "excerpt": "Conoce cómo el programa de nu3 ayudó a la familia Martínez a superar la desnutrición infantil y transformar su calidad de vida."
+                "title": "Caso de transformación: la remodelación de una vivienda en Barranquilla",
+                "excerpt": "Conoce cómo el equipo de RenovaPlus acompañó a una familia para renovar por completo su vivienda, optimizando cada espacio con planificación responsable y atención personalizada."
             },
             "alianza-empresa-xyz": {
-                "title": "Nueva alianza con Empresa XYZ para ampliar nuestro impacto",
-                "excerpt": "Nos complace anunciar nuestra nueva alianza estratégica que nos permitirá beneficiar a más de 500 familias adicionales este año."
+                "title": "Nuevas modalidades de servicio para acompañar más proyectos",
+                "excerpt": "Nos complace presentar nuestras nuevas modalidades de servicio, pensadas para acompañar a más clientes en sus proyectos de renovación y remodelación con la misma seriedad y transparencia de siempre."
             },
             "recetas-nutritivas-economicas": {
-                "title": "10 recetas nutritivas y económicas para toda la familia",
-                "excerpt": "Preparar comidas saludables no tiene que ser costoso. Te compartimos recetas fáciles, nutritivas y económicas para alimentar a tu familia."
+                "title": "10 recomendaciones prácticas para planear una remodelación con presupuesto",
+                "excerpt": "Renovar un espacio no tiene por qué descontrolar su presupuesto. Le compartimos recomendaciones claras para planear su remodelación con calidad, orden y cumplimiento."
             }
         }
     },
     "blogDetails": {
         "tags": "Etiquetas",
         "share": "Compartir",
-        "authorRole": "Nutricionista",
-        "authorBio": "Profesional con más de 10 años de experiencia en nutrición comunitaria y programas de seguridad alimentaria.",
+        "authorRole": "Director de Proyectos",
+        "authorBio": "Profesional certificado con experiencia en planificación, remodelación y acabados, comprometido con la calidad y el cumplimiento en cada obra.",
         "content": {
-            "paragraph1": "La nutrición adecuada durante los primeros años de vida es fundamental para el desarrollo físico, cognitivo y emocional de los niños. Durante este período crítico, el cerebro se desarrolla a un ritmo acelerado, y una alimentación balanceada proporciona los nutrientes esenciales para este proceso.",
+            "paragraph1": "Una planificación adecuada al inicio de cada proyecto es fundamental para el resultado final de una renovación o remodelación. Durante esta etapa se definen alcances, materiales y tiempos, y una visión clara permite anticipar imprevistos y garantizar un trabajo bien hecho.",
             "heading1": "¿Por qué es tan importante?",
-            "paragraph2": "Los estudios científicos han demostrado que los niños que reciben una nutrición adecuada en sus primeros años tienen mejor rendimiento escolar, mayor capacidad de concentración y menor riesgo de desarrollar enfermedades crónicas en la edad adulta.",
-            "quote": "Una inversión en nutrición infantil es una inversión en el futuro de toda una generación.",
-            "paragraph3": "En nu3, trabajamos con familias vulnerables para garantizar que los niños reciban los nutrientes que necesitan durante esta etapa crucial de su desarrollo.",
+            "paragraph2": "La experiencia técnica demuestra que los proyectos que cuentan con una planificación responsable desde el inicio logran mejores acabados, mayor cumplimiento en los plazos y una inversión más controlada para el cliente.",
+            "quote": "Una buena planificación no es un gasto: es la base de un espacio renovado con calidad y durabilidad.",
+            "paragraph3": "En RenovaPlus, acompañamos a cada cliente para que su proyecto avance con orden, transparencia y materiales de primera calidad en cada etapa de la obra.",
             "heading2": "Nuestro compromiso",
-            "paragraph4": "A través de nuestros programas integrales, no solo proporcionamos alimentos nutritivos, sino que también educamos a las familias sobre hábitos alimenticios saludables que pueden mantener a largo plazo."
+            "paragraph4": "A través de nuestro servicio personalizado, no solo ejecutamos la remodelación, sino que asesoramos a cada cliente en las decisiones clave para que el resultado genere valor real y duradero."
         }
     },
     "teamPage": {
         "meta": {
-            "title": "Nuestro Equipo - Fundación nu3",
-            "description": "Conoce al equipo de profesionales dedicados a transformar vidas en Colombia."
+            "title": "Nuestro Equipo - RenovaPlus S.A.S.",
+            "description": "Conoce al equipo de profesionales certificados que transforman espacios con calidad y cumplimiento en Barranquilla, Colombia."
         },
         "title": "Nuestro Equipo",
         "breadcrumb": "Equipo",
         "joinUs": {
-            "title": "¿Te gustaría unirte a nuestro equipo?",
-            "description": "Estamos buscando personas apasionadas por la nutrición y el bienestar de las familias colombianas."
+            "title": "¿Te gustaría trabajar con nosotros?",
+            "description": "Buscamos personas apasionadas por la construcción, la renovación y el trabajo bien hecho que quieran crecer junto a RenovaPlus."
         }
     },
     "teamDetails": {
@@ -728,160 +707,160 @@
             "title": "Información de contacto"
         },
         "bio": {
-            "paragraph1": "Profesional dedicado con amplia experiencia en el sector social y de nutrición. Su compromiso con la misión de nu3 ha sido fundamental para el crecimiento y éxito de nuestros programas.",
-            "paragraph2": "Con formación académica de alto nivel y experiencia práctica en comunidades vulnerables, aporta una visión integral que combina el conocimiento técnico con la sensibilidad social necesaria para este trabajo.",
-            "paragraph3": "Su liderazgo ha sido clave en la implementación de iniciativas innovadoras que han beneficiado a miles de familias en Colombia."
+            "paragraph1": "Profesional dedicado con amplia experiencia en el sector de la construcción y la remodelación de espacios. Su compromiso con la calidad y el cumplimiento ha sido fundamental para el crecimiento de RenovaPlus.",
+            "paragraph2": "Con formación técnica de alto nivel y experiencia práctica en obra, aporta una visión integral que combina el conocimiento técnico con la atención personalizada que caracteriza nuestro servicio boutique.",
+            "paragraph3": "Su liderazgo ha sido clave en la planificación responsable y la entrega de proyectos que generan valor real y duradero para nuestros clientes."
         },
         "skills": {
             "title": "Áreas de experiencia",
-            "skill1": "Gestión de programas sociales",
-            "skill2": "Nutrición comunitaria",
-            "skill3": "Liderazgo de equipos",
-            "skill4": "Desarrollo de alianzas"
+            "skill1": "Gestión y planificación de proyectos",
+            "skill2": "Acabados externos e internos",
+            "skill3": "Liderazgo de equipos de obra",
+            "skill4": "Interventorías y asesorías técnicas"
         },
         "backToTeam": "Ver todo el equipo",
         "otherMembers": "Otros miembros del equipo"
     },
     "eventsPage": {
         "meta": {
-            "title": "Eventos - Fundación nu3",
-            "description": "Descubre nuestros próximos eventos de nutrición, talleres y jornadas de bienestar."
+            "title": "Proyectos - RenovaPlus S.A.S.",
+            "description": "Conozca nuestros proyectos recientes de renovación y remodelación de espacios residenciales y comerciales."
         },
-        "title": "Próximos Eventos",
-        "breadcrumb": "Eventos"
+        "title": "Proyectos Recientes",
+        "breadcrumb": "Proyectos"
     },
     "eventDetails": {
         "breadcrumb": {
-            "events": "Eventos"
+            "events": "Proyectos"
         },
         "countdown": {
-            "title": "El evento comienza en"
+            "title": "Inicio estimado de obra en"
         },
-        "capacity": "cupos",
+        "capacity": "espacios",
         "content": {
-            "paragraph1": "Este evento es una oportunidad única para conectar con nuestra comunidad, aprender sobre nutrición y bienestar, y contribuir a la transformación de vidas en Colombia."
+            "paragraph1": "Este proyecto refleja nuestro compromiso boutique: transformamos espacios con experiencia técnica, materiales de primera calidad y una atención personalizada que construye confianza en cada etapa."
         },
         "whatToExpect": {
             "title": "¿Qué esperar?",
-            "item1": "Información práctica y aplicable sobre nutrición y bienestar",
-            "item2": "Oportunidad de conocer a nuestro equipo de profesionales",
-            "item3": "Material educativo para llevar a casa",
-            "item4": "Networking con otros participantes y aliados"
+            "item1": "Información clara y detallada sobre el alcance y el proceso de la obra",
+            "item2": "Acompañamiento de nuestro equipo profesional certificado",
+            "item3": "Planificación responsable y cronograma de cada fase",
+            "item4": "Transparencia y comunicación cercana durante todo el proyecto"
         },
         "requirements": {
-            "title": "Requisitos para participar",
-            "description": "El evento es gratuito y abierto al público. Se recomienda inscribirse con anticipación para garantizar tu cupo. Los menores de edad deben estar acompañados por un adulto."
+            "title": "Cómo solicitar tu cotización",
+            "description": "Atendemos cada proyecto de forma personalizada. Le recomendamos solicitar su cotización con anticipación para una visita técnica y una propuesta a la medida de sus necesidades."
         },
-        "registerButton": "Inscribirme ahora",
-        "shareButton": "Compartir evento",
+        "registerButton": "Solicitar cotización",
+        "shareButton": "Compartir proyecto",
         "quickInfo": {
-            "title": "Información del evento",
+            "title": "Información del proyecto",
             "date": "Fecha",
             "time": "Horario",
             "location": "Ubicación"
         },
         "sidebar": {
-            "otherEvents": "Otros eventos",
+            "otherEvents": "Otros proyectos",
             "contactTitle": "¿Preguntas?",
-            "contactDescription": "Contáctanos si tienes dudas sobre este evento."
+            "contactDescription": "Contáctenos si tiene dudas sobre este proyecto."
         }
     },
     "donationsPage": {
         "meta": {
-            "title": "Dona - Fundación nu3",
-            "description": "Apoya nuestras campañas de nutrición y transforma vidas en Colombia."
+            "title": "Cotiza tu proyecto - RenovaPlus S.A.S.",
+            "description": "Solicite su cotización de renovación o remodelación y transforme su espacio con un servicio boutique en Barranquilla."
         },
-        "title": "Nuestras Campañas",
-        "breadcrumb": "Dona",
+        "title": "Nuestros Servicios",
+        "breadcrumb": "Cotiza tu proyecto",
         "tags": {
-            "nutrition": "Nutrición",
-            "childhood": "Primera infancia",
-            "mothers": "Madres",
-            "elderly": "Adultos mayores",
-            "gardens": "Huertas"
+            "nutrition": "Remodelación",
+            "childhood": "Acabados",
+            "mothers": "Espacios comerciales",
+            "elderly": "Urbanismo y mantenimiento",
+            "gardens": "Interventorías"
         }
     },
     "donationDetails": {
         "breadcrumb": {
-            "donations": "Dona"
+            "donations": "Cotiza tu proyecto"
         },
         "of": "de",
-        "donors": "donantes",
+        "donors": "consultas",
         "content": {
-            "paragraph1": "Tu donación nos permite continuar con nuestra misión de transformar vidas a través de la nutrición y el acompañamiento integral. Cada aporte, sin importar su tamaño, marca una diferencia significativa en las familias que atendemos.",
-            "paragraph2": "Los fondos recaudados se destinan directamente a la compra de alimentos nutritivos, suplementos vitamínicos, materiales educativos y el sostenimiento de nuestros programas de acompañamiento familiar."
+            "paragraph1": "Su solicitud de cotización nos permite diseñar una propuesta a la medida de su espacio. Cada proyecto, sin importar su tamaño, recibe la misma atención personalizada y el mismo compromiso con la calidad.",
+            "paragraph2": "Trabajamos con materiales de primera calidad, equipo profesional certificado y una planificación responsable que asegura cumplimiento, transparencia y resultados duraderos en cada etapa de la obra."
         },
         "stats": {
-            "families": "Familias beneficiadas",
-            "children": "Niños atendidos",
-            "meals": "Comidas entregadas"
+            "families": "Proyectos entregados",
+            "children": "Metros cuadrados intervenidos",
+            "meals": "Clientes satisfechos"
         },
         "gallery": {
-            "title": "Nuestro impacto en imágenes"
+            "title": "Nuestro trabajo en imágenes"
         },
         "form": {
-            "title": "Haz tu donación",
-            "customAmount": "Ingresa otro valor",
-            "donateButton": "Donar ahora",
-            "secure": "Transacción 100% segura"
+            "title": "Solicita tu cotización",
+            "customAmount": "Indica el alcance de tu proyecto",
+            "donateButton": "Cotizar ahora",
+            "secure": "Atención personalizada y sin compromiso"
         },
         "sidebar": {
-            "otherCampaigns": "Otras campañas",
-            "shareTitle": "Comparte esta causa",
-            "shareDescription": "Ayúdanos a difundir esta campaña en tus redes sociales."
+            "otherCampaigns": "Otros servicios",
+            "shareTitle": "Comparte este proyecto",
+            "shareDescription": "Ayúdanos a difundir nuestro trabajo en tus redes sociales."
         }
     },
     "programDetails": {
         "breadcrumb": {
-            "programs": "Programas"
+            "programs": "Servicios"
         },
         "features": {
-            "beneficiaries": "Familias beneficiadas",
+            "beneficiaries": "Proyectos entregados",
             "care": "Atención personalizada",
-            "goals": "Metas medibles",
+            "goals": "Resultados medibles",
             "duration": "Acompañamiento continuo"
         },
         "benefits": {
-            "title": "Beneficios del programa",
-            "item1": "Evaluación nutricional completa y seguimiento personalizado",
-            "item2": "Entrega de alimentos balanceados y suplementos nutricionales",
-            "item3": "Capacitación en hábitos alimenticios saludables",
-            "item4": "Acompañamiento psicosocial para toda la familia"
+            "title": "Beneficios del servicio",
+            "item1": "Visita técnica y diagnóstico completo con propuesta personalizada",
+            "item2": "Materiales de primera calidad y acabados de alta durabilidad",
+            "item3": "Planificación responsable con cronograma y presupuesto claros",
+            "item4": "Supervisión profesional y acompañamiento continuo hasta la entrega"
         },
         "content": {
-            "paragraph1": "Nuestro enfoque integral combina la entrega de nutrientes esenciales con educación y acompañamiento continuo, asegurando resultados sostenibles para las familias que atendemos.",
-            "paragraph2": "Trabajamos en colaboración con las comunidades locales, líderes comunitarios y entidades aliadas para maximizar el impacto de cada intervención y garantizar que los beneficiarios reciban atención de calidad."
+            "paragraph1": "Nuestro enfoque boutique combina experiencia técnica con planificación responsable y atención al detalle, asegurando resultados duraderos y de alta calidad en cada proyecto.",
+            "paragraph2": "Trabajamos en estrecha colaboración con cada cliente y nuestro equipo certificado para maximizar el resultado de cada intervención y garantizar transparencia y cumplimiento en todo el proceso."
         },
         "sidebar": {
-            "otherPrograms": "Otros programas",
-            "donateTitle": "¿Quieres apoyar?",
-            "donateDescription": "Tu donación nos permite continuar transformando vidas a través de nutrición y acompañamiento.",
+            "otherPrograms": "Otros servicios",
+            "donateTitle": "¿Quieres cotizar tu proyecto?",
+            "donateDescription": "Solicita tu cotización y transformemos juntos tu espacio con calidad y cumplimiento garantizado.",
             "contactTitle": "¿Tienes preguntas?",
-            "contactDescription": "Contáctanos para más información sobre este programa."
+            "contactDescription": "Contáctanos para más información sobre este servicio."
         }
     },
     "programsPage": {
         "meta": {
-            "title": "Programas - Fundación nu3",
-            "description": "Conoce nuestros programas de nutrición y acompañamiento para niños, madres gestantes y adultos mayores en Colombia."
+            "title": "Servicios - RenovaPlus S.A.S.",
+            "description": "Conoce nuestros servicios de acabados, urbanismo y mantenimiento, remodelación de espacios e interventorías y asesorías para proyectos residenciales y comerciales."
         },
-        "title": "Nuestros Programas",
-        "breadcrumb": "Programas",
+        "title": "Nuestros Servicios",
+        "breadcrumb": "Servicios",
         "whyJoin": {
-            "subtitle": "Por qué unirte",
-            "title": "Únete a nuestra misión de transformar vidas",
-            "description": "Cada aporte y cada acción cuenta. Descubre cómo puedes ser parte del cambio.",
-            "imageAlt": "Voluntarios ayudando a familias"
+            "subtitle": "Por qué elegirnos",
+            "title": "Construimos confianza, renovamos espacios",
+            "description": "Cada proyecto recibe atención personalizada y trabajo bien hecho. Descubre cómo transformamos tu espacio.",
+            "imageAlt": "Equipo profesional trabajando en una remodelación"
         },
         "faq": {
-            "q1": "¿Cómo puedo ser voluntario?",
-            "a1": "Puedes inscribirte como voluntario a través de nuestra página de contacto. Buscamos personas comprometidas con la nutrición y el bienestar de las familias colombianas.",
-            "q2": "¿Dónde operan los programas?",
-            "a2": "Nuestros programas operan principalmente en Bogotá y sus alrededores, con presencia en comunidades vulnerables de Cundinamarca.",
-            "q3": "¿Cómo se seleccionan los beneficiarios?",
-            "a3": "Realizamos un proceso de identificación comunitaria junto con líderes locales, priorizando familias en condición de vulnerabilidad nutricional.",
-            "q4": "¿Puedo donar en especie?",
-            "a4": "Sí, recibimos donaciones de alimentos no perecederos, ropa y otros bienes a través de nuestras unidades productivas como Outletnu3."
+            "q1": "¿Cómo puedo trabajar con ustedes?",
+            "a1": "Puedes postularte a través de nuestra página de contacto. Buscamos profesionales y técnicos comprometidos con la calidad y la atención al detalle.",
+            "q2": "¿Dónde prestan sus servicios?",
+            "a2": "Prestamos nuestros servicios principalmente en Barranquilla y sus alrededores, en proyectos residenciales y comerciales del Atlántico.",
+            "q3": "¿Cómo se gestiona cada proyecto?",
+            "a3": "Realizamos una visita técnica y un diagnóstico personalizado, definiendo alcance, materiales y cronograma con planificación responsable.",
+            "q4": "¿Trabajan con materiales de primera calidad?",
+            "a4": "Sí, empleamos materiales de primera calidad y un equipo profesional certificado para garantizar acabados duraderos en cada proyecto."
         }
     }
 }

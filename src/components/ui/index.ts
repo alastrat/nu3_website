@@ -7,4 +7,3 @@ export { Pagination } from './pagination';
 export { PricingCard } from './pricing-card';
 export { ProjectCard } from './project-card';
 export { ServiceCard } from './service-card';
-export { TeamCard } from './team-card';

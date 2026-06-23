@@ -8,37 +8,21 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { CtaButton } from '@/components/ui/cta-button';
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
-import { LanguageSwitcher } from './language-switcher';
 import { cn } from '@/lib/utils';
 
 // Social media links from nu3.co
+// TODO: replace '#' with RenovaPlus social URLs once provided
 const SOCIAL_LINKS = [
-    { href: 'https://www.facebook.com/nu3Colombia', icon: 'facebook', label: 'Facebook' },
-    { href: 'https://twitter.com/nu3Colombia', icon: 'twitter', label: 'Twitter' },
-    { href: 'https://www.instagram.com/nu3colombia/', icon: 'instagram', label: 'Instagram' },
-    { href: 'https://www.youtube.com/@nu3Colombia', icon: 'youtube', label: 'YouTube' },
-    { href: 'https://www.tiktok.com/@nu3colombia', icon: 'tiktok', label: 'TikTok' },
+    { href: '#', icon: 'facebook', label: 'Facebook' },
+    { href: '#', icon: 'instagram', label: 'Instagram' },
 ] as const;
 
 // Main navigation items (only 4 visible in desktop)
 const mainNavItems = [
     { href: '/quienes-somos', key: 'about' },
-    {
-        key: 'whatWeDo',
-        children: [
-            { href: '/programas', key: 'programs' },
-            { href: '/proyectos', key: 'projects' },
-            { href: '/eventos', key: 'events' },
-        ],
-    },
-    {
-        key: 'getInvolved',
-        children: [
-            { href: '/apadrina', key: 'sponsor' },
-            { href: '/dona', key: 'donate' },
-            { href: '/blog', key: 'blog' },
-        ],
-    },
+    { href: '/programas', key: 'programs' },
+    { href: '/proyectos', key: 'projects' },
+    { href: '/blog', key: 'blog' },
     { href: '/contacto', key: 'contact' },
 ] as const;
 
@@ -47,9 +31,6 @@ const mobileNavItems = [
     { href: '/quienes-somos', key: 'about' },
     { href: '/programas', key: 'programs' },
     { href: '/proyectos', key: 'projects' },
-    { href: '/eventos', key: 'events' },
-    { href: '/apadrina', key: 'sponsor' },
-    { href: '/dona', key: 'donate' },
     { href: '/blog', key: 'blog' },
     { href: '/contacto', key: 'contact' },
 ] as const;
@@ -236,7 +217,7 @@ export function Header() {
                             {/* Orange background pill */}
                             <div className="absolute inset-0 -left-8 bg-primary rounded-r-full -z-10" />
                             <MapPin className="w-4 h-4 flex-shrink-0" />
-                            <span className="hidden sm:inline">Cra. 9E #137-21, Barranquilla, Colombia</span>
+                            <span className="hidden sm:inline">Barranquilla, Atlántico, Colombia</span>
                             <span className="sm:hidden">Barranquilla, Colombia</span>
                         </div>
                     </div>
@@ -275,16 +256,13 @@ export function Header() {
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 flex-shrink-0">
                         <Image
-                            src="/nu3_logo.svg"
-                            alt="Fundación nu3"
-                            width={120}
-                            height={48}
-                            className="h-12 w-auto"
+                            src="/renovaplus-logo.png"
+                            alt="RenovaPlus SAS"
+                            width={205}
+                            height={128}
+                            className="h-14 w-auto"
                             priority
                         />
-                        <span className="text-xl font-bold text-[#1E252F] hidden sm:inline">
-                            Fundación nu3
-                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -316,12 +294,9 @@ export function Header() {
 
                     {/* Right side actions */}
                     <div className="flex items-center gap-3 flex-shrink-0">
-                        {/* Language Switcher */}
-                        <LanguageSwitcher />
-
                         {/* Donate button - Desktop */}
                         <CtaButton
-                            href="/dona"
+                            href="/contacto"
                             variant="primary"
                             size="sm"
                             className="hidden sm:inline-flex"
@@ -347,11 +322,11 @@ export function Header() {
                                         onClick={() => setIsOpen(false)}
                                     >
                                         <Image
-                                            src="/nu3_logo.svg"
-                                            alt="Fundación nu3"
-                                            width={100}
-                                            height={40}
-                                            className="h-10 w-auto"
+                                            src="/renovaplus-logo.png"
+                                            alt="RenovaPlus SAS"
+                                            width={176}
+                                            height={110}
+                                            className="h-11 w-auto"
                                         />
                                     </Link>
 
@@ -376,7 +351,7 @@ export function Header() {
 
                                     {/* Mobile donate button */}
                                     <CtaButton
-                                        href="/dona"
+                                        href="/contacto"
                                         variant="primary"
                                         size="sm"
                                         className="mt-4"

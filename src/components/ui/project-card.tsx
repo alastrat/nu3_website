@@ -33,7 +33,7 @@ export function ProjectCard({
                 className
             )}
         >
-            <Link href={`/proyectos/${slug}` as any} className="block h-full">
+            <Link href={'/contacto' as any} className="block h-full">
                 <Image
                     src={image}
                     alt={title}

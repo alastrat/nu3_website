@@ -6,8 +6,6 @@ import Image from 'next/image';
 import { Header, Footer } from '@/components/layout';
 import { Breadcrumb } from '@/components/ui';
 import { FadeIn, AnimatedCounter } from '@/components/animations';
-import { TeamSection } from '@/components/sections/team-section';
-import { TestimonialsCarousel } from '@/components/sections/testimonials-carousel';
 import { Phone, Heart, Users, Package, Handshake, Check } from 'lucide-react';
 import { useState } from 'react';
 
@@ -18,11 +16,12 @@ export default function AboutPage() {
     const tCta = useTranslations('cta');
     const [activeTab, setActiveTab] = useState<TabKey>('mission');
 
+    // NOTE: placeholder figures for a boutique firm founded in 2024 — confirm real numbers with client
     const stats = [
-        { icon: Users, value: 62000, label: t('stats.children'), suffix: '+' },
-        { icon: Heart, value: 15400, label: t('stats.volunteers'), suffix: '+' },
-        { icon: Package, value: 222000, label: t('stats.products'), suffix: '+' },
-        { icon: Handshake, value: 1500, label: t('stats.donors'), suffix: '+' },
+        { icon: Package, value: 45, label: t('stats.children'), suffix: '+' },
+        { icon: Users, value: 9500, label: t('stats.volunteers'), suffix: '+' },
+        { icon: Handshake, value: 38, label: t('stats.products'), suffix: '+' },
+        { icon: Heart, value: 12, label: t('stats.donors'), suffix: '+' },
     ];
 
     const tabs: { key: TabKey; label: string }[] = [
@@ -33,7 +32,7 @@ export default function AboutPage() {
 
     const tabContent: Record<TabKey, { image: string; title: string; description: string; list?: string[] }> = {
         mission: {
-            image: '/images/real_images/Prevencion-de-la-desnutricion-y-recuperacion-nutricional.jpg',
+            image: '/images/renovaplus/workers-site.jpg',
             title: t('tabs.missionTitle'),
             description: t('tabs.missionDescription'),
             list: [
@@ -44,7 +43,7 @@ export default function AboutPage() {
             ],
         },
         vision: {
-            image: '/images/real_images/383A8599-scaled.jpg',
+            image: '/images/renovaplus/living-2.jpg',
             title: t('tabs.visionTitle'),
             description: t('tabs.visionDescription'),
             list: [
@@ -55,7 +54,7 @@ export default function AboutPage() {
             ],
         },
         history: {
-            image: '/images/real_images/2.png',
+            image: '/images/renovaplus/hero-2.jpg',
             title: t('tabs.historyTitle'),
             description: t('tabs.historyDescription'),
         },
@@ -69,7 +68,7 @@ export default function AboutPage() {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
-                    backgroundImage="/images/real_images/383A8599-scaled.jpg"
+                    backgroundImage="/images/renovaplus/hero-1.jpg"
                     backgroundPosition="center 70%"
                 />
 
@@ -83,8 +82,8 @@ export default function AboutPage() {
                                     <div className="ul-about-imgs relative">
                                         <div className="img-wrapper relative">
                                             <Image
-                                                src="/images/real_images/Portada-Editorialesnu3-1.png"
-                                                alt="About nu3"
+                                                src="/images/renovaplus/interior-warm.jpg"
+                                                alt="Espacio renovado por RenovaPlus"
                                                 width={600}
                                                 height={700}
                                                 className="rounded-3xl object-cover"
@@ -139,8 +138,8 @@ export default function AboutPage() {
                                             </div>
                                             <div className="block-right">
                                                 <Image
-                                                    src="/images/real_images/IMG_1002-1024x683.jpg"
-                                                    alt="About Block"
+                                                    src="/images/renovaplus/plans-review.jpg"
+                                                    alt="Equipo de RenovaPlus revisando planos"
                                                     width={180}
                                                     height={130}
                                                     className="rounded-xl object-cover"
@@ -285,9 +284,6 @@ export default function AboutPage() {
                     </div>
                 </section>
 
-                {/* Team Section */}
-                <TeamSection />
-
                 {/* CTA Section */}
                 <section className="ul-cta">
                     <div className="ul-container text-center">
@@ -307,8 +303,6 @@ export default function AboutPage() {
                     />
                 </section>
 
-                {/* Testimonials Section */}
-                <TestimonialsCarousel />
             </main>
             <Footer />
 

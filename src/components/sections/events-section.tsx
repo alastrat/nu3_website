@@ -9,30 +9,30 @@ const DEMO_EVENTS = [
     {
         id: '1',
         slug: 'jornada-nutricional-2024',
-        image: '/images/real_images/evento-auditorio.jpg',
+        image: '/images/renovaplus/remodelacion.jpg',
         date: { day: '15', month: 'Feb' },
-        venue: 'Centro Integral nu3, Barranquilla, Colombia',
+        venue: 'Barranquilla, Atlántico, Colombia',
     },
     {
         id: '2',
         slug: 'taller-huertas-productivas',
-        image: '/images/real_images/HUERTA_BANNER.jpg',
+        image: '/images/renovaplus/living-2.jpg',
         date: { day: '22', month: 'Feb' },
-        venue: 'Sede Atlántico, Colombia',
+        venue: 'Barranquilla, Atlántico, Colombia',
     },
     {
         id: '3',
         slug: 'capacitacion-madres-lactantes',
-        image: '/images/real_images/madresgestantes-1.jpg',
+        image: '/images/renovaplus/interior-bright.jpg',
         date: { day: '28', month: 'Feb' },
-        venue: 'Centro Integral nu3, Barranquilla, Colombia',
+        venue: 'Barranquilla, Atlántico, Colombia',
     },
     {
         id: '4',
         slug: 'feria-alimentos-saludables',
-        image: '/images/real_images/Primera-Infancia.jpg',
+        image: '/images/renovaplus/acabados.jpg',
         date: { day: '05', month: 'Mar' },
-        venue: 'Plaza Central, Barranquilla, Colombia',
+        venue: 'Barranquilla, Atlántico, Colombia',
     },
 ];
 
@@ -60,7 +60,7 @@ export function EventsSection() {
                     </div>
 
                     <Link
-                        href="/eventos"
+                        href="/contacto"
                         className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 rounded-full font-semibold hover:bg-gray-100 transition-colors group"
                     >
                         {t('events.section.viewAll')}

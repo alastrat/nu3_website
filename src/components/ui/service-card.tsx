@@ -9,14 +9,12 @@ interface ServiceCardProps {
     image: string;
     title: string;
     description: string;
-    slug: string;
 }
 
 export function ServiceCard({
     image,
     title,
     description,
-    slug,
 }: ServiceCardProps) {
     const t = useTranslations('cta');
 
@@ -35,7 +33,7 @@ export function ServiceCard({
 
             <div className="ul-service-txt">
                 <h3 className="ul-service-title font-display">
-                    <Link href={`/dona/${slug}` as any}>
+                    <Link href={`/contacto` as any}>
                         {title}
                     </Link>
                 </h3>
@@ -43,7 +41,7 @@ export function ServiceCard({
                     {description}
                 </p>
                 <Link
-                    href={`/dona/${slug}` as any}
+                    href={`/contacto` as any}
                     className="ul-service-btn"
                 >
                     <ArrowUpRight className="icon-arrow" />

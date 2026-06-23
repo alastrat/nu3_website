@@ -22,8 +22,8 @@ export function Model360Section() {
                     <FadeIn direction="left">
                         <div className="flex justify-center">
                             <Image
-                                src="/images/modelo-360.png"
-                                alt="Modelo Integral 360"
+                                src="/images/renovaplus/modelo-360.svg"
+                                alt="Modelo de trabajo 360° de RenovaPlus: planificación responsable, calidad garantizada, atención personalizada y acompañamiento integral"
                                 width={500}
                                 height={500}
                                 className="w-full max-w-md lg:max-w-lg"
@@ -37,8 +37,8 @@ export function Model360Section() {
                             {/* Family Photo */}
                             <div className="rounded-2xl overflow-hidden shadow-lg">
                                 <Image
-                                    src="/images/real_images/familia-beneficiaria.jpg"
-                                    alt="Familia beneficiaria nu3"
+                                    src="/images/renovaplus/workers-site.jpg"
+                                    alt="Equipo de RenovaPlus en obra"
                                     width={600}
                                     height={400}
                                     className="w-full h-auto object-cover"

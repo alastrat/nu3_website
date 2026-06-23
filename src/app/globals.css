@@ -4,7 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ============================================
-   nu3 Foundation Theme System
+   RenovaPlus SAS Theme System
+   Primary navy (sampled from logo wordmark)
+   Accent orange (sampled from logo "PLUS" block)
    ============================================ */
 @theme inline {
   --color-background: var(--background);
@@ -57,28 +59,30 @@
 }
 
 /* ============================================
-   DEFAULT THEME - Modern nu3 (Orange & Green)
-   Warm, hopeful, Colombian-inspired
+   DEFAULT THEME - RenovaPlus SAS
+   Primary: Navy indigo (from logo wordmark)
+   Accent: Orange (from logo "PLUS" block)
+   Construction & remodeling — solid, trustworthy
    ============================================ */
 :root,
 [data-theme="default"] {
-  /* Brand Colors */
-  --nu3-primary: oklch(0.65 0.19 45);
-  --nu3-primary-light: oklch(0.75 0.15 50);
-  --nu3-primary-dark: oklch(0.55 0.20 40);
-  --nu3-secondary: oklch(0.55 0.14 145);
-  --nu3-secondary-light: oklch(0.65 0.12 150);
-  --nu3-accent-blue: oklch(0.50 0.12 240);
-  --nu3-accent-yellow: oklch(0.85 0.15 85);
-  --nu3-cream: oklch(0.97 0.01 90);
+  /* Brand Colors — sampled from logo SVG */
+  --nu3-primary: oklch(0.30 0.24 268);          /* #15189B navy indigo */
+  --nu3-primary-light: oklch(0.45 0.22 268);    /* hover/lighter navy */
+  --nu3-primary-dark: oklch(0.22 0.25 268);     /* darker navy for depth */
+  --nu3-secondary: oklch(0.68 0.20 45);         /* #FF6D10 accent orange */
+  --nu3-secondary-light: oklch(0.78 0.17 50);   /* lighter orange */
+  --nu3-accent-blue: oklch(0.55 0.15 245);      /* #2B7CB8 cerulean */
+  --nu3-accent-yellow: oklch(0.88 0.17 92);     /* #FFCC02 yellow */
+  --nu3-cream: oklch(0.975 0.005 260);          /* cool off-white */
 
   /* Semantic Colors */
-  --background: oklch(0.995 0.002 90);
-  --foreground: oklch(0.20 0.02 250);
+  --background: oklch(0.995 0.002 260);
+  --foreground: oklch(0.20 0.03 268);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.20 0.02 250);
+  --card-foreground: oklch(0.20 0.03 268);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.20 0.02 250);
+  --popover-foreground: oklch(0.20 0.03 268);
 
   --primary: var(--nu3-primary);
   --primary-foreground: oklch(0.99 0 0);
@@ -86,13 +90,13 @@
   --secondary: var(--nu3-secondary);
   --secondary-foreground: oklch(0.99 0 0);
 
-  --muted: oklch(0.96 0.01 90);
-  --muted-foreground: oklch(0.45 0.02 250);
+  --muted: oklch(0.96 0.005 260);
+  --muted-foreground: oklch(0.45 0.02 268);
   --accent: var(--nu3-cream);
-  --accent-foreground: oklch(0.20 0.02 250);
+  --accent-foreground: oklch(0.20 0.03 268);
   --destructive: oklch(0.55 0.22 25);
-  --border: oklch(0.90 0.01 90);
-  --input: oklch(0.90 0.01 90);
+  --border: oklch(0.90 0.008 260);
+  --input: oklch(0.90 0.008 260);
   --ring: var(--nu3-primary);
 
   /* Charts */
@@ -103,49 +107,49 @@
   --chart-5: var(--nu3-primary-light);
 
   /* Sidebar */
-  --sidebar: oklch(0.98 0.01 90);
-  --sidebar-foreground: oklch(0.20 0.02 250);
+  --sidebar: oklch(0.98 0.005 260);
+  --sidebar-foreground: oklch(0.20 0.03 268);
   --sidebar-primary: var(--nu3-primary);
   --sidebar-primary-foreground: oklch(0.99 0 0);
   --sidebar-accent: var(--nu3-cream);
-  --sidebar-accent-foreground: oklch(0.25 0.02 250);
-  --sidebar-border: oklch(0.90 0.01 90);
+  --sidebar-accent-foreground: oklch(0.25 0.03 268);
+  --sidebar-border: oklch(0.90 0.008 260);
   --sidebar-ring: var(--nu3-primary);
 }
 
 /* Default theme dark mode */
 [data-theme="default"].dark,
 .dark:not([data-theme]) {
-  --background: oklch(0.15 0.02 250);
-  --foreground: oklch(0.95 0.01 90);
-  --card: oklch(0.18 0.02 250);
-  --card-foreground: oklch(0.95 0.01 90);
-  --popover: oklch(0.18 0.02 250);
-  --popover-foreground: oklch(0.95 0.01 90);
+  --background: oklch(0.14 0.03 268);
+  --foreground: oklch(0.95 0.005 260);
+  --card: oklch(0.18 0.03 268);
+  --card-foreground: oklch(0.95 0.005 260);
+  --popover: oklch(0.18 0.03 268);
+  --popover-foreground: oklch(0.95 0.005 260);
   --primary: var(--nu3-primary-light);
-  --primary-foreground: oklch(0.15 0.02 250);
+  --primary-foreground: oklch(0.14 0.03 268);
   --secondary: var(--nu3-secondary-light);
-  --secondary-foreground: oklch(0.15 0.02 250);
-  --muted: oklch(0.25 0.02 250);
-  --muted-foreground: oklch(0.65 0.01 90);
-  --accent: oklch(0.25 0.02 250);
-  --accent-foreground: oklch(0.95 0.01 90);
+  --secondary-foreground: oklch(0.14 0.03 268);
+  --muted: oklch(0.24 0.03 268);
+  --muted-foreground: oklch(0.65 0.01 260);
+  --accent: oklch(0.24 0.03 268);
+  --accent-foreground: oklch(0.95 0.005 260);
   --destructive: oklch(0.65 0.20 25);
-  --border: oklch(0.28 0.02 250);
-  --input: oklch(0.28 0.02 250);
+  --border: oklch(0.28 0.03 268);
+  --input: oklch(0.28 0.03 268);
   --ring: var(--nu3-primary-light);
   --chart-1: var(--nu3-primary-light);
   --chart-2: var(--nu3-secondary-light);
-  --chart-3: oklch(0.60 0.12 240);
-  --chart-4: oklch(0.80 0.12 85);
-  --chart-5: oklch(0.70 0.18 50);
-  --sidebar: oklch(0.18 0.02 250);
-  --sidebar-foreground: oklch(0.95 0.01 90);
+  --chart-3: oklch(0.62 0.14 245);
+  --chart-4: oklch(0.82 0.14 92);
+  --chart-5: oklch(0.72 0.18 50);
+  --sidebar: oklch(0.18 0.03 268);
+  --sidebar-foreground: oklch(0.95 0.005 260);
   --sidebar-primary: var(--nu3-primary-light);
-  --sidebar-primary-foreground: oklch(0.15 0.02 250);
-  --sidebar-accent: oklch(0.25 0.02 250);
-  --sidebar-accent-foreground: oklch(0.95 0.01 90);
-  --sidebar-border: oklch(0.28 0.02 250);
+  --sidebar-primary-foreground: oklch(0.14 0.03 268);
+  --sidebar-accent: oklch(0.24 0.03 268);
+  --sidebar-accent-foreground: oklch(0.95 0.005 260);
+  --sidebar-border: oklch(0.28 0.03 268);
   --sidebar-ring: var(--nu3-primary-light);
 }
 

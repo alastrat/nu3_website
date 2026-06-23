@@ -1,35 +1,34 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Heart, Mail, Phone, MapPin, FileText, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 
 const quickLinks = [
     { href: '/quienes-somos', key: 'about' },
     { href: '/programas', key: 'programs' },
     { href: '/proyectos', key: 'projects' },
-    { href: '/apadrina', key: 'sponsor' },
-    { href: '/dona', key: 'donate' },
     { href: '/contacto', key: 'contact' },
 ] as const;
 
 const programLinks = [
-    { href: '/programas/prevencion-desnutricion', label: 'Prevención de desnutrición' },
-    { href: '/programas/primera-infancia', label: 'Primera infancia' },
-    { href: '/programas/madres-gestantes', label: 'Madres gestantes' },
-    { href: '/programas/adultos-mayores', label: 'Adultos mayores' },
+    { href: '/programas', key: 'finishes' },
+    { href: '/programas', key: 'urbanism' },
+    { href: '/programas', key: 'remodeling' },
+    { href: '/programas', key: 'consulting' },
 ] as const;
 
+// TODO: replace '#' with RenovaPlus social URLs once provided
 const socialLinks = [
-    { href: 'https://facebook.com/fundacionnu3', icon: Facebook, label: 'Facebook' },
-    { href: 'https://instagram.com/fundacionnu3', icon: Instagram, label: 'Instagram' },
-    { href: 'https://twitter.com/fundacionnu3', icon: Twitter, label: 'Twitter' },
-    { href: 'https://linkedin.com/company/fundacionnu3', icon: Linkedin, label: 'LinkedIn' },
+    { href: '#', icon: Facebook, label: 'Facebook' },
+    { href: '#', icon: Instagram, label: 'Instagram' },
+    { href: '#', icon: Linkedin, label: 'LinkedIn' },
 ] as const;
 
 export function Footer() {
     const t = useTranslations('footer');
     const tNav = useTranslations('nav');
+    const tPrograms = useTranslations('programs');
     const currentYear = new Date().getFullYear();
 
     return (
@@ -38,13 +37,13 @@ export function Footer() {
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {/* Brand column */}
                     <div className="space-y-4">
-                        <Link href="/" className="inline-block">
+                        <Link href="/" className="inline-block rounded-lg bg-white p-3">
                             <Image
-                                src="/images/nu3-logo-white.png"
-                                alt="Fundación nu3"
+                                src="/renovaplus-logo.png"
+                                alt="RenovaPlus SAS"
                                 width={180}
-                                height={54}
-                                className="h-auto w-auto"
+                                height={112}
+                                className="h-14 w-auto"
                             />
                         </Link>
                         <p className="text-sm text-background/80">
@@ -89,12 +88,12 @@ export function Footer() {
                         <h3 className="text-lg font-semibold">{t('programs')}</h3>
                         <ul className="space-y-2">
                             {programLinks.map((link) => (
-                                <li key={link.href}>
+                                <li key={link.key}>
                                     <Link
                                         href={link.href}
                                         className="text-sm text-background/80 transition-colors hover:text-primary"
                                     >
-                                        {link.label}
+                                        {tPrograms(`${link.key}.title`)}
                                     </Link>
                                 </li>
                             ))}
@@ -107,19 +106,23 @@ export function Footer() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3 text-sm text-background/80">
                                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                                <span>Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico</span>
+                                <span>Barranquilla, Atlántico, Colombia</span>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Phone className="h-4 w-4 flex-shrink-0" />
-                                <a href="tel:+573183309385" className="hover:text-primary">
-                                    +57 318 330 9385
+                                <a href="tel:+573152963382" className="hover:text-primary">
+                                    +57 315 296 3382
                                 </a>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <a href="mailto:comunicaciones@nu3.org.co" className="hover:text-primary">
-                                    comunicaciones@nu3.org.co
+                                <a href="mailto:renova.sas@gmail.com" className="hover:text-primary">
+                                    renova.sas@gmail.com
                                 </a>
+                            </li>
+                            <li className="flex items-center gap-3 text-sm text-background/80">
+                                <FileText className="h-4 w-4 flex-shrink-0" />
+                                <span>NIT 901.872.989-1</span>
                             </li>
                         </ul>
                     </div>
@@ -130,10 +133,10 @@ export function Footer() {
                 {/* Bottom bar */}
                 <div className="flex flex-col items-center justify-between gap-4 text-center text-sm text-background/60 sm:flex-row">
                     <p>
-                        © {currentYear} Fundación nu3. {t('rights')}.
+                        © {currentYear} RenovaPlus S.A.S. {t('rights')}.
                     </p>
                     <p className="flex items-center gap-1">
-                        Hecho con <Heart className="h-4 w-4 text-primary" /> en Colombia
+                        Hecho con <Heart className="h-4 w-4 text-primary" /> en Barranquilla, Colombia
                     </p>
                 </div>
             </div>

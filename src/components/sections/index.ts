@@ -8,7 +8,7 @@ export { InnerSidebar } from './inner-sidebar';
 export { Model360Section } from './model360-section';
 export { PartnersSection } from './partners-section';
 export { ProgramsSection } from './programs-section';
-export { TeamSection } from './team-section';
+export { ServicesSlider } from './services-slider';
 export { TestimonialsCarousel } from './testimonials-carousel';
 export { UnitsSection } from './units-section';
 export { VolunteerSection } from './volunteer-section';

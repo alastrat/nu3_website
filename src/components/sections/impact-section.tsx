@@ -3,15 +3,16 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { Heart, Users, Utensils, Calendar, ArrowRight } from 'lucide-react';
+import { Building2, Users, Ruler, Calendar, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { FadeIn, AnimatedCounter } from '@/components/animations';
 
+// NOTE: placeholder figures for a boutique firm founded in 2024 — confirm real numbers with client
 const metrics = [
-    { key: 'families', value: 50000, icon: Users, suffix: '+' },
-    { key: 'children', value: 25000, icon: Heart, suffix: '+' },
-    { key: 'meals', value: 1000000, icon: Utensils, suffix: '+' },
-    { key: 'years', value: 20, icon: Calendar, suffix: '+' },
+    { key: 'families', value: 45, icon: Building2, suffix: '+' },
+    { key: 'children', value: 38, icon: Users, suffix: '+' },
+    { key: 'meals', value: 9500, icon: Ruler, suffix: '+' },
+    { key: 'years', value: 2, icon: Calendar, suffix: '+' },
 ] as const;
 
 export function ImpactSection() {
@@ -61,8 +62,7 @@ export function ImpactSection() {
                                 size="lg"
                                 className="impact-btn"
                             >
-                                <Link href="/dona">
-                                    <Heart className="mr-2 h-5 w-5" />
+                                <Link href="/contacto">
                                     {tCta('donate')}
                                     <ArrowRight className="ml-2 h-5 w-5" />
                                 </Link>
@@ -74,8 +74,8 @@ export function ImpactSection() {
                     <FadeIn direction="left" delay={0.3}>
                         <div className="impact-map-container">
                             <Image
-                                src="/images/mapa-impacto.png"
-                                alt="Mapa de impacto nu3 en Colombia"
+                                src="/images/renovaplus/urbanismo.jpg"
+                                alt="Proyectos de RenovaPlus en Barranquilla"
                                 width={600}
                                 height={655}
                                 className="impact-map-img"

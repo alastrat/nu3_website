@@ -1,10 +1,13 @@
 import { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
+import Image from 'next/image';
+import { ArrowUpRight } from 'lucide-react';
 import { Header, Footer } from '@/components/layout';
 import { FadeIn } from '@/components/animations';
 import { Breadcrumb } from '@/components/ui/breadcrumb';
-import { ProjectCard } from '@/components/ui/project-card';
+import { Link } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
+import { cn } from '@/lib/utils';
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -24,14 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-// Projects data - in production, this would come from a CMS or database
+// RenovaPlus projects - slugs and categoryKeys map to es.json `projects`
 const projects = [
-    { slug: 'centro-integral-bogota', image: '/images/project-1.jpg', categoryKey: 'infrastructure', size: 'large' as const },
-    { slug: 'programa-huertas-soacha', image: '/images/project-2.jpg', categoryKey: 'gardens', size: 'default' as const },
-    { slug: 'capacitacion-madres', image: '/images/project-3.jpg', categoryKey: 'education', size: 'default' as const },
-    { slug: 'alianza-empresarial-2024', image: '/images/project-4.jpg', categoryKey: 'partnerships', size: 'default' as const },
-    { slug: 'recuperacion-nutricional', image: '/images/project-1.jpg', categoryKey: 'nutrition', size: 'default' as const },
-    { slug: 'unidad-productiva-panaderia', image: '/images/project-2.jpg', categoryKey: 'units', size: 'large' as const },
+    { slug: 'centro-integral-bogota', image: '/images/renovaplus/remodelacion.jpg', categoryKey: 'nutrition', size: 'large' as const },
+    { slug: 'recuperacion-nutricional', image: '/images/renovaplus/interior-warm.jpg', categoryKey: 'nutrition', size: 'default' as const },
+    { slug: 'capacitacion-madres', image: '/images/renovaplus/acabados.jpg', categoryKey: 'infrastructure', size: 'default' as const },
+    { slug: 'unidad-productiva-panaderia', image: '/images/renovaplus/interior-bright.jpg', categoryKey: 'units', size: 'large' as const },
+    { slug: 'programa-huertas-soacha', image: '/images/renovaplus/urbanismo.jpg', categoryKey: 'gardens', size: 'default' as const },
+    { slug: 'alianza-empresarial-2024', image: '/images/renovaplus/interventorias.jpg', categoryKey: 'partnerships', size: 'default' as const },
 ];
 
 export default async function ProjectsPage({ params }: Props) {
@@ -47,6 +50,7 @@ export default async function ProjectsPage({ params }: Props) {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/renovaplus/hero-1.jpg"
                 />
 
                 {/* Projects Masonry Grid */}
@@ -72,13 +76,46 @@ export default async function ProjectsPage({ params }: Props) {
                                     delay={index * 0.1}
                                     className={project.size === 'large' ? 'md:col-span-2 lg:col-span-1' : ''}
                                 >
-                                    <ProjectCard
-                                        image={project.image}
-                                        title={tProjects(`items.${project.slug}.title`)}
-                                        category={tProjects(`categories.${project.categoryKey}`)}
-                                        slug={project.slug}
-                                        size={project.size}
-                                    />
+                                    <article
+                                        className={cn(
+                                            'group relative overflow-hidden rounded-xl',
+                                            project.size === 'large' ? 'aspect-[4/3]' : 'aspect-square'
+                                        )}
+                                    >
+                                        <Link href="/contacto" className="block h-full">
+                                            <Image
+                                                src={project.image}
+                                                alt={tProjects(`items.${project.slug}.title`)}
+                                                fill
+                                                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                            />
+
+                                            {/* Overlay */}
+                                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity" />
+
+                                            {/* Content */}
+                                            <div className="absolute inset-0 flex flex-col justify-end p-6">
+                                                <span className="text-primary font-medium text-sm mb-2">
+                                                    {tProjects(`categories.${project.categoryKey}`)}
+                                                </span>
+                                                <h3
+                                                    className={cn(
+                                                        'font-bold text-white font-display group-hover:text-primary transition-colors',
+                                                        project.size === 'large'
+                                                            ? 'text-2xl md:text-3xl'
+                                                            : 'text-lg md:text-xl'
+                                                    )}
+                                                >
+                                                    {tProjects(`items.${project.slug}.title`)}
+                                                </h3>
+                                            </div>
+
+                                            {/* Arrow Icon */}
+                                            <div className="absolute top-4 right-4 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <ArrowUpRight className="w-5 h-5 text-white" />
+                                            </div>
+                                        </Link>
+                                    </article>
                                 </FadeIn>
                             ))}
                         </div>

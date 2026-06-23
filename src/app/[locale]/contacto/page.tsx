@@ -20,15 +20,15 @@ export default function ContactPage() {
         {
             icon: Mail,
             title: t('info.email.title'),
-            value: 'comunicaciones@nu3.org.co',
-            href: 'mailto:comunicaciones@nu3.org.co',
+            value: 'renova.sas@gmail.com',
+            href: 'mailto:renova.sas@gmail.com',
             isLink: true,
         },
         {
             icon: MapPin,
             title: t('info.address.title'),
             value: 'Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico',
-            href: 'https://maps.app.goo.gl/nu3Barranquilla',
+            href: 'https://maps.google.com/?q=Barranquilla,Atlántico,Colombia',
             isLink: true,
         },
     ];
@@ -41,7 +41,7 @@ export default function ContactPage() {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
-                    backgroundImage="/images/real_images/383A8599-scaled.jpg"
+                    backgroundImage="/images/renovaplus/hero-1.jpg"
                     backgroundPosition="center 70%"
                 />
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="nu3 Location - Barranquilla, Colombia"
+                        title="RenovaPlus - Barranquilla, Colombia"
                     />
                 </section>
 

@@ -28,20 +28,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Programs data - in production, this would come from a CMS or database
 const programs = [
     {
-        slug: 'prevencion-desnutricion',
-        image: '/images/real_images/kinds_in_group.jpg',
+        slug: 'acabados-externos-internos',
+        image: '/images/renovaplus/acabados.jpg',
     },
     {
-        slug: 'primera-infancia',
-        image: '/images/real_images/girls_in_table.jpg',
+        slug: 'urbanismo-mantenimiento',
+        image: '/images/renovaplus/urbanismo.jpg',
     },
     {
-        slug: 'madres-gestantes',
-        image: '/images/real_images/pregnant_women.jpg',
+        slug: 'remodelacion-espacios',
+        image: '/images/renovaplus/remodelacion.jpg',
     },
     {
-        slug: 'adultos-mayores',
-        image: '/images/real_images/seniors_in_table.jpg',
+        slug: 'interventorias-asesorias',
+        image: '/images/renovaplus/interventorias.jpg',
     },
 ];
 
@@ -52,10 +52,10 @@ export default async function ProgramsPage({ params }: Props) {
     const tPrograms = await getTranslations({ locale, namespace: 'programs' });
 
     const programTitles: Record<string, { titleKey: string; descKey: string }> = {
-        'prevencion-desnutricion': { titleKey: 'malnutrition.title', descKey: 'malnutrition.description' },
-        'primera-infancia': { titleKey: 'childhood.title', descKey: 'childhood.description' },
-        'madres-gestantes': { titleKey: 'mothers.title', descKey: 'mothers.description' },
-        'adultos-mayores': { titleKey: 'elderly.title', descKey: 'elderly.description' },
+        'acabados-externos-internos': { titleKey: 'finishes.title', descKey: 'finishes.description' },
+        'urbanismo-mantenimiento': { titleKey: 'urbanism.title', descKey: 'urbanism.description' },
+        'remodelacion-espacios': { titleKey: 'remodeling.title', descKey: 'remodeling.description' },
+        'interventorias-asesorias': { titleKey: 'consulting.title', descKey: 'consulting.description' },
     };
 
     const faqs = [
@@ -84,7 +84,7 @@ export default async function ProgramsPage({ params }: Props) {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
-                    backgroundImage="/images/real_images/board.jpg"
+                    backgroundImage="/images/renovaplus/hero-2.jpg"
                     backgroundPosition="center 30%"
                 />
 
@@ -109,7 +109,6 @@ export default async function ProgramsPage({ params }: Props) {
                                             image={program.image}
                                             title={tPrograms(titleKey)}
                                             description={tPrograms(descKey)}
-                                            slug={program.slug}
                                         />
                                     </StaggerItem>
                                 );
@@ -123,7 +122,7 @@ export default async function ProgramsPage({ params }: Props) {
                     subtitle={t('whyJoin.subtitle')}
                     title={t('whyJoin.title')}
                     description={t('whyJoin.description')}
-                    image="/images/real_images/nu3-banner-2024.jpg"
+                    image="/images/renovaplus/workers-site.jpg"
                     imageAlt={t('whyJoin.imageAlt')}
                     faqs={faqs}
                     className="bg-muted/30"
