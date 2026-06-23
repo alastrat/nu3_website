@@ -75,9 +75,7 @@ export async function generateMetadata(): Promise<Metadata> {
                 "max-snippet": -1,
             },
         },
-        icons: {
-            icon: "/favicon.ico",
-        },
+        // Favicons are auto-detected from src/app/{favicon.ico,icon.png,apple-icon.png}
     };
 }
 
