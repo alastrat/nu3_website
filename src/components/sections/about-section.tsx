@@ -20,7 +20,7 @@ export function AboutSection() {
                             <div className="ul-about-imgs ul-about-2-img relative">
                                 <div className="img-wrapper relative aspect-4/5 overflow-hidden rounded-[999px] rounded-bl-none">
                                     <Image
-                                        src="/images/renovaplus/interior-warm.jpg"
+                                        src="/images/renovaplus/foto1-about.jpg"
                                         alt="Espacio renovado por RenovaPlus"
                                         fill
                                         className="object-cover"

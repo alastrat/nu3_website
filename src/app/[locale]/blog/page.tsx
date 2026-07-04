@@ -29,40 +29,40 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
     {
-        slug: 'importancia-nutricion-infantil',
-        image: '/images/renovaplus/remodelacion.jpg',
-        date: new Date('2024-12-15'),
-        categoryKey: 'nutrition',
-    },
-    {
-        slug: 'lactancia-materna-beneficios',
-        image: '/images/renovaplus/acabados.jpg',
-        date: new Date('2024-12-10'),
-        categoryKey: 'breastfeeding',
-    },
-    {
-        slug: 'huertas-urbanas-seguridad-alimentaria',
-        image: '/images/renovaplus/urbanismo.jpg',
-        date: new Date('2024-12-05'),
-        categoryKey: 'gardens',
-    },
-    {
-        slug: 'historia-transformacion-familia-martinez',
-        image: '/images/renovaplus/hero-3.jpg',
-        date: new Date('2024-11-28'),
-        categoryKey: 'impact',
-    },
-    {
-        slug: 'alianza-empresa-xyz',
+        slug: 'planificacion-pilar-obra-exitosa',
         image: '/images/renovaplus/plans-review.jpg',
-        date: new Date('2024-11-20'),
-        categoryKey: 'partnerships',
+        date: new Date('2025-06-15'),
+        categoryKey: 'planificacion',
     },
     {
-        slug: 'recetas-nutritivas-economicas',
-        image: '/images/renovaplus/interior-bright.jpg',
-        date: new Date('2024-11-15'),
-        categoryKey: 'nutrition',
+        slug: 'importancia-interventoria-construccion',
+        image: '/images/renovaplus/interventorias.jpg',
+        date: new Date('2025-06-01'),
+        categoryKey: 'interventoria',
+    },
+    {
+        slug: 'seguridad-industrial-obra',
+        image: '/images/renovaplus/workers-site.jpg',
+        date: new Date('2025-05-15'),
+        categoryKey: 'seguridad',
+    },
+    {
+        slug: 'orden-organizacion-productividad-obra',
+        image: '/images/renovaplus/hero-2.jpg',
+        date: new Date('2025-05-01'),
+        categoryKey: 'gestion',
+    },
+    {
+        slug: 'sostenibilidad-construccion',
+        image: '/images/renovaplus/urbanismo.jpg',
+        date: new Date('2025-04-15'),
+        categoryKey: 'sostenibilidad',
+    },
+    {
+        slug: 'control-calidad-resultados-duraderos',
+        image: '/images/renovaplus/acabados.jpg',
+        date: new Date('2025-04-01'),
+        categoryKey: 'calidad',
     },
 ];
 
@@ -81,11 +81,12 @@ export default async function BlogPage({ params }: Props) {
     };
 
     const categories = [
-        { name: tBlog('categories.nutrition'), slug: 'nutricion', count: 12 },
-        { name: tBlog('categories.breastfeeding'), slug: 'lactancia', count: 8 },
-        { name: tBlog('categories.gardens'), slug: 'huertas', count: 6 },
-        { name: tBlog('categories.impact'), slug: 'impacto', count: 15 },
-        { name: tBlog('categories.partnerships'), slug: 'alianzas', count: 4 },
+        { name: tBlog('categories.planificacion'), slug: 'planificacion', count: 1 },
+        { name: tBlog('categories.interventoria'), slug: 'interventorias', count: 1 },
+        { name: tBlog('categories.seguridad'), slug: 'seguridad', count: 1 },
+        { name: tBlog('categories.gestion'), slug: 'gestion-de-obra', count: 1 },
+        { name: tBlog('categories.sostenibilidad'), slug: 'sostenibilidad', count: 1 },
+        { name: tBlog('categories.calidad'), slug: 'control-de-calidad', count: 1 },
     ];
 
     const recentPosts = blogPosts.slice(0, 3).map((post) => ({
@@ -96,12 +97,12 @@ export default async function BlogPage({ params }: Props) {
     }));
 
     const tags = [
-        { name: t('tags.nutrition'), slug: 'nutricion' },
-        { name: t('tags.children'), slug: 'ninos' },
-        { name: t('tags.health'), slug: 'salud' },
-        { name: t('tags.family'), slug: 'familia' },
-        { name: t('tags.wellness'), slug: 'bienestar' },
-        { name: t('tags.recipes'), slug: 'recetas' },
+        { name: t('tags.planificacion'), slug: 'planificacion' },
+        { name: t('tags.seguridad'), slug: 'seguridad' },
+        { name: t('tags.calidad'), slug: 'calidad' },
+        { name: t('tags.sostenibilidad'), slug: 'sostenibilidad' },
+        { name: t('tags.interventoria'), slug: 'interventorias' },
+        { name: t('tags.remodelacion'), slug: 'remodelacion' },
     ];
 
     // Featured post (first one)
@@ -115,6 +116,7 @@ export default async function BlogPage({ params }: Props) {
                 <Breadcrumb
                     title={t('title')}
                     items={[{ label: t('breadcrumb') }]}
+                    backgroundImage="/images/renovaplus/hero-2.jpg"
                 />
 
                 <section className="py-16 md:py-20 lg:py-24">

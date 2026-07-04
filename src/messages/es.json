@@ -71,7 +71,7 @@
     "about": {
         "title": "Quiénes somos",
         "breadcrumb": "Quiénes somos",
-        "subtitle": "Construcción boutique para espacios que perduran",
+        "subtitle": "Construimos soluciones que generan valor real y duradero",
         "description": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Como empresa boutique de renovación y remodelación, ofrecemos atención personalizada, materiales de primera calidad y un acompañamiento cercano en cada proyecto residencial y comercial.",
         "mission": "Nuestra Misión",
         "missionText": "Transformar espacios residenciales y comerciales con soluciones de renovación y remodelación a la medida, combinando experiencia técnica, materiales de primera calidad y atención personalizada para generar valor real y duradero a nuestros clientes.",
@@ -354,14 +354,15 @@
     },
     "blog": {
         "title": "Novedades",
-        "subtitle": "Mantente al día sobre nuestros proyectos",
+        "subtitle": "Consejos y buenas prácticas de construcción, renovación y remodelación",
         "readMore": "Leer más",
         "categories": {
-            "nutrition": "Remodelación de espacios",
-            "breastfeeding": "Acabados y diseño interior",
-            "gardens": "Urbanismo y mantenimiento",
-            "impact": "Proyectos entregados",
-            "partnerships": "Interventorías y asesorías"
+            "planificacion": "Planificación",
+            "interventoria": "Interventorías",
+            "seguridad": "Seguridad industrial",
+            "gestion": "Gestión de obra",
+            "sostenibilidad": "Sostenibilidad",
+            "calidad": "Control de calidad"
         }
     },
     "contact": {
@@ -460,7 +461,7 @@
             "description": "Si no encontraste la respuesta que buscabas, no dudes en contactarnos.",
             "imageAlt": "Equipo de atención",
             "q1": "¿Cómo puedo contactarlos?",
-            "a1": "Puedes escribirnos a renova.sas@gmail.com, llamarnos al 315 296 3382 o visitarnos en Barranquilla, Atlántico, Colombia.",
+            "a1": "Puedes escribirnos a renovaplus.sas@gmail.com, llamarnos al 315 296 3382 o visitarnos en la Carrera 43 #95ª - 148, Barranquilla, Atlántico.",
             "q2": "¿Cuál es el horario de atención?",
             "a2": "Nuestro horario de atención es de lunes a viernes de 8:00 AM a 5:00 PM. También respondemos mensajes en redes sociales."
         }
@@ -569,28 +570,28 @@
         },
         "items": {
             "centro-integral-bogota": {
-                "title": "Remodelación Integral de Apartamento en Barranquilla",
-                "description": "Renovación completa de un apartamento residencial con acabados a la medida, optimización de espacios y materiales de primera calidad."
+                "title": "Casa Lago De Caujaral",
+                "description": "Construcción de cimentación y estructura en concreto para muro de contención, staff y extensión Family Room."
             },
             "programa-huertas-soacha": {
-                "title": "Mantenimiento y Urbanismo de Conjunto Residencial",
-                "description": "Intervención de áreas comunes y mantenimiento integral en un conjunto residencial, mejorando la funcionalidad y el valor de la propiedad."
+                "title": "Colocación subbase para pavimento",
+                "description": "Preparación del terreno y colocación de subbase para pavimento, asegurando una base firme y nivelada."
             },
             "capacitacion-madres": {
-                "title": "Acabados Internos para Local Comercial",
-                "description": "Ejecución de acabados internos y externos para un local comercial, con planificación responsable y atención al detalle en cada superficie."
+                "title": "Pintura fachada Clínica Portoazul",
+                "description": "Preparación de superficie y pintura de fachada para la Clínica Portoazul, con acabados de alta durabilidad."
             },
             "alianza-empresarial-2024": {
-                "title": "Interventoría de Obra 2024",
-                "description": "Acompañamiento técnico e interventoría para garantizar calidad, cumplimiento y transparencia durante todas las etapas de la obra."
+                "title": "Cerramiento conjunto residencial",
+                "description": "Construcción de cerramiento perimetral para conjunto residencial, combinando seguridad y estética."
             },
             "recuperacion-nutricional": {
-                "title": "Remodelación de Cocina y Baños",
-                "description": "Renovación especializada de cocina y baños residenciales, combinando diseño funcional, durabilidad y acabados de alta gama."
+                "title": "Adecuación Almacén",
+                "description": "Escaleras, rampas, andén y muro de contención."
             },
             "unidad-productiva-panaderia": {
-                "title": "Adecuación de Oficinas Corporativas",
-                "description": "Adecuación y remodelación de espacios de oficina, creando ambientes profesionales, cómodos y a la medida del cliente."
+                "title": "Instalación tubería eléctrica",
+                "description": "Instalación de tubería y ductería para redes eléctricas, garantizando seguridad y cumplimiento técnico."
             }
         }
     },
@@ -638,45 +639,75 @@
             "tags": "Etiquetas"
         },
         "tags": {
-            "nutrition": "Remodelación",
-            "children": "Acabados",
-            "health": "Calidad",
-            "family": "Espacios",
-            "wellness": "Diseño",
-            "recipes": "Materiales"
+            "planificacion": "Planificación",
+            "seguridad": "Seguridad",
+            "calidad": "Calidad",
+            "sostenibilidad": "Sostenibilidad",
+            "interventoria": "Interventorías",
+            "remodelacion": "Remodelación"
         },
         "posts": {
-            "importancia-nutricion-infantil": {
-                "title": "La importancia de una buena planificación en cada proyecto de remodelación",
-                "excerpt": "Descubre por qué las primeras etapas de planeación son determinantes para el resultado de una remodelación, y cómo una visión clara marca la diferencia en cada espacio."
+            "planificacion-pilar-obra-exitosa": {
+                "title": "La planificación: el pilar de toda obra exitosa",
+                "excerpt": "Toda construcción exitosa comienza mucho antes de colocar el primer ladrillo. Descubre por qué una planificación sólida reduce sobrecostos, retrasos y conflictos en la obra.",
+                "paragraphs": [
+                    "Toda construcción exitosa comienza mucho antes de que se coloque el primer ladrillo. La planificación es la etapa donde se definen los cronogramas, los recursos y los riesgos que pueden afectar el desarrollo del proyecto. En RenovaPlus sabemos que un proyecto bien planificado reduce significativamente los sobrecostos, los retrasos y los conflictos entre los distintos actores involucrados en la obra.",
+                    "Un plan de trabajo sólido incluye no solo el diseño arquitectónico y estructural, sino también la logística de materiales, la coordinación de cuadrillas y los permisos legales necesarios ante las curadurías y entidades municipales colombianas. Anticipar estos elementos permite que la ejecución fluya con mayor eficiencia y que cualquier imprevisto se resuelva sin detener el avance general de la obra.",
+                    "Además, la planificación permite establecer indicadores claros de seguimiento, lo que facilita la toma de decisiones oportunas durante la ejecución. En RenovaPlus integramos herramientas de programación y control que nos permiten anticipar cuellos de botella y ajustar el rumbo del proyecto antes de que los problemas se materialicen, garantizando así entregas puntuales y de calidad para nuestros clientes."
+                ]
             },
-            "lactancia-materna-beneficios": {
-                "title": "Acabados de primera calidad: el detalle que transforma un espacio",
-                "excerpt": "Los acabados internos y externos definen el carácter de cada ambiente. Conoce cómo elegir materiales y terminaciones que aporten durabilidad y elegancia a su proyecto."
+            "importancia-interventoria-construccion": {
+                "title": "La importancia de la interventoría en los proyectos de construcción",
+                "excerpt": "La interventoría verifica que la obra se ejecute conforme a los planos, las especificaciones técnicas y la normativa vigente en Colombia. Un filtro de calidad que protege a todos.",
+                "paragraphs": [
+                    "La interventoría es el proceso mediante el cual un tercero independiente verifica que la obra se ejecute conforme a los planos, las especificaciones técnicas y la normativa vigente en Colombia. Este acompañamiento constante actúa como un filtro de calidad que protege tanto al contratante como al constructor, asegurando que cada etapa del proyecto cumpla con los estándares establecidos desde el inicio.",
+                    "Un interventor no solo revisa el avance físico de la obra, sino que también supervisa el cumplimiento de los cronogramas, el uso adecuado de los recursos y la correcta aplicación de las normas de seguridad industrial. Esta labor de control técnico y administrativo evita que se presenten desviaciones costosas que podrían comprometer la estabilidad estructural o la viabilidad financiera del proyecto.",
+                    "En RenovaPlus entendemos la interventoría como una alianza estratégica más que como una simple auditoría. Trabajar de la mano con interventores calificados nos permite corregir a tiempo cualquier inconsistencia, fortalecer la transparencia con nuestros clientes y entregar proyectos que cumplen rigurosamente con la normativa técnica colombiana, como la NSR-10 para el caso de estructuras sismorresistentes."
+                ]
             },
-            "huertas-urbanas-seguridad-alimentaria": {
-                "title": "Urbanismo y mantenimiento: cómo conservar el valor de los espacios",
-                "excerpt": "El urbanismo y el mantenimiento responsable se han convertido en una clave para preservar la funcionalidad y el valor de los espacios residenciales y comerciales en el tiempo."
+            "seguridad-industrial-obra": {
+                "title": "Seguridad industrial: la prioridad número uno en la obra",
+                "excerpt": "En construcción, la seguridad no es opcional: es indispensable. Conoce cómo protegemos la vida de los trabajadores y garantizamos la continuidad de cada proyecto.",
+                "paragraphs": [
+                    "En el sector de la construcción, la seguridad no es un aspecto opcional, es una condición indispensable para el desarrollo de cualquier proyecto. Las obras civiles implican riesgos como caídas de altura, manejo de maquinaria pesada y exposición a materiales peligrosos, por lo que contar con protocolos claros de seguridad industrial es fundamental para proteger la vida de los trabajadores y garantizar la continuidad del proyecto.",
+                    "En RenovaPlus implementamos el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), conforme a la normativa colombiana, capacitando constantemente a nuestro personal en el uso de elementos de protección personal, manejo seguro de herramientas y procedimientos de emergencia. Esta cultura preventiva reduce considerablemente los accidentes laborales y refuerza el compromiso de la empresa con el bienestar de sus colaboradores.",
+                    "Más allá del cumplimiento normativo, promovemos una cultura de autocuidado donde cada trabajador se convierte en un agente activo de la seguridad colectiva. Las inspecciones periódicas, las señalizaciones adecuadas y los simulacros de emergencia son parte de nuestra rutina diaria, porque en RenovaPlus creemos que una obra segura es, ante todo, una obra bien hecha."
+                ]
             },
-            "historia-transformacion-familia-martinez": {
-                "title": "Caso de transformación: la remodelación de una vivienda en Barranquilla",
-                "excerpt": "Conoce cómo el equipo de RenovaPlus acompañó a una familia para renovar por completo su vivienda, optimizando cada espacio con planificación responsable y atención personalizada."
+            "orden-organizacion-productividad-obra": {
+                "title": "Orden y organización: claves para la productividad en obra",
+                "excerpt": "Un sitio de construcción ordenado transmite profesionalismo e incide directamente en la productividad y la seguridad. Así aplicamos la metodología de las 5S en cada proyecto.",
+                "paragraphs": [
+                    "Un sitio de construcción ordenado no solo transmite profesionalismo, sino que también incide directamente en la productividad y en la seguridad de todos los que trabajan allí. La correcta disposición de materiales, herramientas y zonas de circulación evita accidentes, reduce los tiempos muertos y facilita la supervisión constante del avance de los trabajos.",
+                    "La metodología de orden y limpieza, conocida en el sector como las «5S», ha demostrado ser altamente efectiva en obras de construcción: clasificar, organizar, limpiar, estandarizar y mantener la disciplina son principios que, aplicados de forma constante, transforman por completo la dinámica de trabajo en el sitio. En RenovaPlus aplicamos estos principios desde el primer día de cada proyecto.",
+                    "Un frente de obra organizado también facilita la coordinación entre cuadrillas, reduce el desperdicio de materiales y mejora la percepción que tienen los clientes y visitantes sobre la seriedad de la empresa. Para RenovaPlus, el orden en obra es un reflejo directo de la calidad y el compromiso que ponemos en cada proyecto que ejecutamos."
+                ]
             },
-            "alianza-empresa-xyz": {
-                "title": "Nuevas modalidades de servicio para acompañar más proyectos",
-                "excerpt": "Nos complace presentar nuestras nuevas modalidades de servicio, pensadas para acompañar a más clientes en sus proyectos de renovación y remodelación con la misma seriedad y transparencia de siempre."
+            "sostenibilidad-construccion": {
+                "title": "Sostenibilidad en la construcción: construir pensando en el futuro",
+                "excerpt": "La construcción tiene un papel determinante en el impacto ambiental de las ciudades. Descubre cómo incorporamos criterios de sostenibilidad sin sacrificar calidad ni eficiencia.",
+                "paragraphs": [
+                    "La industria de la construcción tiene un papel determinante en el impacto ambiental de las ciudades colombianas. El consumo de recursos naturales, la generación de residuos y las emisiones asociadas a los procesos constructivos exigen que las empresas del sector adopten prácticas más responsables con el medio ambiente, sin sacrificar la calidad ni la eficiencia de sus proyectos.",
+                    "En RenovaPlus incorporamos criterios de sostenibilidad en cada etapa del proceso constructivo, desde la selección de materiales con menor huella ambiental hasta la implementación de sistemas eficientes de manejo de agua y energía. Estas decisiones no solo benefician al entorno, sino que también generan ahorros significativos a largo plazo para nuestros clientes.",
+                    "Adicionalmente, promovemos la gestión adecuada de residuos de construcción y demolición (RCD), cumpliendo con la normativa ambiental vigente en Colombia y buscando alternativas de reciclaje y reutilización de materiales. Construir de manera sostenible es, para RenovaPlus, una responsabilidad con las generaciones futuras y con las comunidades donde desarrollamos nuestros proyectos."
+                ]
             },
-            "recetas-nutritivas-economicas": {
-                "title": "10 recomendaciones prácticas para planear una remodelación con presupuesto",
-                "excerpt": "Renovar un espacio no tiene por qué descontrolar su presupuesto. Le compartimos recomendaciones claras para planear su remodelación con calidad, orden y cumplimiento."
+            "control-calidad-resultados-duraderos": {
+                "title": "Control de calidad: garantía de resultados duraderos",
+                "excerpt": "El control de calidad garantiza que cada material y procedimiento cumpla con los estándares de diseño y la normativa técnica colombiana. La base de obras que perduran en el tiempo.",
+                "paragraphs": [
+                    "El control de calidad en la construcción es el conjunto de procesos que garantizan que cada material, técnica y procedimiento utilizado en la obra cumpla con los estándares establecidos en los diseños y en la normativa técnica colombiana. Sin un control riguroso, incluso los proyectos mejor planificados pueden presentar fallas estructurales o estéticas que comprometan su durabilidad.",
+                    "En RenovaPlus aplicamos protocolos de verificación en cada fase del proyecto, desde la recepción de materiales hasta la entrega final de la obra. Esto incluye pruebas de resistencia de concreto, inspecciones de instalaciones eléctricas e hidrosanitarias, y revisiones constantes de acabados, asegurando que cada detalle cumpla con los criterios de calidad que nuestros clientes esperan.",
+                    "Un control de calidad efectivo también implica documentar cada proceso, generando trazabilidad y respaldo técnico ante cualquier eventualidad futura. Para RenovaPlus, esta disciplina no es un paso adicional, sino una convicción: entregar obras que perduren en el tiempo y que reflejen la confianza que nuestros clientes depositan en nosotros."
+                ]
             }
         }
     },
     "blogDetails": {
         "tags": "Etiquetas",
         "share": "Compartir",
-        "authorRole": "Director de Proyectos",
-        "authorBio": "Profesional certificado con experiencia en planificación, remodelación y acabados, comprometido con la calidad y el cumplimiento en cada obra.",
+        "authorRole": "Equipo RenovaPlus",
+        "authorBio": "Constructora boutique en Barranquilla especializada en renovación y remodelación de espacios residenciales y comerciales, con planificación responsable, materiales de primera calidad y atención personalizada en cada proyecto.",
         "content": {
             "paragraph1": "Una planificación adecuada al inicio de cada proyecto es fundamental para el resultado final de una renovación o remodelación. Durante esta etapa se definen alcances, materiales y tiempos, y una visión clara permite anticipar imprevistos y garantizar un trabajo bien hecho.",
             "heading1": "¿Por qué es tan importante?",

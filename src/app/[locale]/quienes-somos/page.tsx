@@ -160,7 +160,7 @@ export default function AboutPage() {
                                                 </div>
                                                 <div className="txt">
                                                     <span className="call-title">{t('callAnytime')}</span>
-                                                    <a href="tel:+573183309385">+57 318 330 9385</a>
+                                                    <a href="tel:+573152963382">+57 315 296 3382</a>
                                                 </div>
                                             </div>
                                         </div>

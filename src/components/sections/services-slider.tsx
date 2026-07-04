@@ -12,8 +12,8 @@ import { FadeIn } from '@/components/animations';
 import 'swiper/css';
 
 const SERVICES = [
-    { key: 'finishes', slug: 'acabados-externos-internos', image: '/images/renovaplus/acabados.jpg' },
-    { key: 'urbanism', slug: 'urbanismo-mantenimiento', image: '/images/renovaplus/urbanismo.jpg' },
+    { key: 'finishes', slug: 'acabados-externos-internos', image: '/images/renovaplus/foto2-acabados.jpg' },
+    { key: 'urbanism', slug: 'urbanismo-mantenimiento', image: '/images/renovaplus/foto3-urbanismo.jpg' },
     { key: 'remodeling', slug: 'remodelacion-espacios', image: '/images/renovaplus/remodelacion.jpg' },
     { key: 'consulting', slug: 'interventorias-asesorias', image: '/images/renovaplus/interventorias.jpg' },
 ] as const;

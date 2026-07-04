@@ -74,7 +74,7 @@ export function ImpactSection() {
                     <FadeIn direction="left" delay={0.3}>
                         <div className="impact-map-container">
                             <Image
-                                src="/images/renovaplus/urbanismo.jpg"
+                                src="/images/renovaplus/foto4-impacto.jpg"
                                 alt="Proyectos de RenovaPlus en Barranquilla"
                                 width={600}
                                 height={655}

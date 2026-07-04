@@ -106,7 +106,7 @@ export function Footer() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3 text-sm text-background/80">
                                 <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0" />
-                                <span>Barranquilla, Atlántico, Colombia</span>
+                                <span>Carrera 43 #95ª - 148, Barranquilla, Atlántico</span>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Phone className="h-4 w-4 flex-shrink-0" />
@@ -116,8 +116,8 @@ export function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <a href="mailto:renova.sas@gmail.com" className="hover:text-primary">
-                                    renova.sas@gmail.com
+                                <a href="mailto:renovaplus.sas@gmail.com" className="hover:text-primary">
+                                    renovaplus.sas@gmail.com
                                 </a>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-background/80">

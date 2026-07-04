@@ -1,17 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" font-family="Manrope, Arial, sans-serif">
-<rect width="500" height="500" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-135 -15 790 545" font-family="Manrope, Arial, sans-serif">
 <path d="M 132.9 119.9 A 175 175 0 0 1 367.1 119.9 L 315.6 177.2 A 98 98 0 0 0 184.4 177.2 Z" fill="#15189B"/>
 <text x="250" y="114" fill="white" font-size="30" font-weight="800" text-anchor="middle" dominant-baseline="central">01</text>
-<text x="250" y="35" fill="#1e2438" font-size="22" font-weight="700" text-anchor="middle"><tspan x="250">Planificación</tspan><tspan x="250" dy="24">responsable</tspan></text>
+<text x="250" y="37" fill="#1e2438" font-size="21" font-weight="700" text-anchor="middle"><tspan x="250">Planificación</tspan><tspan x="250" dy="24">responsable</tspan></text>
 <path d="M 380.1 132.9 A 175 175 0 0 1 380.1 367.1 L 322.8 315.6 A 98 98 0 0 0 322.8 184.4 Z" fill="#FF6D10"/>
 <text x="386" y="250" fill="white" font-size="30" font-weight="800" text-anchor="middle" dominant-baseline="central">02</text>
-<text x="443" y="250" fill="#1e2438" font-size="22" font-weight="700" text-anchor="start"><tspan x="443">Calidad</tspan><tspan x="443" dy="24">garantizada</tspan></text>
+<text x="441" y="250" fill="#1e2438" font-size="21" font-weight="700" text-anchor="start"><tspan x="441">Calidad</tspan><tspan x="441" dy="24">garantizada</tspan></text>
 <path d="M 367.1 380.1 A 175 175 0 0 1 132.9 380.1 L 184.4 322.8 A 98 98 0 0 0 315.6 322.8 Z" fill="#3a3db0"/>
 <text x="250" y="386" fill="white" font-size="30" font-weight="800" text-anchor="middle" dominant-baseline="central">03</text>
-<text x="250" y="487" fill="#1e2438" font-size="22" font-weight="700" text-anchor="middle"><tspan x="250">Atención</tspan><tspan x="250" dy="24">personalizada</tspan></text>
+<text x="250" y="485" fill="#1e2438" font-size="21" font-weight="700" text-anchor="middle"><tspan x="250">Atención</tspan><tspan x="250" dy="24">personalizada</tspan></text>
 <path d="M 119.9 367.1 A 175 175 0 0 1 119.9 132.9 L 177.2 184.4 A 98 98 0 0 0 177.2 315.6 Z" fill="#ff8a3d"/>
 <text x="114" y="250" fill="white" font-size="30" font-weight="800" text-anchor="middle" dominant-baseline="central">04</text>
-<text x="57" y="250" fill="#1e2438" font-size="22" font-weight="700" text-anchor="end"><tspan x="57">Acompañamiento</tspan><tspan x="57" dy="24">integral</tspan></text>
+<text x="59" y="250" fill="#1e2438" font-size="21" font-weight="700" text-anchor="end"><tspan x="59">Acompañamiento</tspan><tspan x="59" dy="24">integral</tspan></text>
 <circle cx="250" cy="250" r="88" fill="#15189B"/>
 <circle cx="250" cy="250" r="88" fill="none" stroke="#FF6D10" stroke-width="3"/>
 <text x="250" y="236" fill="#FF6D10" font-size="44" font-weight="800" text-anchor="middle">360°</text>

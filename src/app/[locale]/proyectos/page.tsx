@@ -29,12 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 // RenovaPlus projects - slugs and categoryKeys map to es.json `projects`
 const projects = [
-    { slug: 'centro-integral-bogota', image: '/images/renovaplus/remodelacion.jpg', categoryKey: 'nutrition', size: 'large' as const },
-    { slug: 'recuperacion-nutricional', image: '/images/renovaplus/interior-warm.jpg', categoryKey: 'nutrition', size: 'default' as const },
-    { slug: 'capacitacion-madres', image: '/images/renovaplus/acabados.jpg', categoryKey: 'infrastructure', size: 'default' as const },
-    { slug: 'unidad-productiva-panaderia', image: '/images/renovaplus/interior-bright.jpg', categoryKey: 'units', size: 'large' as const },
-    { slug: 'programa-huertas-soacha', image: '/images/renovaplus/urbanismo.jpg', categoryKey: 'gardens', size: 'default' as const },
-    { slug: 'alianza-empresarial-2024', image: '/images/renovaplus/interventorias.jpg', categoryKey: 'partnerships', size: 'default' as const },
+    { slug: 'centro-integral-bogota', image: '/images/renovaplus/proyecto-1-caujaral.jpg', categoryKey: 'nutrition', size: 'large' as const },
+    { slug: 'recuperacion-nutricional', image: '/images/renovaplus/proyecto-2-almacen.jpg', categoryKey: 'nutrition', size: 'default' as const },
+    { slug: 'capacitacion-madres', image: '/images/renovaplus/proyecto-3-portoazul.jpg', categoryKey: 'infrastructure', size: 'default' as const },
+    { slug: 'unidad-productiva-panaderia', image: '/images/renovaplus/proyecto-4-tuberia.jpg', categoryKey: 'units', size: 'large' as const },
+    { slug: 'programa-huertas-soacha', image: '/images/renovaplus/proyecto-5-subbase.jpg', categoryKey: 'gardens', size: 'default' as const },
+    { slug: 'alianza-empresarial-2024', image: '/images/renovaplus/proyecto-6-cerramiento.jpg', categoryKey: 'partnerships', size: 'default' as const },
 ];
 
 export default async function ProjectsPage({ params }: Props) {

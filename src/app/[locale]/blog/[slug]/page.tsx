@@ -16,41 +16,41 @@ type Props = {
 
 // Blog posts data
 const blogPostsData: Record<string, { image: string; date: Date; categoryKey: string; author: string }> = {
-    'importancia-nutricion-infantil': {
-        image: '/images/renovaplus/remodelacion.jpg',
-        date: new Date('2024-12-15'),
-        categoryKey: 'nutrition',
-        author: 'Ana Martínez',
-    },
-    'lactancia-materna-beneficios': {
-        image: '/images/renovaplus/acabados.jpg',
-        date: new Date('2024-12-10'),
-        categoryKey: 'breastfeeding',
-        author: 'María González',
-    },
-    'huertas-urbanas-seguridad-alimentaria': {
-        image: '/images/renovaplus/urbanismo.jpg',
-        date: new Date('2024-12-05'),
-        categoryKey: 'gardens',
-        author: 'Pedro Gómez',
-    },
-    'historia-transformacion-familia-martinez': {
-        image: '/images/renovaplus/hero-3.jpg',
-        date: new Date('2024-11-28'),
-        categoryKey: 'impact',
-        author: 'Laura Sánchez',
-    },
-    'alianza-empresa-xyz': {
+    'planificacion-pilar-obra-exitosa': {
         image: '/images/renovaplus/plans-review.jpg',
-        date: new Date('2024-11-20'),
-        categoryKey: 'partnerships',
-        author: 'Carlos Rodríguez',
+        date: new Date('2025-06-15'),
+        categoryKey: 'planificacion',
+        author: 'Equipo RenovaPlus',
     },
-    'recetas-nutritivas-economicas': {
-        image: '/images/renovaplus/interior-bright.jpg',
-        date: new Date('2024-11-15'),
-        categoryKey: 'nutrition',
-        author: 'Ana Martínez',
+    'importancia-interventoria-construccion': {
+        image: '/images/renovaplus/interventorias.jpg',
+        date: new Date('2025-06-01'),
+        categoryKey: 'interventoria',
+        author: 'Equipo RenovaPlus',
+    },
+    'seguridad-industrial-obra': {
+        image: '/images/renovaplus/workers-site.jpg',
+        date: new Date('2025-05-15'),
+        categoryKey: 'seguridad',
+        author: 'Equipo RenovaPlus',
+    },
+    'orden-organizacion-productividad-obra': {
+        image: '/images/renovaplus/hero-2.jpg',
+        date: new Date('2025-05-01'),
+        categoryKey: 'gestion',
+        author: 'Equipo RenovaPlus',
+    },
+    'sostenibilidad-construccion': {
+        image: '/images/renovaplus/urbanismo.jpg',
+        date: new Date('2025-04-15'),
+        categoryKey: 'sostenibilidad',
+        author: 'Equipo RenovaPlus',
+    },
+    'control-calidad-resultados-duraderos': {
+        image: '/images/renovaplus/acabados.jpg',
+        date: new Date('2025-04-01'),
+        categoryKey: 'calidad',
+        author: 'Equipo RenovaPlus',
     },
 };
 
@@ -91,7 +91,7 @@ export default async function BlogPostPage({ params }: Props) {
     const tDetails = await getTranslations({ locale, namespace: 'blogDetails' });
 
     const title = t(`posts.${slug}.title`);
-    const excerpt = t(`posts.${slug}.excerpt`);
+    const paragraphs = t.raw(`posts.${slug}.paragraphs`) as string[];
     const category = tBlog(`categories.${post.categoryKey}`);
 
     const formatDate = (date: Date) => {
@@ -104,11 +104,12 @@ export default async function BlogPostPage({ params }: Props) {
 
     // Get categories and recent posts for sidebar
     const categories = [
-        { name: tBlog('categories.nutrition'), slug: 'nutricion', count: 12 },
-        { name: tBlog('categories.breastfeeding'), slug: 'lactancia', count: 8 },
-        { name: tBlog('categories.gardens'), slug: 'huertas', count: 6 },
-        { name: tBlog('categories.impact'), slug: 'impacto', count: 15 },
-        { name: tBlog('categories.partnerships'), slug: 'alianzas', count: 4 },
+        { name: tBlog('categories.planificacion'), slug: 'planificacion', count: 1 },
+        { name: tBlog('categories.interventoria'), slug: 'interventorias', count: 1 },
+        { name: tBlog('categories.seguridad'), slug: 'seguridad', count: 1 },
+        { name: tBlog('categories.gestion'), slug: 'gestion-de-obra', count: 1 },
+        { name: tBlog('categories.sostenibilidad'), slug: 'sostenibilidad', count: 1 },
+        { name: tBlog('categories.calidad'), slug: 'control-de-calidad', count: 1 },
     ];
 
     const recentPosts = Object.entries(blogPostsData)
@@ -117,15 +118,15 @@ export default async function BlogPostPage({ params }: Props) {
         .map(([key, value]) => ({
             title: t(`posts.${key}.title`),
             slug: key,
-            image: '/images/renovaplus/remodelacion.jpg',
+            image: value.image,
             date: formatDate(value.date),
         }));
 
     const tags = [
-        { name: t('tags.nutrition'), slug: 'nutricion' },
-        { name: t('tags.children'), slug: 'ninos' },
-        { name: t('tags.health'), slug: 'salud' },
-        { name: t('tags.family'), slug: 'familia' },
+        { name: t('tags.planificacion'), slug: 'planificacion' },
+        { name: t('tags.seguridad'), slug: 'seguridad' },
+        { name: t('tags.calidad'), slug: 'calidad' },
+        { name: t('tags.sostenibilidad'), slug: 'sostenibilidad' },
     ];
 
     return (
@@ -184,31 +185,19 @@ export default async function BlogPostPage({ params }: Props) {
 
                                 {/* Content */}
                                 <FadeIn delay={0.3}>
-                                    <div className="prose prose-lg max-w-none">
-                                        <p className="text-lg text-muted-foreground leading-relaxed">
-                                            {excerpt}
-                                        </p>
-                                        <p className="text-muted-foreground leading-relaxed">
-                                            {tDetails('content.paragraph1')}
-                                        </p>
-                                        <h2 className="text-2xl font-bold text-foreground font-display mt-8 mb-4">
-                                            {tDetails('content.heading1')}
-                                        </h2>
-                                        <p className="text-muted-foreground leading-relaxed">
-                                            {tDetails('content.paragraph2')}
-                                        </p>
-                                        <blockquote className="border-l-4 border-primary pl-4 italic text-muted-foreground my-6">
-                                            {tDetails('content.quote')}
-                                        </blockquote>
-                                        <p className="text-muted-foreground leading-relaxed">
-                                            {tDetails('content.paragraph3')}
-                                        </p>
-                                        <h2 className="text-2xl font-bold text-foreground font-display mt-8 mb-4">
-                                            {tDetails('content.heading2')}
-                                        </h2>
-                                        <p className="text-muted-foreground leading-relaxed">
-                                            {tDetails('content.paragraph4')}
-                                        </p>
+                                    <div className="prose prose-lg max-w-none space-y-6">
+                                        {paragraphs.map((para, i) => (
+                                            <p
+                                                key={i}
+                                                className={
+                                                    i === 0
+                                                        ? 'text-lg text-foreground leading-relaxed'
+                                                        : 'text-muted-foreground leading-relaxed'
+                                                }
+                                            >
+                                                {para}
+                                            </p>
+                                        ))}
                                     </div>
                                 </FadeIn>
 

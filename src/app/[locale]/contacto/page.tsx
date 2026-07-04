@@ -13,22 +13,22 @@ export default function ContactPage() {
         {
             icon: Phone,
             title: t('info.phone.title'),
-            value: '+57 318 330 9385',
-            href: 'tel:+573183309385',
+            value: '+57 315 296 3382',
+            href: 'tel:+573152963382',
             isLink: true,
         },
         {
             icon: Mail,
             title: t('info.email.title'),
-            value: 'renova.sas@gmail.com',
-            href: 'mailto:renova.sas@gmail.com',
+            value: 'renovaplus.sas@gmail.com',
+            href: 'mailto:renovaplus.sas@gmail.com',
             isLink: true,
         },
         {
             icon: MapPin,
             title: t('info.address.title'),
-            value: 'Cra. 9E #137-21, Suroccidente, Barranquilla, Atlántico',
-            href: 'https://maps.google.com/?q=Barranquilla,Atlántico,Colombia',
+            value: 'Carrera 43 #95ª - 148, Barranquilla, Atlántico',
+            href: 'https://maps.google.com/?q=Carrera+43+%2395-148+Barranquilla+Atlántico',
             isLink: true,
         },
     ];
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 {/* Map Section */}
                 <section className="ul-contact-map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2!2d-74.86194!3d10.9612879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0a0a20bd49%3A0xd57989e5db80c060!2snu3!5e0!3m2!1sen!2sco!4v1706380000000!5m2!1sen!2sco"
+                        src="https://www.google.com/maps?q=Carrera+43+%2395-148+Barranquilla+Atl%C3%A1ntico+Colombia&output=embed"
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
