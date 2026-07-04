@@ -99,12 +99,7 @@ export default async function ProjectsPage({ params }: Props) {
                                                     {tProjects(`categories.${project.categoryKey}`)}
                                                 </span>
                                                 <h3
-                                                    className={cn(
-                                                        'font-bold text-white font-display group-hover:text-primary transition-colors',
-                                                        project.size === 'large'
-                                                            ? 'text-2xl md:text-3xl'
-                                                            : 'text-lg md:text-xl'
-                                                    )}
+                                                    className="text-xl md:text-2xl font-bold text-white font-display group-hover:text-primary transition-colors"
                                                 >
                                                     {tProjects(`items.${project.slug}.title`)}
                                                 </h3>

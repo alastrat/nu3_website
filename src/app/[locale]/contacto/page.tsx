@@ -1,13 +1,44 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Header, Footer } from '@/components/layout';
 import { Breadcrumb } from '@/components/ui';
 import { FadeIn } from '@/components/animations';
-import { Phone, Mail, MapPin, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
+
+// Web3Forms access key — get a free one at https://web3forms.com by entering
+// renovaplus.sas@gmail.com; submissions are emailed there. Safe to expose client-side.
+const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || 'YOUR_WEB3FORMS_ACCESS_KEY';
 
 export default function ContactPage() {
     const t = useTranslations('contact');
+    const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+
+    async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+        e.preventDefault();
+        const form = e.currentTarget;
+        const formData = new FormData(form);
+        formData.append('access_key', WEB3FORMS_ACCESS_KEY);
+        formData.append('subject', 'Nueva solicitud de contacto — RenovaPlus');
+        formData.append('from_name', 'Formulario web RenovaPlus');
+        setStatus('submitting');
+        try {
+            const res = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData,
+            });
+            const data = await res.json();
+            if (data.success) {
+                setStatus('success');
+                form.reset();
+            } else {
+                setStatus('error');
+            }
+        } catch {
+            setStatus('error');
+        }
+    }
 
     const contactInfos = [
         {
@@ -94,7 +125,9 @@ export default function ContactPage() {
 
                     <FadeIn delay={0.2}>
                         <div className="ul-inner-contact-container">
-                            <form className="ul-contact-form ul-form">
+                            <form className="ul-contact-form ul-form" onSubmit={handleSubmit}>
+                                {/* Honeypot spam trap (hidden from users) */}
+                                <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div className="form-group">
                                         <input
@@ -141,11 +174,28 @@ export default function ContactPage() {
                                         />
                                     </div>
                                     <div className="md:col-span-2 text-center">
-                                        <button type="submit" className="ul-btn">
-                                            <Send className="w-4 h-4 mr-2" />
-                                            {t('form.submit')}
+                                        <button type="submit" className="ul-btn" disabled={status === 'submitting'}>
+                                            {status === 'submitting' ? (
+                                                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                                            ) : (
+                                                <Send className="w-4 h-4 mr-2" />
+                                            )}
+                                            {status === 'submitting' ? 'Enviando...' : t('form.submit')}
                                         </button>
                                     </div>
+
+                                    {status === 'success' && (
+                                        <p className="md:col-span-2 flex items-center justify-center gap-2 text-center font-medium text-green-600">
+                                            <CheckCircle2 className="h-5 w-5 flex-shrink-0" />
+                                            ¡Gracias! Tu mensaje ha sido enviado. Te contactaremos pronto.
+                                        </p>
+                                    )}
+                                    {status === 'error' && (
+                                        <p className="md:col-span-2 flex items-center justify-center gap-2 text-center font-medium text-red-600">
+                                            <AlertCircle className="h-5 w-5 flex-shrink-0" />
+                                            Hubo un error al enviar. Intenta de nuevo o escríbenos a renovaplus.sas@gmail.com.
+                                        </p>
+                                    )}
                                 </div>
                             </form>
                         </div>
