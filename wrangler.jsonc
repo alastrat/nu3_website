@@ -12,6 +12,9 @@
     { "pattern": "renovaplus.com.co", "custom_domain": true },
     { "pattern": "www.renovaplus.com.co", "custom_domain": true }
   ],
+  "send_email": [
+    { "name": "EMAIL", "destination_address": "renovaplus.sas@gmail.com" }
+  ],
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"

@@ -7,10 +7,6 @@ import { Breadcrumb } from '@/components/ui';
 import { FadeIn } from '@/components/animations';
 import { Phone, Mail, MapPin, Send, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 
-// Web3Forms access key — get a free one at https://web3forms.com by entering
-// renovaplus.sas@gmail.com; submissions are emailed there. Safe to expose client-side.
-const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || 'YOUR_WEB3FORMS_ACCESS_KEY';
-
 export default function ContactPage() {
     const t = useTranslations('contact');
     const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -19,12 +15,9 @@ export default function ContactPage() {
         e.preventDefault();
         const form = e.currentTarget;
         const formData = new FormData(form);
-        formData.append('access_key', WEB3FORMS_ACCESS_KEY);
-        formData.append('subject', 'Nueva solicitud de contacto — RenovaPlus');
-        formData.append('from_name', 'Formulario web RenovaPlus');
         setStatus('submitting');
         try {
-            const res = await fetch('https://api.web3forms.com/submit', {
+            const res = await fetch('/api/contact', {
                 method: 'POST',
                 body: formData,
             });
