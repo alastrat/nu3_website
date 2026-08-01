@@ -60,7 +60,7 @@ const blogPosts = [
     },
     {
         slug: 'control-calidad-resultados-duraderos',
-        image: '/images/renovaplus/acabados.jpg',
+        image: '/images/renovaplus/interior-warm.jpg',
         date: new Date('2025-04-01'),
         categoryKey: 'calidad',
     },

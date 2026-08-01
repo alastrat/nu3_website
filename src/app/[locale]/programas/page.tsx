@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const programs = [
     {
         slug: 'acabados-externos-internos',
-        image: '/images/renovaplus/acabados.jpg',
+        image: '/images/renovaplus/interior-bright.jpg',
     },
     {
         slug: 'urbanismo-mantenimiento',

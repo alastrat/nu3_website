@@ -30,7 +30,7 @@ const DEMO_EVENTS = [
     {
         id: '4',
         slug: 'feria-alimentos-saludables',
-        image: '/images/renovaplus/acabados.jpg',
+        image: '/images/renovaplus/interior-bright.jpg',
         date: { day: '05', month: 'Mar' },
         venue: 'Barranquilla, Atlántico, Colombia',
     },

@@ -4,7 +4,6 @@ import {
   HeroSection2,
   ServicesSlider,
   Model360Section,
-  ImpactSection,
   DonationsCarousel,
   VolunteerSection,
   AboutSection
@@ -25,7 +24,6 @@ export default async function HomePage({ params }: Props) {
         <HeroSection2 />
         <AboutSection />
         <ServicesSlider />
-        <ImpactSection />
         <Model360Section />
         <DonationsCarousel locale={locale} />
         <VolunteerSection />

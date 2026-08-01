@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-react';
 const UNITS_DATA = [
     {
         id: 'menu3',
-        image: '/images/renovaplus/acabados.jpg',
+        image: '/images/renovaplus/interior-bright.jpg',
         title: 'units.catering.title',
         description: 'units.catering.description',
         link: '/unidades-productivas#menu3',

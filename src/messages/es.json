@@ -20,8 +20,8 @@
         "tags": "Etiquetas"
     },
     "metadata": {
-        "title": "RenovaPlus S.A.S. - Renovación y remodelación boutique en Barranquilla",
-        "description": "Constructora boutique en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto."
+        "title": "RenovaPlus S.A.S. - Renovación y remodelación en Barranquilla",
+        "description": "Constructora en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto."
     },
     "nav": {
         "home": "Inicio",
@@ -49,7 +49,7 @@
     "hero": {
         "slides": {
             "slide1": {
-                "subtitle": "Construcción boutique",
+                "subtitle": "Construcción y remodelación",
                 "title": "Construimos confianza, renovamos espacios",
                 "description": "Desde 2024 transformamos espacios residenciales y comerciales en Barranquilla con un servicio personalizado, materiales de primera calidad y atención obsesiva al detalle. Construimos soluciones que generan valor real y duradero.",
                 "cta": "Cotiza tu proyecto"
@@ -72,10 +72,10 @@
         "title": "Quiénes somos",
         "breadcrumb": "Quiénes somos",
         "subtitle": "Construimos soluciones que generan valor real y duradero",
-        "description": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Como empresa boutique de renovación y remodelación, ofrecemos atención personalizada, materiales de primera calidad y un acompañamiento cercano en cada proyecto residencial y comercial.",
+        "description": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Como empresa de renovación y remodelación, ofrecemos atención personalizada, materiales de primera calidad y un acompañamiento cercano en cada proyecto residencial y comercial.",
         "mission": "Nuestra Misión",
         "missionText": "Transformar espacios residenciales y comerciales con soluciones de renovación y remodelación a la medida, combinando experiencia técnica, materiales de primera calidad y atención personalizada para generar valor real y duradero a nuestros clientes.",
-        "visionText": "Ser reconocidos en la región como una empresa boutique de construcción referente por su calidad, cumplimiento y cercanía, construyendo relaciones de confianza basadas en la seriedad, la transparencia y el trabajo bien hecho.",
+        "visionText": "Ser reconocidos en la región como una empresa de construcción referente por su calidad, cumplimiento y cercanía, construyendo relaciones de confianza basadas en la seriedad, la transparencia y el trabajo bien hecho.",
         "vision": "Nuestra Visión",
         "years": "Año de fundación",
         "blockTitle": "Comienza tu proyecto",
@@ -89,12 +89,12 @@
         },
         "tabs": {
             "sectionSubtitle": "Nuestra historia",
-            "sectionTitle": "Una empresa boutique nacida en Barranquilla",
+            "sectionTitle": "Una empresa nacida en Barranquilla",
             "mission": "Nuestra Misión",
             "vision": "Nuestra Visión",
             "history": "Nuestra Historia",
             "missionTitle": "Construcción a la medida",
-            "missionDescription": "Transformamos espacios con soluciones de renovación y remodelación pensadas para cada cliente. Nuestro enfoque boutique trabaja sobre cuatro pilares: acabados externos e internos, urbanismo y mantenimiento, remodelación de espacios e interventorías y asesorías, entendiendo que un buen proyecto se construye con planificación responsable y atención al detalle.",
+            "missionDescription": "Transformamos espacios con soluciones de renovación y remodelación pensadas para cada cliente. Nuestro trabajo se basa en cuatro pilares: acabados externos e internos, urbanismo y mantenimiento, remodelación de espacios e interventorías y asesorías, entendiendo que un buen proyecto se construye con planificación responsable y atención al detalle.",
             "missionList1": "Acabados externos e internos",
             "missionList2": "Urbanismo y mantenimiento",
             "missionList3": "Remodelación de espacios",
@@ -106,7 +106,7 @@
             "visionList3": "Materiales de primera calidad",
             "visionList4": "Calidad y cumplimiento garantizado",
             "historyTitle": "Desde 2024 transformando espacios",
-            "historyDescription": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Nacimos del compromiso por hacer las cosas bien, combinando experiencia técnica, planificación responsable y una visión clara de crecimiento sostenible. Como empresa boutique, ofrecemos un servicio cercano y personalizado en cada renovación y remodelación. Construimos más que obras: construimos relaciones basadas en la seriedad, la transparencia y el trabajo bien hecho."
+            "historyDescription": "Renovaplus S.A.S. se constituyó en Barranquilla, Colombia, en el año 2024 con la idea de transformar espacios y construir soluciones que generen valor real y duradero. Nacimos del compromiso por hacer las cosas bien, combinando experiencia técnica, planificación responsable y una visión clara de crecimiento sostenible. Ofrecemos un servicio cercano y personalizado en cada renovación y remodelación. Construimos más que obras: construimos relaciones basadas en la seriedad, la transparencia y el trabajo bien hecho."
         },
         "cta": {
             "subtitle": "Comienza a transformar tu espacio hoy",
@@ -392,7 +392,7 @@
         }
     },
     "footer": {
-        "description": "Empresa boutique de construcción en Barranquilla, dedicada a la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
+        "description": "Empresa de construcción en Barranquilla, dedicada a la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
         "quickLinks": "Enlaces rápidos",
         "programs": "Nuestros servicios",
         "contact": "Contacto",
@@ -413,10 +413,10 @@
             "general": {
                 "title": "Sobre RenovaPlus",
                 "q1": "¿Qué es RenovaPlus S.A.S.?",
-                "a1": "RenovaPlus es una empresa boutique de construcción constituida en Barranquilla en 2024, especializada en la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
+                "a1": "RenovaPlus es una empresa de construcción constituida en Barranquilla en 2024, especializada en la renovación y remodelación de espacios residenciales y comerciales con atención personalizada y trabajo bien hecho.",
                 "q2": "¿Dónde prestan sus servicios?",
                 "a2": "Operamos principalmente en Barranquilla y el departamento del Atlántico, acompañando proyectos residenciales y comerciales en la región.",
-                "q3": "¿Qué los hace una empresa boutique?",
+                "q3": "¿Qué los hace diferentes?",
                 "a3": "Trabajamos con un enfoque cercano y personalizado, materiales de primera calidad y atención al detalle en cada proyecto, cuidando la calidad y el cumplimiento de principio a fin.",
                 "q4": "¿Cómo puedo conocer más sobre su trabajo?",
                 "a4": "Puedes seguirnos en redes sociales, escribirnos directamente o solicitar una visita técnica para conversar sobre tu proyecto."
@@ -570,11 +570,11 @@
         },
         "items": {
             "centro-integral-bogota": {
-                "title": "Casa Lagos De Caujaral",
+                "title": "Estructura Casa Lagos de Caujaral",
                 "description": "Construcción de cimentación y estructura en concreto para muro de contención, staff y extensión Family Room."
             },
             "programa-huertas-soacha": {
-                "title": "Colocación subbase para pavimento",
+                "title": "Construcción de pavimento",
                 "description": "Preparación del terreno y colocación de subbase para pavimento, asegurando una base firme y nivelada."
             },
             "capacitacion-madres": {
@@ -586,11 +586,11 @@
                 "description": "Construcción de cerramiento perimetral para conjunto residencial, combinando seguridad y estética."
             },
             "recuperacion-nutricional": {
-                "title": "Adecuación Almacén",
+                "title": "Urbanismo Colegio Marymount",
                 "description": "Escaleras, rampas, andén y muro de contención."
             },
             "unidad-productiva-panaderia": {
-                "title": "Instalación tubería eléctrica y subestación",
+                "title": "Instalación de tuberías y cárcamos - redes eléctricas",
                 "description": "Instalación de tubería y ductería para redes eléctricas, garantizando seguridad y cumplimiento técnico."
             }
         }
@@ -707,7 +707,7 @@
         "tags": "Etiquetas",
         "share": "Compartir",
         "authorRole": "Equipo RenovaPlus",
-        "authorBio": "Constructora boutique en Barranquilla especializada en renovación y remodelación de espacios residenciales y comerciales, con planificación responsable, materiales de primera calidad y atención personalizada en cada proyecto.",
+        "authorBio": "Constructora en Barranquilla especializada en renovación y remodelación de espacios residenciales y comerciales, con planificación responsable, materiales de primera calidad y atención personalizada en cada proyecto.",
         "content": {
             "paragraph1": "Una planificación adecuada al inicio de cada proyecto es fundamental para el resultado final de una renovación o remodelación. Durante esta etapa se definen alcances, materiales y tiempos, y una visión clara permite anticipar imprevistos y garantizar un trabajo bien hecho.",
             "heading1": "¿Por qué es tan importante?",
@@ -739,7 +739,7 @@
         },
         "bio": {
             "paragraph1": "Profesional dedicado con amplia experiencia en el sector de la construcción y la remodelación de espacios. Su compromiso con la calidad y el cumplimiento ha sido fundamental para el crecimiento de RenovaPlus.",
-            "paragraph2": "Con formación técnica de alto nivel y experiencia práctica en obra, aporta una visión integral que combina el conocimiento técnico con la atención personalizada que caracteriza nuestro servicio boutique.",
+            "paragraph2": "Con formación técnica de alto nivel y experiencia práctica en obra, aporta una visión integral que combina el conocimiento técnico con la atención personalizada que caracteriza nuestro servicio.",
             "paragraph3": "Su liderazgo ha sido clave en la planificación responsable y la entrega de proyectos que generan valor real y duradero para nuestros clientes."
         },
         "skills": {
@@ -769,7 +769,7 @@
         },
         "capacity": "espacios",
         "content": {
-            "paragraph1": "Este proyecto refleja nuestro compromiso boutique: transformamos espacios con experiencia técnica, materiales de primera calidad y una atención personalizada que construye confianza en cada etapa."
+            "paragraph1": "Este proyecto refleja nuestro compromiso con la calidad: transformamos espacios con experiencia técnica, materiales de primera calidad y una atención personalizada que construye confianza en cada etapa."
         },
         "whatToExpect": {
             "title": "¿Qué esperar?",
@@ -799,7 +799,7 @@
     "donationsPage": {
         "meta": {
             "title": "Cotiza tu proyecto - RenovaPlus S.A.S.",
-            "description": "Solicite su cotización de renovación o remodelación y transforme su espacio con un servicio boutique en Barranquilla."
+            "description": "Solicite su cotización de renovación o remodelación y transforme su espacio con un servicio personalizado en Barranquilla."
         },
         "title": "Nuestros Servicios",
         "breadcrumb": "Cotiza tu proyecto",
@@ -859,7 +859,7 @@
             "item4": "Supervisión profesional y acompañamiento continuo hasta la entrega"
         },
         "content": {
-            "paragraph1": "Nuestro enfoque boutique combina experiencia técnica con planificación responsable y atención al detalle, asegurando resultados duraderos y de alta calidad en cada proyecto.",
+            "paragraph1": "Nuestro enfoque combina experiencia técnica con planificación responsable y atención al detalle, asegurando resultados duraderos y de alta calidad en cada proyecto.",
             "paragraph2": "Trabajamos en estrecha colaboración con cada cliente y nuestro equipo certificado para maximizar el resultado de cada intervención y garantizar transparencia y cumplimiento en todo el proceso."
         },
         "sidebar": {

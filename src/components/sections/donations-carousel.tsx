@@ -26,7 +26,7 @@ const DEMO_DONATIONS = [
     {
         id: '2',
         slug: 'primera-infancia',
-        image: '/images/renovaplus/acabados.jpg',
+        image: '/images/renovaplus/living-2.jpg',
         tag: 'Acabados',
         raised: 28500,
         goal: 30000,

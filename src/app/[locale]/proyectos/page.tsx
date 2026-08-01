@@ -95,9 +95,6 @@ export default async function ProjectsPage({ params }: Props) {
 
                                             {/* Content */}
                                             <div className="absolute inset-0 flex flex-col justify-end p-6">
-                                                <span className="text-primary font-medium text-sm mb-2">
-                                                    {tProjects(`categories.${project.categoryKey}`)}
-                                                </span>
                                                 <h3
                                                     className="text-xl md:text-2xl font-bold text-white font-display group-hover:text-primary transition-colors"
                                                 >

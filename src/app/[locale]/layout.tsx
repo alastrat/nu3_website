@@ -38,8 +38,8 @@ type Props = {
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-    const title = "RenovaPlus S.A.S. - Renovación y remodelación boutique en Barranquilla";
-    const description = "Constructora boutique en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto.";
+    const title = "RenovaPlus S.A.S. - Renovación y remodelación en Barranquilla";
+    const description = "Constructora en Barranquilla, Atlántico, especializada en renovación y remodelación de espacios residenciales y comerciales. Construimos confianza, renovamos espacios con acabados de primera calidad, atención personalizada y transparencia en cada proyecto.";
 
     return {
         title: {

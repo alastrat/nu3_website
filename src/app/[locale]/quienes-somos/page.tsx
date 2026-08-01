@@ -5,8 +5,8 @@ import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { Header, Footer } from '@/components/layout';
 import { Breadcrumb } from '@/components/ui';
-import { FadeIn, AnimatedCounter } from '@/components/animations';
-import { Phone, Heart, Users, Package, Handshake, Check } from 'lucide-react';
+import { FadeIn } from '@/components/animations';
+import { Phone, Heart, Check } from 'lucide-react';
 import { useState } from 'react';
 
 type TabKey = 'mission' | 'vision' | 'history';
@@ -15,14 +15,6 @@ export default function AboutPage() {
     const t = useTranslations('about');
     const tCta = useTranslations('cta');
     const [activeTab, setActiveTab] = useState<TabKey>('mission');
-
-    // NOTE: placeholder figures for a boutique firm founded in 2024 — confirm real numbers with client
-    const stats = [
-        { icon: Package, value: 45, label: t('stats.children'), suffix: '+' },
-        { icon: Users, value: 9500, label: t('stats.volunteers'), suffix: '+' },
-        { icon: Handshake, value: 38, label: t('stats.products'), suffix: '+' },
-        { icon: Heart, value: 12, label: t('stats.donors'), suffix: '+' },
-    ];
 
     const tabs: { key: TabKey; label: string }[] = [
         { key: 'mission', label: t('tabs.mission') },
@@ -182,27 +174,6 @@ export default function AboutPage() {
                     </div>
                 </section>
 
-                {/* Stats Section */}
-                <section className="ul-stats ul-section-spacing">
-                    <div className="ul-container">
-                        <FadeIn>
-                            <div className="ul-stats-wrapper">
-                                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8">
-                                    {stats.map((stat, index) => (
-                                        <div key={index} className="ul-stats-item">
-                                            <stat.icon className="w-12 h-12 text-primary mb-4" />
-                                            <span className="number">
-                                                <AnimatedCounter value={stat.value} suffix={stat.suffix} duration={2} />
-                                            </span>
-                                            <span className="txt">{stat.label}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </FadeIn>
-                    </div>
-                </section>
-
                 {/* Mission/Vision/History Tabs Section */}
                 <section className="ul-about-tabs ul-events ul-section-spacing">
                     <div className="ul-container">
@@ -213,7 +184,7 @@ export default function AboutPage() {
                                     <span className="ul-section-sub-title">{t('tabs.sectionSubtitle')}</span>
                                     <h2 className="ul-section-title text-white">{t('tabs.sectionTitle')}</h2>
                                 </div>
-                                <Link href="/dona" className="ul-btn">
+                                <Link href="/contacto" className="ul-btn">
                                     <span className="icon mr-2">→</span>
                                     {tCta('donate')}
                                 </Link>
@@ -289,7 +260,7 @@ export default function AboutPage() {
                     <div className="ul-container text-center">
                         <span className="ul-section-sub-title text-white/80">{t('cta.subtitle')}</span>
                         <h2 className="ul-cta-title">{t('cta.title')}</h2>
-                        <Link href="/dona" className="ul-btn ul-btn-white">
+                        <Link href="/contacto" className="ul-btn ul-btn-white">
                             <span className="icon mr-2">→</span>
                             {tCta('donate')}
                         </Link>
